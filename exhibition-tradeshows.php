@@ -1,4 +1,9 @@
-<?php include('header.php') ?>
+<?php 
+$pageTitle = "Exhibition & Tradeshow Services | Custom Stands | Fath Creative";
+$pageDescription = "Design and execution of visually compelling exhibition stands and trade show booths across Saudi Arabia. Maximize your brand presence at any event.";
+$pageKeywords = "Exhibition Stands Saudi Arabia, Tradeshow Booth Design, Custom Exhibition Stands Riyadh";
+include('header.php'); 
+?>
 
 <main>
 
@@ -32,7 +37,7 @@
                 <div class="col-lg-6">
                     <div class="td-about-2-thumb p-relative mb-30">
                         <img class="thumb wow td-animetion-left" data-wow-duration="1.5s" data-wow-delay="0.2s"
-                            src="assets/img/projects/img11.jpeg" alt=""
+                            src="assets/img/projects/img11.webp" alt=""
                             style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.2s; animation-name: td-animetion-left;">
                     </div>
                 </div>

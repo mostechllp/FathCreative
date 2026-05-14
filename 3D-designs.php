@@ -1,4 +1,9 @@
-<?php include('header.php') ?>
+<?php 
+$pageTitle = "3D Designs | Realistic Exhibition Visualization | Fath Creative";
+$pageDescription = "Creative 3D designs that bring your exhibition stand concepts to life. Visualize your brand space with precision before execution.";
+$pageKeywords = "3D Exhibition Design, 3D Rendering Saudi Arabia, Booth Visualization, Exhibition Stand 3D Model";
+include('header.php'); 
+?>
 
 
 <!-- main-area -->
@@ -37,7 +42,7 @@
                 <div class="col-lg-6">
                     <div class="td-about-2-thumb p-relative mb-30">
                         <img class="thumb wow td-animetion-left" data-wow-duration="1.5s" data-wow-delay="0.2s"
-                            src="assets/img/projects/img7.png" alt=""
+                            src="assets/img/projects/img7.webp" alt=""
                             style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.2s; animation-name: td-animetion-left;">
                     </div>
                 </div>
@@ -256,7 +261,7 @@ Do you provide realistic 3D renders?
                                 <div class="accordion-item wow fadeInUp" data-wow-duration="1.5s"
                                     data-wow-delay="0.4s"
                                     style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.4s; animation-name: fadeInUp;">
-                                    <h2 class="accordion-header" id="order_three">
+                                    <h2 class="accordion-header" id="order_four">
                                         <button class="accordion-button collapsed" type="button"
                                             data-bs-toggle="collapse" data-bs-target="#order__collapse_three"
                                             aria-expanded="false" aria-controls="order__collapse_three">
@@ -268,6 +273,44 @@ Can designs be customized?
                                         aria-labelledby="order_three" data-bs-parent="#general_faqaccordion">
                                         <div class="accordion-body td-faq-details-para">
                                             <p>Yes, all designs are tailored according to your brand, requirements, and project goals.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item wow fadeInUp" data-wow-duration="1.5s"
+                                    data-wow-delay="0.4s"
+                                    style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.4s; animation-name: fadeInUp;">
+                                    <h2 class="accordion-header" id="order_four">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#order__collapse_four"
+                                            aria-expanded="false" aria-controls="order__collapse_four">
+Do you create 3D designs for exhibitions and retail displays?
+                                            <span class="accordion-btn"></span>
+                                        </button>
+                                    </h2>
+                                    <div id="order__collapse_four" class="accordion-collapse collapse"
+                                        aria-labelledby="order_four" data-bs-parent="#general_faqaccordion">
+                                        <div class="accordion-body td-faq-details-para">
+                                            <p>Yes, we design 3D concepts for exhibition booths, kiosks, retail displays, and promotional setups to help visualize the final outcome before production.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item wow fadeInUp" data-wow-duration="1.5s"
+                                    data-wow-delay="0.4s"
+                                    style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.4s; animation-name: fadeInUp;">
+                                    <h2 class="accordion-header" id="order_five">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#order__collapse_five"
+                                            aria-expanded="false" aria-controls="order__collapse_five">
+Can you provide 3D walkthroughs and presentation visuals?
+                                            <span class="accordion-btn"></span>
+                                        </button>
+                                    </h2>
+                                    <div id="order__collapse_five" class="accordion-collapse collapse"
+                                        aria-labelledby="order_five" data-bs-parent="#general_faqaccordion">
+                                        <div class="accordion-body td-faq-details-para">
+                                            <p>Yes, we offer detailed 3D walkthroughs and high-quality presentation visuals to help clients better understand the design concept and layout.
                                             </p>
                                         </div>
                                     </div>

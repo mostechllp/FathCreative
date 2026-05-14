@@ -1,4 +1,9 @@
-<?php include('header.php') ?>
+<?php 
+$pageTitle = "Our Services | Exhibition Stands, Events & Branding | Fath Creative";
+$pageDescription = "Explore our comprehensive services including Event Management, Exhibition Stands, POSM Activities, Brand Activations, 3D Design, and Fabrication in Saudi Arabia.";
+$pageKeywords = "Exhibition Services Saudi Arabia, Event Management Services, 3D Design Agency, Branding Solutions Riyadh";
+include('header.php'); 
+?>
 <!-- header-area-end -->
 <!-- header-area-end -->
 
@@ -57,7 +62,7 @@
                                         <div class="col-xl-5 mb-30">
                                             <div class="td-schedule-4-thumb">
                                                 <a href="events-details.php"><img class="w-100"
-                                                        src="assets/img/projects/img8.jpeg" alt=""></a>
+                                                        src="assets/img/projects/img8.webp" alt=""></a>
                                             </div>
                                         </div>
                                         <div class="col-xl-7 mb-30">
@@ -94,7 +99,7 @@
                                             <div class="td-schedule-4-thumb">
                                                 <a href="events-details.php">
                                                     <img class="w-100"
-                                                        src="assets/img/projects/img11.jpeg" alt="">
+                                                        src="assets/img/projects/img11.webp" alt="">
                                                 </a>
                                             </div>
                                         </div>
@@ -132,7 +137,7 @@
                                             <div class="td-schedule-4-thumb">
                                                 <a href="posm-activities.php">
                                                     <img class="w-100"
-                                                        src="assets/img/projects/img9.jpeg" alt="">
+                                                        src="assets/img/projects/img9.webp" alt="">
                                                 </a>
                                             </div>
                                         </div>
@@ -170,7 +175,7 @@
                                             <div class="td-schedule-4-thumb">
                                                 <a href="brand-activations.php">
                                                     <img class="w-100"
-                                                        src="assets/img/projects/img10.jpeg" alt="">
+                                                        src="assets/img/projects/img10.webp" alt="">
                                                 </a>
                                             </div>
                                         </div>
@@ -208,7 +213,7 @@
                                             <div class="td-schedule-4-thumb">
                                                 <a href="3D-designs.php">
                                                     <img class="w-100"
-                                                        src="assets/img/projects/img7.png" alt="">
+                                                        src="assets/img/projects/img7.webp" alt="">
                                                 </a>
                                             </div>
                                         </div>
@@ -246,7 +251,7 @@
                                             <div class="td-schedule-4-thumb">
                                                 <a href="fabrication-and-production.php">
                                                     <img class="w-100"
-                                                        src="assets/img/projects/img12.jpeg" alt="">
+                                                        src="assets/img/projects/img12.webp" alt="">
                                                 </a>
                                             </div>
                                         </div>
@@ -284,7 +289,7 @@
                                             <div class="td-schedule-4-thumb">
                                                 <a href="technology-solutions.php">
                                                     <img class="w-100"
-                                                        src="assets/img/projects/img13.jpg" alt="">
+                                                        src="assets/img/projects/img13.webp" alt="">
                                                 </a>
                                             </div>
                                         </div>
@@ -322,7 +327,7 @@
                                             <div class="td-schedule-4-thumb">
                                                 <a href="digital-marketing-solutions.php">
                                                     <img class="w-100"
-                                                        src="assets/img/projects/img14.jpg" alt="">
+                                                        src="assets/img/projects/img14.webp" alt="">
                                                 </a>
                                             </div>
                                         </div>

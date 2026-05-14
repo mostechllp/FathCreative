@@ -6,13 +6,26 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Best Sticker Branding &amp; Exhibition Stand Company in Saudi Arabia | FATH</title>
-    <meta name="description" content="Evente - Conference and Event HTML Template">
+    <title><?php echo isset($pageTitle) ? $pageTitle : "Best Sticker Branding & Exhibition Stand Company in Saudi Arabia | FATH"; ?></title>
+    <meta name="description" content="<?php echo isset($pageDescription) ? $pageDescription : "Fath Creative is a forward-thinking agency redefining how brands connect with audiences across the Middle East. We specialize in creative exhibition stands, sticker branding, and event management."; ?>">
+    <meta name="keywords" content="<?php echo isset($pageKeywords) ? $pageKeywords : "Sticker Branding Saudi Arabia, Exhibition Stand Company Riyadh, Event Management Jeddah, 3D Design Services, POSM Activities, Brand Activations"; ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="icon" type="image/png" href="assets/img/logo/logo-black.png" media="(prefers-color-scheme: light)">
-    <link rel="icon" type="image/png" href="assets/img/logo/logo-white.png" media="(prefers-color-scheme: dark)">
-    <link rel="shortcut icon" type="image/png" href="assets/img/logo/logo-black.png">
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="<?php echo isset($pageTitle) ? $pageTitle : "Fath Creative | Leading Exhibition Stand & Branding Agency"; ?>">
+    <meta property="og:description" content="<?php echo isset($pageDescription) ? $pageDescription : "Fath Creative provides innovative exhibition stands, creative branding, and event management solutions."; ?>">
+    <meta property="og:image" content="assets/img/logo/favicon.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="<?php echo isset($pageTitle) ? $pageTitle : "Fath Creative | Leading Exhibition Stand & Branding Agency"; ?>">
+    <meta property="twitter:description" content="<?php echo isset($pageDescription) ? $pageDescription : "Fath Creative provides innovative exhibition stands, creative branding, and event management solutions."; ?>">
+    <meta property="twitter:image" content="assets/img/logo/fath-logo.png">
+
+    <link rel="icon" type="image/png" href="assets/img/logo/favicon.png" media="(prefers-color-scheme: light)">
+    <link rel="icon" type="image/png" href="assets/img/logo/favicon.png" media="(prefers-color-scheme: dark)">
+    <link rel="shortcut icon" type="image/png" href="assets/img/logo/favicon.png">
     <!-- Place favicon.ico in the root directory -->
 
     <!-- CSS here -->
@@ -163,9 +176,9 @@
                         <div class="col-xxl-3 col-xl-3 col-6">
                             <div
                                 class="td-menu-right-action td-menu-right-action-3 d-flex align-items-center justify-content-end">
-                                <button class="search-button search-open-btn">
+                                <!-- <button class="search-button search-open-btn">
                                     <i class="flaticon-search"></i>
-                                </button>
+                                </button> -->
                                 <!-- <div class="td-header-cart p-relative">
                                     <button class="cart-button cartmini-open-btn">
                                         <i class="flaticon-shopping-cart"></i>
@@ -205,14 +218,9 @@
             <nav class="tdmobile__menu-box">
                 <div class="close-btn"><i class="fa-solid fa-xmark"></i></div>
                 <div class="nav-logo">
-                    <a href="index.php"><img src="assets/img/logo/fath-logo.png" alt="logo"></a>
+                    <a href="index.php"><img src="assets/img/logo/logo-black.png" alt="logo"></a>
                 </div>
-                <div class="tdmobile__search">
-                    <form action="#">
-                        <input type="text" placeholder="Search here...">
-                        <button><i class="fas fa-search"></i></button>
-                    </form>
-                </div>
+               
                 <div class="tdmobile__menu-outer">
                     <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
                 </div>

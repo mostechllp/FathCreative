@@ -1,4 +1,9 @@
-<?php include('header.php') ?>
+<?php 
+$pageTitle = "Contact Us | Get in Touch with Fath Creative | Saudi Arabia";
+$pageDescription = "Contact Fath Creative for your exhibition and branding needs in Jeddah, Riyadh, and Dammam. We are here to help your brand stand out.";
+$pageKeywords = "Contact Fath Creative, Exhibition Company Phone Number, Branding Agency Address Saudi Arabia";
+include('header.php'); 
+?>
 <style>
     .td-contact-form-box .td-input {
         text-transform: none !important;

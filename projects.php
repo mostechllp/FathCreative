@@ -1,5 +1,8 @@
 <?php 
-include('header.php');
+$pageTitle = "Our Projects | Successful Exhibitions & Events | Fath Creative";
+$pageDescription = "View our portfolio of successful projects including exhibitions for Basamh, NUEVO at LEAP 2025, Nespresso activations, and more across KSA.";
+$pageKeywords = "Exhibition Portfolio Saudi Arabia, Event Gallery Riyadh, Branding Project Case Studies";
+include('header.php'); 
 include ('adminpanel/database.php');
 
 $sql = "SELECT 

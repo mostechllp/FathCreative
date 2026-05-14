@@ -1,4 +1,9 @@
-<?php include('header.php') ?>
+<?php 
+$pageTitle = "Brand Activations | Engaging Marketing Campaigns | Fath Creative";
+$pageDescription = "Creative on-ground brand activations that connect your brand with the audience through impactful experiences and engagement across Saudi Arabia.";
+$pageKeywords = "Brand Activations Saudi Arabia, Marketing Engagement Riyadh, On-ground Activation Jeddah";
+include('header.php'); 
+?>
 
 
 <!-- main-area -->
@@ -37,7 +42,7 @@
                 <div class="col-lg-6">
                     <div class="td-about-2-thumb p-relative mb-30">
                         <img class="thumb wow td-animetion-left" data-wow-duration="1.5s" data-wow-delay="0.2s"
-                            src="assets/img/projects/img10.jpeg" alt=""
+                            src="assets/img/projects/img10.webp" alt=""
                             style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.2s; animation-name: td-animetion-left;">
                     </div>
                 </div>
@@ -287,6 +292,24 @@
                                         aria-labelledby="order_four" data-bs-parent="#general_faqaccordion">
                                         <div class="accordion-body td-faq-details-para">
                                             <p>Yes, we manage everything from planning and design to execution and reporting.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item wow fadeInUp" data-wow-duration="1.5s"
+                                    data-wow-delay="0.5s"
+                                    style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.5s; animation-name: fadeInUp;">
+                                    <h2 class="accordion-header" id="order_five">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#order__collapse_five"
+                                            aria-expanded="false" aria-controls="order__collapse_five">
+                                            Do you offer customized brand activation concepts?
+                                            <span class="accordion-btn"></span>
+                                        </button>
+                                    </h2>
+                                    <div id="order__collapse_five" class="accordion-collapse collapse"
+                                        aria-labelledby="order_five" data-bs-parent="#general_faqaccordion">
+                                        <div class="accordion-body td-faq-details-para">
+                                            <p>Yes, we create customized brand activation ideas tailored to your target audience, campaign goals, and brand identity to maximize engagement and customer interaction.</p>
                                         </div>
                                     </div>
                                 </div>

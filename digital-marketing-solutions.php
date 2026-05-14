@@ -1,4 +1,9 @@
-<?php include('header.php') ?>
+<?php 
+$pageTitle = "Digital Marketing Solutions | Social Media & Ads | Fath Creative";
+$pageDescription = "Strategic digital marketing campaigns designed to boost your brand visibility and reach in Saudi Arabia. SEO, Social Media, and Performance Marketing.";
+$pageKeywords = "Digital Marketing Saudi Arabia, Social Media Management Riyadh, SEO Services Jeddah";
+include('header.php'); 
+?>
 
     <!-- main-area -->
     <main>
@@ -36,7 +41,7 @@
                     <div class="col-lg-6">
                         <div class="td-about-2-thumb p-relative mb-30">
                             <img class="thumb wow td-animetion-left" data-wow-duration="1.5s" data-wow-delay="0.2s"
-                                src="assets/img/projects/img14.jpg" alt=""
+                                src="assets/img/projects/img14.webp" alt=""
                                 style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.2s; animation-name: td-animetion-left;">
                         </div>
                     </div>
@@ -136,6 +141,50 @@
                                             </svg>
                                         </span>
                                         <span>seo and content marketing</span>
+                                    </li>
+                                    <li>
+                                        <span class="mr-15">
+                                            <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M24 11.9943V13.0063C23.9986 15.3784 23.2305 17.6864 21.8103 19.5863C20.39 21.4862 18.3936 22.876 16.1189 23.5486C13.8442 24.2211 11.413 24.1404 9.18791 23.3183C6.96285 22.4963 5.06312 20.977 3.77206 18.9871C2.48099 16.9971 1.86777 14.6432 2.02384 12.2762C2.17992 9.90931 3.09693 7.65625 4.63811 5.85307C6.17929 4.0499 8.26206 2.79322 10.5758 2.27046C12.8895 1.7477 15.3103 1.98687 17.477 2.9523M24 4.2063L13 15.2173L9.7 11.9173" stroke="#5033FF" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                            </svg>
+                                        </span>
+                                        <span>Social media management</span>
+                                    </li>
+                                    <li>
+                                        <span class="mr-15">
+                                            <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M24 11.9943V13.0063C23.9986 15.3784 23.2305 17.6864 21.8103 19.5863C20.39 21.4862 18.3936 22.876 16.1189 23.5486C13.8442 24.2211 11.413 24.1404 9.18791 23.3183C6.96285 22.4963 5.06312 20.977 3.77206 18.9871C2.48099 16.9971 1.86777 14.6432 2.02384 12.2762C2.17992 9.90931 3.09693 7.65625 4.63811 5.85307C6.17929 4.0499 8.26206 2.79322 10.5758 2.27046C12.8895 1.7477 15.3103 1.98687 17.477 2.9523M24 4.2063L13 15.2173L9.7 11.9173" stroke="#5033FF" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                            </svg>
+                                        </span>
+                                        <span>
+Paid advertising (Google & Meta Ads)</span>
+                                    </li>
+                                    <li>
+                                        <span class="mr-15">
+                                            <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M24 11.9943V13.0063C23.9986 15.3784 23.2305 17.6864 21.8103 19.5863C20.39 21.4862 18.3936 22.876 16.1189 23.5486C13.8442 24.2211 11.413 24.1404 9.18791 23.3183C6.96285 22.4963 5.06312 20.977 3.77206 18.9871C2.48099 16.9971 1.86777 14.6432 2.02384 12.2762C2.17992 9.90931 3.09693 7.65625 4.63811 5.85307C6.17929 4.0499 8.26206 2.79322 10.5758 2.27046C12.8895 1.7477 15.3103 1.98687 17.477 2.9523M24 4.2063L13 15.2173L9.7 11.9173" stroke="#5033FF" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                            </svg>
+                                        </span>
+                                        <span>
+Email marketing campaigns</span>
+                                    </li>
+                                    <li>
+                                        <span class="mr-15">
+                                            <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M24 11.9943V13.0063C23.9986 15.3784 23.2305 17.6864 21.8103 19.5863C20.39 21.4862 18.3936 22.876 16.1189 23.5486C13.8442 24.2211 11.413 24.1404 9.18791 23.3183C6.96285 22.4963 5.06312 20.977 3.77206 18.9871C2.48099 16.9971 1.86777 14.6432 2.02384 12.2762C2.17992 9.90931 3.09693 7.65625 4.63811 5.85307C6.17929 4.0499 8.26206 2.79322 10.5758 2.27046C12.8895 1.7477 15.3103 1.98687 17.477 2.9523M24 4.2063L13 15.2173L9.7 11.9173" stroke="#5033FF" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                            </svg>
+                                        </span>
+                                        <span>
+Brand strategy and planning</span>
+                                    </li>
+                                    <li>
+                                        <span class="mr-15">
+                                            <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M24 11.9943V13.0063C23.9986 15.3784 23.2305 17.6864 21.8103 19.5863C20.39 21.4862 18.3936 22.876 16.1189 23.5486C13.8442 24.2211 11.413 24.1404 9.18791 23.3183C6.96285 22.4963 5.06312 20.977 3.77206 18.9871C2.48099 16.9971 1.86777 14.6432 2.02384 12.2762C2.17992 9.90931 3.09693 7.65625 4.63811 5.85307C6.17929 4.0499 8.26206 2.79322 10.5758 2.27046C12.8895 1.7477 15.3103 1.98687 17.477 2.9523M24 4.2063L13 15.2173L9.7 11.9173" stroke="#5033FF" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                            </svg>
+                                        </span>
+                                        <span>
+Performance tracking and analytics</span>
                                     </li>
                                 </ul>
                             </div>

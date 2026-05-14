@@ -1,4 +1,9 @@
-<?php include('header.php') ?>
+<?php 
+$pageTitle = "About Us | Fath Creative - Creative Agency in Middle East";
+$pageDescription = "Learn more about Fath Creative, a forward-thinking agency redefining brand connections through impactful design, marketing, and digital experiences across Saudi Arabia and UAE.";
+$pageKeywords = "About Fath Creative, Creative Agency Jeddah, Brand Identity Saudi Arabia, Exhibition Specialists Middle East";
+include('header.php'); 
+?>
 <!-- main-area -->
 <main>
     <!-- td-breadcrumb-area-start -->

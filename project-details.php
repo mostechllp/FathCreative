@@ -1,5 +1,4 @@
 <?php
-include('header.php');
 include('adminpanel/database.php');
 
 $id = $_GET["id"];
@@ -10,6 +9,13 @@ $result = mysqli_query($conn, $sql);
 
 // ✅ Fetch data
 $row = mysqli_fetch_assoc($result);
+
+// Set Dynamic SEO Tags
+$pageTitle = $row['blog_title'] . " | Project Details | Fath Creative";
+$pageDescription = substr(strip_tags($row['blog_description']), 0, 160);
+$pageKeywords = $row['blog_title'] . ", Fath Creative Project, Exhibition Stand KSA, Event Success";
+
+include('header.php');
 ?>
 
 <main>

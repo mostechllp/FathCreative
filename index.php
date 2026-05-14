@@ -1,4 +1,9 @@
-<?php include('header.php') ?>
+<?php 
+$pageTitle = "Fath Creative | Leading Exhibition Stand & Branding Agency in Saudi Arabia";
+$pageDescription = "Fath Creative provides innovative exhibition stands, creative branding, and event management solutions in Jeddah, Riyadh, and Dammam. Elevate your brand with our expert team.";
+$pageKeywords = "Exhibition Stands Saudi Arabia, Brand Activations, POSM Activities, 3D Exhibition Design, Event Management Saudi Arabia, Fath Creative";
+include('header.php'); 
+?>
 <!-- main-area -->
 <main>
 
@@ -10,7 +15,7 @@
                     <div class="td-hero-3-item">
 
                         <div class="td-hero-3-bg bg-position"
-                            style="background-image: linear-gradient(rgb(0 0 0 / 54%), rgba(0, 0, 0, 0.7)), url(assets/img/banner1.jpg);background-size: cover;
+                            style="background-image: linear-gradient(rgb(0 0 0 / 54%), rgba(0, 0, 0, 0.7)), url(assets/img/banner1.webp);background-size: cover;
 background-position: center;
 background-repeat: no-repeat;"
                             data-swiper-parallax="1000"></div>
@@ -44,7 +49,7 @@ background-repeat: no-repeat;"
                 <div class="swiper-slide">
                     <div class="td-hero-3-item">
                         <div class="td-hero-3-bg bg-position"
-                            style="background-image: linear-gradient(rgb(0 0 0 / 54%), rgba(0, 0, 0, 0.7)), url(assets/img/banner2.jpg);background-size: cover;
+                            style="background-image: linear-gradient(rgb(0 0 0 / 54%), rgba(0, 0, 0, 0.7)), url(assets/img/banner2.webp);background-size: cover;
 background-position: center;
 background-repeat: no-repeat;"
                             data-swiper-parallax="1000"></div>
@@ -84,7 +89,7 @@ background-repeat: no-repeat;"
                 <div class="swiper-slide">
                     <div class="td-hero-3-item">
                         <div class="td-hero-3-bg bg-position"
-                            style="background-image: linear-gradient(rgb(0 0 0 / 54%), rgba(0, 0, 0, 0.7)), url(assets/img/banner3.jpeg);background-size: cover;
+                            style="background-image: linear-gradient(rgb(0 0 0 / 54%), rgba(0, 0, 0, 0.7)), url(assets/img/banner3.webp);background-size: cover;
 background-position: center;
 background-repeat: no-repeat;"
                             data-swiper-parallax="1000"></div>
@@ -140,22 +145,7 @@ background-repeat: no-repeat;"
     <div class="td-countdown-area bg-position" style="background: linear-gradient(135deg, #7935f9 0%, #9b5ffb 50%, #c488f9 100%);">
         <div class="container">
             <div class="td-countdown-3-wrap p-relative z-index-1">
-                <span class="td-countdown-3-shape d-none d-sm-block">
-                    <svg width="257" height="83" viewBox="0 0 257 83" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <path
-                            d="M257 -45.5C257 25.4686 199.469 83 128.5 83C57.5314 83 0 25.4686 0 -45.5C0 -116.469 57.5314 -174 128.5 -174C199.469 -174 257 -116.469 257 -45.5ZM41.577 -45.5C41.577 2.50624 80.4938 41.423 128.5 41.423C176.506 41.423 215.423 2.50624 215.423 -45.5C215.423 -93.5062 176.506 -132.423 128.5 -132.423C80.4938 -132.423 41.577 -93.5062 41.577 -45.5Z"
-                            fill="#c488f9" />
-                    </svg>
-                </span>
-                <span class="td-countdown-3-shape-2 d-none d-sm-block">
-                    <svg width="257" height="84" viewBox="0 0 257 84" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <path
-                            d="M257 128.5C257 199.469 199.469 257 128.5 257C57.5314 257 0 199.469 0 128.5C0 57.5314 57.5314 0 128.5 0C199.469 0 257 57.5314 257 128.5ZM41.577 128.5C41.577 176.506 80.4938 215.423 128.5 215.423C176.506 215.423 215.423 176.506 215.423 128.5C215.423 80.4938 176.506 41.577 128.5 41.577C80.4938 41.577 41.577 80.4938 41.577 128.5Z"
-                            fill="#c488f9" />
-                    </svg>
-                </span>
+                
                 <div class="row align-items-center">
                     <div class="col-xl-4 col-lg-4">
                         <div class="td-countdown-2-title mb-30">
@@ -343,7 +333,7 @@ background-repeat: no-repeat;"
                     <div class="td-blog-item mb-30 wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay="0.3s">
                         <div class="td-blog-thumb p-relative fix">
                             <a>
-                                <img class="w-100" src="assets/img/projects/img8.jpeg" alt="">
+                                <img class="w-100" src="assets/img/projects/img8.webp" alt="">
                             </a>
                             <!-- <span class="td-blog-tag">Business</span> -->
                         </div>
@@ -361,7 +351,7 @@ background-repeat: no-repeat;"
                     <div class="td-blog-item mb-30 wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay="0.3s">
                         <div class="td-blog-thumb p-relative fix">
                             <a>
-                                <img class="w-100" src="assets/img/projects/img11.jpeg" alt="">
+                                <img class="w-100" src="assets/img/projects/img11.webp" alt="">
                             </a>
                             <!-- <span class="td-blog-tag">Business</span> -->
                         </div>
@@ -378,7 +368,7 @@ background-repeat: no-repeat;"
                     <div class="td-blog-item mb-30 wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay="0.3s">
                         <div class="td-blog-thumb p-relative fix">
                             <a>
-                                <img class="w-100" src="assets/img/projects/img9.jpeg" alt="">
+                                <img class="w-100" src="assets/img/projects/img9.webp" alt="">
                             </a>
                             <!-- <span class="td-blog-tag">Business</span> -->
                         </div>
@@ -395,7 +385,7 @@ background-repeat: no-repeat;"
                     <div class="td-blog-item mb-30 wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay="0.3s">
                         <div class="td-blog-thumb p-relative fix">
                             <a>
-                                <img class="w-100" src="assets/img/projects/img10.jpeg" alt="">
+                                <img class="w-100" src="assets/img/projects/img10.webp" alt="">
                             </a>
                             <!-- <span class="td-blog-tag">Business</span> -->
                         </div>
@@ -412,7 +402,7 @@ background-repeat: no-repeat;"
                     <div class="td-blog-item mb-30 wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay="0.3s">
                         <div class="td-blog-thumb p-relative fix">
                             <a>
-                                <img class="w-100" src="assets/img/projects/img7.png" alt="">
+                                <img class="w-100" src="assets/img/projects/img7.webp" alt="">
                             </a>
                             <!-- <span class="td-blog-tag">Business</span> -->
                         </div>
@@ -429,7 +419,7 @@ background-repeat: no-repeat;"
                     <div class="td-blog-item mb-30 wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay="0.3s">
                         <div class="td-blog-thumb p-relative fix">
                             <a>
-                                <img class="w-100" src="assets/img/projects/img12.jpeg" alt="">
+                                <img class="w-100" src="assets/img/projects/img12.webp" alt="">
                             </a>
                             <!-- <span class="td-blog-tag">Business</span> -->
                         </div>
@@ -568,9 +558,64 @@ background-repeat: no-repeat;"
                             <div class="row align-items-center">
                                 <div class="col-xl-4 col-lg-5">
                                     <div class="td-schedule-3-thumb p-relative">
+                                        <a><img class="w-100" src="assets/img/projects/img11.webp" alt=""></a>
+                                        <span class="td-schedule-2-date"><i class="flaticon-calendar"></i> Jan 10,
+                                            2025</span>
+                                    </div>
+                                </div>
+                                <div class="col-xl-8 col-lg-7">
+                                    <div class="td-schedule-3-content">
+                                        <h2 class="td-schedule-3-title"><a>Cityscape Global 2025</a></h2>
+                                        <div class="td-schedule-3-destination mb-10">
+                                            <span class="mr-25">
+                                                <i class="flaticon-gps"></i>
+                                                Malham, Riyadh 
+                                            </span>
+                                            
+                                        </div>
+                                        <p class="mb-25 para">Designed and executed a premium exhibition space for Cityscape Global 2025 in Malham, Riyadh, enhancing brand presence and visitor engagement.</p>
+                                        <div class="td-schedule-3-btn d-flex align-items-center flex-wrap">
+                                            <div class="td-schedule-3-user-wrap d-flex align-items-center">
+                                                <!-- <span class="td-schedule-3-user mr-10">
+                                                    <img src="assets/img/schedule/schedule-3/user.jpg" alt="">
+                                                </span> -->
+                                                <!-- <div>
+                                                    <h6 class="name">Sam Ruben</h6>
+                                                    <span class="position">Author, Cleaner</span>
+                                                </div> -->
+                                            </div>
+                                            <!-- <span class="dvdr"></span> -->
+                                            <a class="td-btn td-btn-3-squre td-left-right text3 mr-25"
+                                                href="projects.php">
+                                                <span class="mr10 td-text d-inline-block mr-5">Read More</span>
+                                                <span class="td-arrow-angle">
+                                                    <svg class="td-arrow-svg-top-right" width="13" height="14"
+                                                        viewBox="0 0 13 14" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <path
+                                                            d="M0.943836 13.5C0.685616 13.5 0.45411 13.4021 0.276027 13.224C0.0979452 13.0459 0 12.8055 0 12.5562C0 12.3068 0.0979452 12.0664 0.276027 11.8884L9.76781 2.38767H2.02123C1.49589 2.38767 1.0774 1.96027 1.0774 1.44384C1.0774 0.927397 1.50479 0.5 2.03014 0.5H12.0562C12.1274 0.5 12.1986 0.508904 12.2788 0.526712L12.4034 0.562329L12.537 0.633562C12.5637 0.65137 12.5993 0.678082 12.626 0.69589C12.6973 0.749315 12.7507 0.80274 12.7952 0.856164C12.8219 0.891781 12.8575 0.927397 12.8842 0.989726L12.9555 1.1411L12.9822 1.22123C13 1.29247 13.0089 1.3726 13.0089 1.44384V11.4699C13.0089 11.9952 12.5815 12.4137 12.0651 12.4137C11.5486 12.4137 11.1212 11.9863 11.1212 11.4699V3.72329L1.62055 13.224C1.44247 13.4021 1.20205 13.5 0.943836 13.5Z"
+                                                            fill="white" />
+                                                        <path
+                                                            d="M0.943836 13.5C0.685616 13.5 0.45411 13.4021 0.276027 13.224C0.0979452 13.0459 0 12.8055 0 12.5562C0 12.3068 0.0979452 12.0664 0.276027 11.8884L9.76781 2.38767H2.02123C1.49589 2.38767 1.0774 1.96027 1.0774 1.44384C1.0774 0.927397 1.50479 0.5 2.03014 0.5H12.0562C12.1274 0.5 12.1986 0.508904 12.2788 0.526712L12.4034 0.562329L12.537 0.633562C12.5637 0.65137 12.5993 0.678082 12.626 0.69589C12.6973 0.749315 12.7507 0.80274 12.7952 0.856164C12.8219 0.891781 12.8575 0.927397 12.8842 0.989726L12.9555 1.1411L12.9822 1.22123C13 1.29247 13.0089 1.3726 13.0089 1.44384V11.4699C13.0089 11.9952 12.5815 12.4137 12.0651 12.4137C11.5486 12.4137 11.1212 11.9863 11.1212 11.4699V3.72329L1.62055 13.224C1.44247 13.4021 1.20205 13.5 0.943836 13.5Z"
+                                                            fill="white" />
+                                                    </svg>
+                                                </span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade active show" id="v-pills-home1" role="tabpanel"
+                        aria-labelledby="v-pills-home1-tab">
+                        <div class="td-schedule-3-wrap mb-30">
+                            <div class="row align-items-center">
+                                <div class="col-xl-4 col-lg-5">
+                                    <div class="td-schedule-3-thumb p-relative">
                                         <a><img class="w-100" src="assets/img/projects/img1.jpeg" alt=""></a>
-                                        <span class="td-schedule-2-date"><i class="flaticon-calendar"></i> jan 10,
-                                            2026</span>
+                                        <span class="td-schedule-2-date"><i class="flaticon-calendar"></i> Feb 14,
+                                            2024</span>
                                     </div>
                                 </div>
                                 <div class="col-xl-8 col-lg-7">
@@ -621,8 +666,8 @@ background-repeat: no-repeat;"
                                 <div class="col-xl-4 col-lg-5">
                                     <div class="td-schedule-3-thumb p-relative">
                                         <a><img class="w-100" src="assets/img/projects/img2.jpeg" alt=""></a>
-                                        <span class="td-schedule-2-date"><i class="flaticon-calendar"></i> jan 10,
-                                            2026</span>
+                                        <span class="td-schedule-2-date"><i class="flaticon-calendar"></i> Jun 10,
+                                            2025</span>
                                     </div>
                                 </div>
                                 <div class="col-xl-8 col-lg-7">
@@ -676,8 +721,8 @@ background-repeat: no-repeat;"
                                 <div class="col-xl-4 col-lg-5">
                                     <div class="td-schedule-3-thumb p-relative">
                                         <a><img class="w-100" src="assets/img/projects/img3.jpeg" alt=""></a>
-                                        <span class="td-schedule-2-date"><i class="flaticon-calendar"></i> jan 10,
-                                            2026</span>
+                                        <span class="td-schedule-2-date"><i class="flaticon-calendar"></i> Jul 21,
+                                            2025</span>
                                     </div>
                                 </div>
                                 <div class="col-xl-8 col-lg-7">
@@ -728,8 +773,8 @@ background-repeat: no-repeat;"
                                 <div class="col-xl-4 col-lg-5">
                                     <div class="td-schedule-3-thumb p-relative">
                                         <a><img class="w-100" src="assets/img/projects/img4.jpeg" alt=""></a>
-                                        <span class="td-schedule-2-date"><i class="flaticon-calendar"></i> jan 10,
-                                            2026</span>
+                                        <span class="td-schedule-2-date"><i class="flaticon-calendar"></i> Feb 22,
+                                            2025</span>
                                     </div>
                                 </div>
                                 <div class="col-xl-8 col-lg-7">
@@ -782,7 +827,7 @@ background-repeat: no-repeat;"
                                 <div class="col-xl-4 col-lg-5">
                                     <div class="td-schedule-3-thumb p-relative">
                                         <a><img class="w-100" src="assets/img/projects/img5.jpeg" alt=""></a>
-                                        <span class="td-schedule-2-date"><i class="flaticon-calendar"></i> jan 10,
+                                        <span class="td-schedule-2-date"><i class="flaticon-calendar"></i> Nov 24,
                                             2025</span>
                                     </div>
                                 </div>
@@ -835,7 +880,7 @@ background-repeat: no-repeat;"
                                 <div class="col-xl-4 col-lg-5">
                                     <div class="td-schedule-3-thumb p-relative">
                                         <a><img class="w-100" src="assets/img/projects/img6.jpeg" alt=""></a>
-                                        <span class="td-schedule-2-date"><i class="flaticon-calendar"></i> jan 10,
+                                        <span class="td-schedule-2-date"><i class="flaticon-calendar"></i> Dec 18,
                                             2025</span>
                                     </div>
                                 </div>
@@ -896,14 +941,14 @@ background-repeat: no-repeat;"
             <div class="row gx-0">
                 <div class="col-lg-6">
                     <div class="td-testimonial-3-wrap pt-160 pb-160 p-relative">
-                        <span class="td-testimonial-3-qoute">
-                            <svg width="113" height="90" viewBox="0 0 113 90" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M63.5625 50.4V0H113V51.12C113 85.68 81.2188 90 81.2188 90L76.9812 79.92C76.9812 79.92 91.1063 77.76 93.9313 66.24C96.7562 57.6 91.1062 50.4 91.1062 50.4H63.5625ZM0 50.4V0H49.4375V51.12C49.4375 85.68 17.6562 90 17.6562 90L13.4187 79.92C13.4187 79.92 27.5438 77.76 30.3688 66.24C33.1938 57.6 27.5438 50.4 27.5438 50.4H0Z"
-                                    fill="#462AF1" />
-                            </svg>
-                        </span>
+                        <!--<span class="td-testimonial-3-qoute">-->
+                        <!--    <svg width="113" height="90" viewBox="0 0 113 90" fill="none"-->
+                        <!--        xmlns="http://www.w3.org/2000/svg">-->
+                        <!--        <path-->
+                        <!--            d="M63.5625 50.4V0H113V51.12C113 85.68 81.2188 90 81.2188 90L76.9812 79.92C76.9812 79.92 91.1063 77.76 93.9313 66.24C96.7562 57.6 91.1062 50.4 91.1062 50.4H63.5625ZM0 50.4V0H49.4375V51.12C49.4375 85.68 17.6562 90 17.6562 90L13.4187 79.92C13.4187 79.92 27.5438 77.76 30.3688 66.24C33.1938 57.6 27.5438 50.4 27.5438 50.4H0Z"-->
+                        <!--            fill="#462AF1" />-->
+                        <!--    </svg>-->
+                        <!--</span>-->
                         <span class="td-section-subtitle td-section-subtitle-2 mb-20">Testimonials</span>
                         <h2 class="td-section-title text-white mb-35">What our Attendees<br> are Saying</h2>
                         <div class="swiper-container td-testimonial-3-slider">
@@ -922,9 +967,9 @@ background-repeat: no-repeat;"
                                             engagement were excellent. We connected with many potential clients and
                                             partners.”</p>
                                         <div class="td-testimonial-3-avatar">
-                                            <div class="td-testimonial-3-avatar-thumb mr-15">
-                                                <img src="assets/img/testimonial/avatar.png" alt="">
-                                            </div>
+                                            <!--<div class="td-testimonial-3-avatar-thumb mr-15">-->
+                                            <!--    <img src="assets/img/testimonial/avatar.png" alt="">-->
+                                            <!--</div>-->
                                             <div>
                                                 <h6 class="names">Sam Cooper</h6>
                                                 <span class="td-position">CEO, Marketer Pro</span>
@@ -945,12 +990,12 @@ background-repeat: no-repeat;"
                                             great audience. Our brand received amazing exposure and we built
                                             valuable business relationships during the exhibition.”</p>
                                         <div class="td-testimonial-3-avatar">
-                                            <div class="td-testimonial-3-avatar-thumb mr-15">
-                                                <img src="assets/img/testimonial/avatar.png" alt="">
-                                            </div>
+                                            <!--<div class="td-testimonial-3-avatar-thumb mr-15">-->
+                                            <!--    <img src="assets/img/testimonial/avatar.png" alt="">-->
+                                            <!--</div>-->
                                             <div>
-                                                <h6 class="names">Jane Jickson</h6>
-                                                <span class="td-position">CEO, Marketer Pro</span>
+                                                <h6 class="names">Michael Lee</h6>
+<span class="td-position">Business Strategist, GrowthWorks</span>
                                             </div>
                                         </div>
                                     </div>
@@ -968,12 +1013,12 @@ background-repeat: no-repeat;"
                                             perfectly. The exhibition gave us the opportunity to showcase our
                                             products to the right audience and expand our network.”</p>
                                         <div class="td-testimonial-3-avatar">
-                                            <div class="td-testimonial-3-avatar-thumb mr-15">
-                                                <img src="assets/img/testimonial/avatar.png" alt="">
-                                            </div>
+                                            <!--<div class="td-testimonial-3-avatar-thumb mr-15">-->
+                                            <!--    <img src="assets/img/testimonial/avatar.png" alt="">-->
+                                            <!--</div>-->
                                             <div>
-                                                <h6 class="names">Lope Davis</h6>
-                                                <span class="td-position">CEO, Marketer Pro</span>
+                                                <h6 class="names">Daniel Roberts</h6>
+<span class="td-position">Project Manager, BrandX Agency</span>
                                             </div>
                                         </div>
                                     </div>

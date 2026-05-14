@@ -1,4 +1,9 @@
-<?php include('header.php') ?>
+<?php 
+$pageTitle = "POSM Activities | Point of Sale Materials | Fath Creative";
+$pageDescription = "Effective Point of Sale Materials (POSM) that enhance in-store visibility and influence customer decisions. Quality production and installation across KSA.";
+$pageKeywords = "POSM Activities Saudi Arabia, Point of Sale Materials, In-store Branding Riyadh, Retail Display Stands";
+include('header.php'); 
+?>
 
 
 <!-- main-area -->
@@ -37,7 +42,7 @@
                 <div class="col-lg-6">
                     <div class="td-about-2-thumb p-relative mb-30">
                         <img class="thumb wow td-animetion-left" data-wow-duration="1.5s" data-wow-delay="0.2s"
-                            src="assets/img/projects/img9.jpeg" alt=""
+                            src="assets/img/projects/img9.webp" alt=""
                             style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.2s; animation-name: td-animetion-left;">
                     </div>
                 </div>
@@ -287,6 +292,24 @@
                                         aria-labelledby="order_four" data-bs-parent="#general_faqaccordion">
                                         <div class="accordion-body td-faq-details-para">
                                             <p>Yes, our team manages on-site installation and setup for all POSM materials.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item wow fadeInUp" data-wow-duration="1.5s"
+                                    data-wow-delay="0.5s"
+                                    style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.5s; animation-name: fadeInUp;">
+                                    <h2 class="accordion-header" id="order_five">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#order__collapse_five"
+                                            aria-expanded="false" aria-controls="order__collapse_five">
+                                            Do you provide POSM support for events and activations?
+                                            <span class="accordion-btn"></span>
+                                        </button>
+                                    </h2>
+                                    <div id="order__collapse_five" class="accordion-collapse collapse"
+                                        aria-labelledby="order_five" data-bs-parent="#general_faqaccordion">
+                                        <div class="accordion-body td-faq-details-para">
+                                            <p>Yes, we offer complete POSM solutions for exhibitions, retail activations, product launches, roadshows, and promotional campaigns, including design, production, delivery, and setup.</p>
                                         </div>
                                     </div>
                                 </div>

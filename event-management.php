@@ -1,4 +1,9 @@
-<?php include('header.php') ?>
+<?php 
+$pageTitle = "Event Management Services | Professional Planning | Fath Creative";
+$pageDescription = "Professional event management and planning services in Saudi Arabia. We handle everything from concept to execution for your corporate events.";
+$pageKeywords = "Event Management Saudi Arabia, Corporate Event Planner Riyadh, Professional Event Planning Jeddah";
+include('header.php'); 
+?>
 
 
     <!-- main-area -->
@@ -37,7 +42,7 @@
                     <div class="col-lg-6">
                         <div class="td-about-2-thumb p-relative mb-30">
                             <img class="thumb wow td-animetion-left" data-wow-duration="1.5s" data-wow-delay="0.2s"
-                                src="assets/img/projects/img8.jpeg" alt=""
+                                src="assets/img/projects/img8.webp" alt=""
                                 style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.2s; animation-name: td-animetion-left;">
                         </div>
                     </div>
