@@ -63,10 +63,10 @@
                                 </div>
                                 <div class="col-md-3">
                                     <div class="td-footer-bottom-social text-right mb-30">
-                                        <span><a href="https://www.linkedin.com/company/fath-creative/"><i class="fa-brands fa-linkedin"></i></a></span>
-                                        <span><a href="https://www.instagram.com/fathadvertising?igsh=MTJjNDR4NjMydHo4eg=="><i class="fa-brands fa-instagram"></i></a></span>
-                                        <span><a href="https://www.facebook.com/share/1NaqhxGxwg/?mibextid=wwXIfr"><i class="fa-brands fa-facebook"></i></a></span>
-                                        <span><a href="https://wa.me/00966500082828"><i class="fa-brands fa-whatsapp"></i></a></span>
+                                        <span><a href="https://www.linkedin.com/company/fath-creative/" aria-label="Visit our LinkedIn page"><i class="fa-brands fa-linkedin"></i></a></span>
+                                        <span><a href="https://www.instagram.com/fathadvertising?igsh=MTJjNDR4NjMydHo4eg==" aria-label="Visit our Instagram page"><i class="fa-brands fa-instagram"></i></a></span>
+                                        <span><a href="https://www.facebook.com/share/1NaqhxGxwg/?mibextid=wwXIfr" aria-label="Visit our Facebook page"><i class="fa-brands fa-facebook"></i></a></span>
+                                        <span><a href="https://wa.me/00966500082828" aria-label="Contact us on WhatsApp"><i class="fa-brands fa-whatsapp"></i></a></span>
                                     </div>
                                 </div>
                             </div>

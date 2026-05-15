@@ -74,10 +74,10 @@ include('header.php');
                             </ul>
                         </div>
                         <div class="td-contact-info-social">
-                            <a href="https://www.linkedin.com/company/fath-creative/"><i class="fa-brands fa-linkedin"></i></a>
-                            <a href="https://www.instagram.com/fathadvertising?igsh=MTJjNDR4NjMydHo4eg=="><i class="fa-brands fa-instagram"></i></a>
-                            <a href="https://www.facebook.com/share/1NaqhxGxwg/?mibextid=wwXIfr"><i class="fa-brands fa-facebook"></i></a>
-                            <a href="https://wa.me/00966500082828"><i class="fa-brands fa-whatsapp"></i></a>
+                            <a href="https://www.linkedin.com/company/fath-creative/" aria-label="Visit our LinkedIn page"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://www.instagram.com/fathadvertising?igsh=MTJjNDR4NjMydHo4eg==" aria-label="Visit our Instagram page"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.facebook.com/share/1NaqhxGxwg/?mibextid=wwXIfr" aria-label="Visit our Facebook page"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="https://wa.me/00966500082828" aria-label="Contact us on WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
                         </div>
                     </div>
                 </div>

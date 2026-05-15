@@ -249,7 +249,7 @@ background-repeat: no-repeat;"
                                 </span>
                                 <div>
                                     <span class="subtitle">Call Us:</span>
-                                    <h5 class="td-number"><a href="tel:+966500082828">+966 5000 82828</a></h5>
+                                    <h3 class="td-number"><a href="tel:+966500082828">+966 5000 82828</a></h3>
                                 </div>
                             </div>
                         </div>
@@ -586,8 +586,8 @@ background-repeat: no-repeat;"
                                             </div>
                                             <!-- <span class="dvdr"></span> -->
                                             <a class="td-btn td-btn-3-squre td-left-right text3 mr-25"
-                                                href="projects.php">
-                                                <span class="mr10 td-text d-inline-block mr-5">Read More</span>
+                                                href="projects.php" aria-label="Learn More about Cityscape Global 2025">
+                                                <span class="mr10 td-text d-inline-block mr-5">Learn More <span class="visually-hidden">about Cityscape Global 2025</span></span>
                                                 <span class="td-arrow-angle">
                                                     <svg class="td-arrow-svg-top-right" width="13" height="14"
                                                         viewBox="0 0 13 14" fill="none"
@@ -641,8 +641,8 @@ background-repeat: no-repeat;"
                                             </div>
                                             <!-- <span class="dvdr"></span> -->
                                             <a class="td-btn td-btn-3-squre td-left-right text3 mr-25"
-                                                href="projects.php">
-                                                <span class="mr10 td-text d-inline-block mr-5">Read More</span>
+                                                href="projects.php" aria-label="Learn More about Basamh">
+                                                <span class="mr10 td-text d-inline-block mr-5">Learn More <span class="visually-hidden">about Basamh</span></span>
                                                 <span class="td-arrow-angle">
                                                     <svg class="td-arrow-svg-top-right" width="13" height="14"
                                                         viewBox="0 0 13 14" fill="none"
@@ -693,8 +693,8 @@ background-repeat: no-repeat;"
                                             </div>
                                             <!-- <span class="dvdr"></span> -->
                                             <a class="td-btn td-btn-3-squre td-left-right text3 mr-25"
-                                                href="projects.php">
-                                                <span class="mr10 td-text d-inline-block mr-5">Read More</span>
+                                                href="projects.php" aria-label="Learn More about NUEVO - Leap 2025">
+                                                <span class="mr10 td-text d-inline-block mr-5">Learn More <span class="visually-hidden">about NUEVO - Leap 2025</span></span>
                                                 <span class="td-arrow-angle">
                                                     <svg class="td-arrow-svg-top-right" width="13" height="14"
                                                         viewBox="0 0 13 14" fill="none"
@@ -748,8 +748,8 @@ background-repeat: no-repeat;"
                                             </div>
                                             <!-- <span class="dvdr"></span> -->
                                             <a class="td-btn td-btn-3-squre td-left-right text3 mr-25"
-                                                href="projects.php">
-                                                <span class="mr10 td-text d-inline-block mr-5">Read More</span>
+                                                href="projects.php" aria-label="Learn More about Nespresso - Brand activations">
+                                                <span class="mr10 td-text d-inline-block mr-5">Learn More <span class="visually-hidden">about Nespresso - Brand activations</span></span>
                                                 <span class="td-arrow-angle">
                                                     <svg class="td-arrow-svg-top-right" width="13" height="14"
                                                         viewBox="0 0 13 14" fill="none"
@@ -800,8 +800,8 @@ background-repeat: no-repeat;"
                                             </div>
                                             <!-- <span class="dvdr"></span> -->
                                             <a class="td-btn td-btn-3-squre td-left-right text3 mr-25"
-                                                href="projects.php">
-                                                <span class="mr10 td-text d-inline-block mr-5">Read More</span>
+                                                href="projects.php" aria-label="Learn More about Artlife display stands">
+                                                <span class="mr10 td-text d-inline-block mr-5">Learn More <span class="visually-hidden">about Artlife display stands</span></span>
                                                 <span class="td-arrow-angle">
                                                     <svg class="td-arrow-svg-top-right" width="13" height="14"
                                                         viewBox="0 0 13 14" fill="none"
@@ -855,8 +855,8 @@ background-repeat: no-repeat;"
                                             </div>
                                             <!-- <span class="dvdr"></span> -->
                                             <a class="td-btn td-btn-3-squre td-left-right text3 mr-25"
-                                                href="projects.php">
-                                                <span class="mr10 td-text d-inline-block mr-5">Read More</span>
+                                                href="projects.php" aria-label="Learn More about Vehicle Branding">
+                                                <span class="mr10 td-text d-inline-block mr-5">Learn More <span class="visually-hidden">about Vehicle Branding</span></span>
                                                 <span class="td-arrow-angle">
                                                     <svg class="td-arrow-svg-top-right" width="13" height="14"
                                                         viewBox="0 0 13 14" fill="none"
@@ -908,8 +908,8 @@ background-repeat: no-repeat;"
                                             </div>
                                             <!-- <span class="dvdr"></span> -->
                                             <a class="td-btn td-btn-3-squre td-left-right text3 mr-25"
-                                                href="projects.php">
-                                                <span class="mr10 td-text d-inline-block mr-5">Read More</span>
+                                                href="projects.php" aria-label="Learn More about ISUZU AUM - Japanese embassy">
+                                                <span class="mr10 td-text d-inline-block mr-5">Learn More <span class="visually-hidden">about ISUZU AUM - Japanese embassy</span></span>
                                                 <span class="td-arrow-angle">
                                                     <svg class="td-arrow-svg-top-right" width="13" height="14"
                                                         viewBox="0 0 13 14" fill="none"
@@ -971,7 +971,7 @@ background-repeat: no-repeat;"
                                             <!--    <img src="assets/img/testimonial/avatar.png" alt="">-->
                                             <!--</div>-->
                                             <div>
-                                                <h6 class="names">Sam Cooper</h6>
+                                                <h3 class="names">Sam Cooper</h3>
                                                 <span class="td-position">CEO, Marketer Pro</span>
                                             </div>
                                         </div>
@@ -994,7 +994,7 @@ background-repeat: no-repeat;"
                                             <!--    <img src="assets/img/testimonial/avatar.png" alt="">-->
                                             <!--</div>-->
                                             <div>
-                                                <h6 class="names">Michael Lee</h6>
+                                                <h3 class="names">Michael Lee</h3>
 <span class="td-position">Business Strategist, GrowthWorks</span>
                                             </div>
                                         </div>
@@ -1017,7 +1017,7 @@ background-repeat: no-repeat;"
                                             <!--    <img src="assets/img/testimonial/avatar.png" alt="">-->
                                             <!--</div>-->
                                             <div>
-                                                <h6 class="names">Daniel Roberts</h6>
+                                                <h3 class="names">Daniel Roberts</h3>
 <span class="td-position">Project Manager, BrandX Agency</span>
                                             </div>
                                         </div>
@@ -1039,7 +1039,7 @@ background-repeat: no-repeat;"
                     <div class="td-testimonial-3-video bg-position jarallax"
                         style="background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url(assets/img/img2.jpeg);">
                         <a class="td-video-play popup-video td-pulse-border"
-                            href="assets/img/banner-video.MP4">
+                            href="assets/img/banner-video.MP4" aria-label="Play video">
                             <span class="p-relative z-index-11">
                                 <svg width="20" height="24" viewBox="0 0 20 24" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">

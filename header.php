@@ -49,55 +49,12 @@
     <!-- Preloader End -->
 
     <!-- Scroll-top -->
-    <button class="scroll__top scroll-to-target" data-target="html">
+    <button class="scroll__top scroll-to-target" data-target="html" aria-label="Scroll to top">
         <i class="fa-sharp fa-regular fa-arrow-up"></i>
     </button>
     <!-- Scroll-top-end-->
 
-    <!-- header-search -->
-    <div class="search__popup">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="search__wrapper">
-                        <div class="search__close">
-                            <button type="button" class="search-close-btn">
-                                <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M17 1L1 17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
-                                        stroke-linejoin="round"></path>
-                                    <path d="M1 1L17 17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
-                                        stroke-linejoin="round"></path>
-                                </svg>
-                            </button>
-                        </div>
-                        <div class="search__form">
-                            <form action="#">
-                                <div class="search__input">
-                                    <input class="search-input-field" type="text" placeholder="Type keywords here">
-                                    <span class="search-focus-border"></span>
-                                    <button type="submit">
-                                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <path
-                                                d="M9.55 18.1C14.272 18.1 18.1 14.272 18.1 9.55C18.1 4.82797 14.272 1 9.55 1C4.82797 1 1 4.82797 1 9.55C1 14.272 4.82797 18.1 9.55 18.1Z"
-                                                stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
-                                                stroke-linejoin="round"></path>
-                                            <path d="M19.0002 19.0002L17.2002 17.2002" stroke="currentColor"
-                                                stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-                                            </path>
-                                        </svg>
-                                    </button>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="search-popup-overlay"></div>
-    <!-- header-search-end -->
+   
 
     <!-- cart mini area start -->
 
@@ -124,10 +81,10 @@
                                     <span class="td-email"><a href="mailto:info@fathcreative.com"><i
                                                 class="flaticon-mail"></i>info@fathcreative.com </a></span>
                                     <span class="dvdr">/</span>
-                                    <span><a href="https://www.linkedin.com/company/fath-creative/"><i class="fa-brands fa-linkedin"></i></a></span>
-                                    <span><a href="https://www.instagram.com/fathadvertising?igsh=MTJjNDR4NjMydHo4eg=="><i class="fa-brands fa-instagram"></i></a></span>
-                                    <span><a href="https://www.facebook.com/share/1NaqhxGxwg/?mibextid=wwXIfr"><i class="fa-brands fa-facebook"></i></a></span>
-                                    <span><a href="https://wa.me/00966500082828"><i class="fa-brands fa-whatsapp"></i></a></span>
+                                    <span><a href="https://www.linkedin.com/company/fath-creative/" aria-label="Visit our LinkedIn page"><i class="fa-brands fa-linkedin"></i></a></span>
+                                    <span><a href="https://www.instagram.com/fathadvertising?igsh=MTJjNDR4NjMydHo4eg==" aria-label="Visit our Instagram page"><i class="fa-brands fa-instagram"></i></a></span>
+                                    <span><a href="https://www.facebook.com/share/1NaqhxGxwg/?mibextid=wwXIfr" aria-label="Visit our Facebook page"><i class="fa-brands fa-facebook"></i></a></span>
+                                    <span><a href="https://wa.me/00966500082828" aria-label="Contact us on WhatsApp"><i class="fa-brands fa-whatsapp"></i></a></span>
                                 </div>
                             </div>
                         </div>
@@ -200,7 +157,7 @@
                                             </svg>
                                         </span>
                                     </a>
-                                    <button class="tdmenu-offcanvas-open-btn mobile-nav-toggler d-block d-xl-none">
+                                    <button class="tdmenu-offcanvas-open-btn mobile-nav-toggler d-block d-xl-none" aria-label="Open navigation menu">
                                         <span></span>
                                         <span></span>
                                         <span></span>
@@ -242,10 +199,10 @@
                 </div>
                 <div class="social-links">
                     <ul class="list-wrap">
-                        <li><a href="https://www.linkedin.com/company/fath-creative/"><i class="fab fa-linkedin-in"></i></a></li>
-                        <li><a href="https://www.instagram.com/fathadvertising?igsh=MTJjNDR4NjMydHo4eg=="><i class="fab fa-instagram"></i></a></li>
-                        <li><a href="https://www.facebook.com/share/1NaqhxGxwg/?mibextid=wwXIfr"><i class="fa-brands fa-facebook"></i></a></li>
-                        <li><a href="https://wa.me/00966500082828"><i class="fab fa-whatsapp"></i></a></li>
+                        <li><a href="https://www.linkedin.com/company/fath-creative/" aria-label="Visit our LinkedIn page"><i class="fab fa-linkedin-in"></i></a></li>
+                        <li><a href="https://www.instagram.com/fathadvertising?igsh=MTJjNDR4NjMydHo4eg==" aria-label="Visit our Instagram page"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="https://www.facebook.com/share/1NaqhxGxwg/?mibextid=wwXIfr" aria-label="Visit our Facebook page"><i class="fa-brands fa-facebook"></i></a></li>
+                        <li><a href="https://wa.me/00966500082828" aria-label="Contact us on WhatsApp"><i class="fab fa-whatsapp"></i></a></li>
                     </ul>
                 </div>
             </nav>
@@ -256,7 +213,7 @@
         <!-- offCanvas-menu -->
         <div class="offCanvas__info">
             <div class="offCanvas__close-icon menu-close">
-                <button><i class="fa-sharp fa-regular fa-xmark"></i></button>
+                <button aria-label="Close menu"><i class="fa-sharp fa-regular fa-xmark"></i></button>
             </div>
             <div class="offCanvas__logo mb-30">
                 <a href="index.php"><img src="assets/img/logo/fath-logo.png" alt="Logo"></a>
@@ -278,10 +235,10 @@
                 </div>
             </div>
             <div class="offCanvas__social-icon mt-30">
-                <a href="https://www.linkedin.com/company/fath-creative/"><i class="fab fa-linkedin-in"></i></a>
-                <a href="https://www.instagram.com/fathadvertising?igsh=MTJjNDR4NjMydHo4eg=="><i class="fab fa-instagram"></i></a>
-                <a href="https://www.facebook.com/share/1NaqhxGxwg/?mibextid=wwXIfr"><i class="fa-brands fa-facebook"></i></a>
-                <a href="https://wa.me/00966500082828"><i class="fab fa-whatsapp"></i></a>
+                <a href="https://www.linkedin.com/company/fath-creative/" aria-label="Visit our LinkedIn page"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://www.instagram.com/fathadvertising?igsh=MTJjNDR4NjMydHo4eg==" aria-label="Visit our Instagram page"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.facebook.com/share/1NaqhxGxwg/?mibextid=wwXIfr" aria-label="Visit our Facebook page"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://wa.me/00966500082828" aria-label="Contact us on WhatsApp"><i class="fab fa-whatsapp"></i></a>
             </div>
         </div>
         <div class="offCanvas__overly"></div>
