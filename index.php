@@ -149,8 +149,7 @@ background-repeat: no-repeat;"
                 <div class="row align-items-center">
                     <div class="col-xl-4 col-lg-4">
                         <div class="td-countdown-2-title mb-30">
-                            <h2 class="title text-white">Our </h2>
-                            <span class="subtitle text-white">Grand Exhibitions</span>
+                            <h1 class="title text-white">Our Grand Exhibitions</h1>
                         </div>
                     </div>
                     <div class="col-xl-8 col-lg-8">
