@@ -14,7 +14,7 @@ if (!isset($_SESSION['user_id'])) {
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>THESAY Pharma Admin Panel - Add Career</title>
 
-    <link rel="shortcut icon" type="image/png" href="./assets/images/logos/logo.png" />
+    <link rel="shortcut icon" type="image/png" href="./assets/images/logos/logo.webp" />
     <link rel="stylesheet" href="./assets/css/styles.min.css" />
     <style>
         .ck-editor__editable ul,
@@ -58,7 +58,7 @@ if (!isset($_SESSION['user_id'])) {
         <div>
             <div class="brand-logo d-flex align-items-center justify-content-between">
                 <a href="index.php" class="text-nowrap logo-img">
-                    <img src="assets/images/logos/logo.png" alt="" />
+                    <img src="assets/images/logos/logo.webp" alt="" />
                 </a>
             </div>
 

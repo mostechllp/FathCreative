@@ -10,7 +10,7 @@ include('header.php');
     <main>
 
         <!-- td-breadcrumb-area-start -->
-            <div class="td-breadcrumb-area td-breadcrumb-spacing bg-position" style="background-image: linear-gradient(rgb(0 0 0 / 54%), rgba(0, 0, 0, 0.7)), url(assets/img/banner/banner4.jpg)">
+            <div class="td-breadcrumb-area td-breadcrumb-spacing bg-position" style="background-image: linear-gradient(rgb(0 0 0 / 54%), rgba(0, 0, 0, 0.7)), url(assets/img/banner/banner4.webp)">
 
             <div class="container">
                 <div class="row">
@@ -42,7 +42,7 @@ include('header.php');
                     <div class="col-lg-6">
                         <div class="td-about-2-thumb p-relative mb-30">
                             <img class="thumb wow td-animetion-left" data-wow-duration="1.5s" data-wow-delay="0.2s"
-                                src="assets/img/projects/img12.webp" alt=""
+                                src="assets/img/projects/img12.webp" alt="FABRICATION & PRODUCTIONS"
                                 style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.2s; animation-name: td-animetion-left;">
                         </div>
                     </div>
@@ -53,9 +53,9 @@ include('header.php');
                             <div class="td-about-2-content">
                                 <h2 class="td-section-title mb-10">Precision Fabrication and Production Services
                                 </h2>
-                                <p class="para" align="justify">We offer advanced fabrication and production services tailored to your specific needs. From initial design to final output, we ensure high-quality materials and craftsmanship. Our focus is on bringing your ideas to life with precision, durability, and a clean professional finish.
+                                <p class="para"  style="text-align:justify;">We offer advanced fabrication and production services tailored to your specific needs. From initial design to final output, we ensure high-quality materials and craftsmanship. Our focus is on bringing your ideas to life with precision, durability, and a clean professional finish.
                                 </p>
-                                <p class="para" align="justify">
+                                <p class="para"  style="text-align:justify;">
                                     We work closely with our clients to understand their objectives and deliver products that create strong engagement and lasting impressions. Whether it is a bespoke signage project, custom booth, or vehicle branding, our team ensures smooth execution and impactful results.</p>
                             </div>
 
@@ -79,28 +79,28 @@ include('header.php');
                         <div class="td-feature-3-wrap mr-60 mb-30">
                             <span class="td-feature-3-icon d-inline-block mb-20"><i class="fa fa-pencil"></i></span>
                             <h3 class="td-feature-3-title mb-15">Consultation & Design</h3>
-                            <p class="td-feature-3-text" align="justify">We begin by understanding your project goals and requirements. Our team works closely with you to develop clear design specifications and a comprehensive build plan.</p>
+                            <p class="td-feature-3-text"  style="text-align:justify;">We begin by understanding your project goals and requirements. Our team works closely with you to develop clear design specifications and a comprehensive build plan.</p>
                         </div>
                     </div>
                     <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.5s" style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.5s; animation-name: fadeInUp;">
                         <div class="td-feature-3-wrap mr-60 mb-30">
                             <span class="td-feature-3-icon d-inline-block mb-20"><i class="fa fa-th-large"></i></span>
                             <h3 class="td-feature-3-title mb-15">Material Selection</h3>
-                            <p class="td-feature-3-text" align="justify">Choosing the right foundation is key. We source premium, durable materials suited for your specific use case to guarantee longevity and aesthetic appeal.</p>
+                            <p class="td-feature-3-text"  style="text-align:justify;">Choosing the right foundation is key. We source premium, durable materials suited for your specific use case to guarantee longevity and aesthetic appeal.</p>
                         </div>
                     </div>
                     <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.7s" style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.7s; animation-name: fadeInUp;">
                         <div class="td-feature-3-wrap mr-60 mb-30">
                             <span class="td-feature-3-icon d-inline-block mb-20"><i class="fa fa-industry"></i></span>
                             <h3 class="td-feature-3-title mb-15">Production & Fabrication</h3>
-                            <p class="td-feature-3-text" align="justify">Our experts execute the build using advanced techniques and equipment, ensuring high precision, fine detailing, and structural integrity throughout the process.</p>
+                            <p class="td-feature-3-text"  style="text-align:justify;">Our experts execute the build using advanced techniques and equipment, ensuring high precision, fine detailing, and structural integrity throughout the process.</p>
                         </div>
                     </div>
                     <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.9s" style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.9s; animation-name: fadeInUp;">
                         <div class="td-feature-3-wrap mr-60 mb-30">
                             <span class="td-feature-3-icon d-inline-block mb-20"><i class="fa fa-check-square"></i></span>
                             <h3 class="td-feature-3-title mb-15">Testing & Installation</h3>
-                            <p class="td-feature-3-text" align="justify">Before delivery, every item undergoes strict quality control. Our team then manages safe transport and precise installation to finalize the project seamlessly.</p>
+                            <p class="td-feature-3-text"  style="text-align:justify;">Before delivery, every item undergoes strict quality control. Our team then manages safe transport and precise installation to finalize the project seamlessly.</p>
                         </div>
                     </div>
                 </div>
@@ -211,7 +211,7 @@ include('header.php');
                                    </h2>
                                    <div id="order__collapse_one" class="accordion-collapse collapse" aria-labelledby="order_one" data-bs-parent="#general_faqaccordion" style="">
                                       <div class="accordion-body td-faq-details-para">
-                                         <p align="justify">We use a wide range of high-quality materials including wood, metal, acrylic, and PVC based on your specific project needs and requirements.</p>
+                                         <p  style="text-align:justify;">We use a wide range of high-quality materials including wood, metal, acrylic, and PVC based on your specific project needs and requirements.</p>
                                       </div>
                                    </div>
                                    </div>
@@ -224,7 +224,7 @@ include('header.php');
                                    </h2>
                                    <div id="order__collapse_two" class="accordion-collapse collapse" aria-labelledby="order_two" data-bs-parent="#general_faqaccordion">
                                       <div class="accordion-body td-faq-details-para">
-                                        <p align="justify">Yes, we specialize in custom booth design and signage solutions tailored specifically to elevate your brand presence at exhibitions.</p>
+                                        <p  style="text-align:justify;">Yes, we specialize in custom booth design and signage solutions tailored specifically to elevate your brand presence at exhibitions.</p>
                                       </div>
                                    </div>
                                    </div>
@@ -237,7 +237,7 @@ include('header.php');
                                    </h2>
                                    <div id="order__collapse_three" class="accordion-collapse collapse" aria-labelledby="order_three" data-bs-parent="#general_faqaccordion">
                                       <div class="accordion-body td-faq-details-para">
-                                        <p align="justify">Absolutely! We use premium vinyl wraps and high-quality prints designed to withstand harsh weather conditions and everyday wear.</p>
+                                        <p  style="text-align:justify;">Absolutely! We use premium vinyl wraps and high-quality prints designed to withstand harsh weather conditions and everyday wear.</p>
                                       </div>
                                    </div>
                                    </div>
@@ -250,7 +250,7 @@ include('header.php');
                                         </h2>
                                         <div id="order__collapse_four" class="accordion-collapse collapse" aria-labelledby="order_four" data-bs-parent="#general_faqaccordion">
                                             <div class="accordion-body td-faq-details-para">
-                                                <p align="justify">Yes, our facility is well-equipped with state-of-the-art machinery to handle both small bespoke orders and large scale mass production runs.</p>
+                                                <p  style="text-align:justify;">Yes, our facility is well-equipped with state-of-the-art machinery to handle both small bespoke orders and large scale mass production runs.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -263,7 +263,7 @@ include('header.php');
                                          </h2>
                                          <div id="order__collapse_five" class="accordion-collapse collapse" aria-labelledby="order_five" data-bs-parent="#general_faqaccordion">
                                              <div class="accordion-body td-faq-details-para">
-                                                 <p align="justify">Yes, our dedicated team provides complete installation and setup services on-site to ensure your fabricated items are flawlessly placed.</p>
+                                                 <p  style="text-align:justify;">Yes, our dedicated team provides complete installation and setup services on-site to ensure your fabricated items are flawlessly placed.</p>
                                              </div>
                                          </div>
                                     </div>

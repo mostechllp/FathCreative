@@ -10,7 +10,7 @@ include('header.php');
 <main>
 
     <!-- td-breadcrumb-area-start -->
-       <div class="td-breadcrumb-area td-breadcrumb-spacing bg-position" style="background-image: linear-gradient(rgb(0 0 0 / 54%), rgba(0, 0, 0, 0.7)), url(assets/img/banner/banner4.jpg)">
+       <div class="td-breadcrumb-area td-breadcrumb-spacing bg-position" style="background-image: linear-gradient(rgb(0 0 0 / 54%), rgba(0, 0, 0, 0.7)), url(assets/img/banner/banner4.webp)">
 
         <div class="container">
             <div class="row">
@@ -42,7 +42,7 @@ include('header.php');
                 <div class="col-lg-6">
                     <div class="td-about-2-thumb p-relative mb-30">
                         <img class="thumb wow td-animetion-left" data-wow-duration="1.5s" data-wow-delay="0.2s"
-                            src="assets/img/projects/img10.webp" alt=""
+                            src="assets/img/projects/img10.webp" alt="BRAND ACTIVATIONS"
                             style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.2s; animation-name: td-animetion-left;">
                     </div>
                 </div>
@@ -53,11 +53,11 @@ include('header.php');
                         <div class="td-about-2-content">
                             <h2 class="td-section-title mb-10">Creating Memorable Brand Activations That Drive Engagement</h2>
 
-                            <p class="para" align="justify">
+                            <p class="para"  style="text-align:justify;">
                                 Our brand activation services are designed to create meaningful interactions between your brand and your audience. We develop engaging campaigns that capture attention, build awareness, and leave a lasting impression.
                             </p>
 
-                            <p class="para" align="justify">
+                            <p class="para"  style="text-align:justify;">
                                 From concept to execution, we manage every aspect of brand activations including planning, setup, and on-ground coordination. Whether it is in-store, outdoor, or promotional events, we ensure impactful experiences that connect with your target audience.
                             </p>
                         </div>
@@ -85,7 +85,7 @@ include('header.php');
                     <div class="td-feature-3-wrap mr-60 mb-30">
                         <span class="td-feature-3-icon d-inline-block mb-20"><i class="fa fa-line-chart"></i></span>
                         <h3 class="td-feature-3-title mb-15">Strategy & Planning</h3>
-                        <p class="td-feature-3-text" align="justify">
+                        <p class="td-feature-3-text"  style="text-align:justify;">
                             We understand your brand goals, target audience, and campaign objectives to develop an effective activation strategy.
                         </p>
                     </div>
@@ -96,7 +96,7 @@ include('header.php');
                         <span class="td-feature-3-icon d-inline-block mb-20"><i
                                 class="fa fa-paint-brush"></i></span>
                         <h3 class="td-feature-3-title mb-15">Concept Design</h3>
-                        <p class="td-feature-3-text" align="justify">
+                        <p class="td-feature-3-text"  style="text-align:justify;">
                             Our team creates innovative activation concepts with engaging ideas, visuals, and interactive elements that attract attention.
                         </p>
                     </div>
@@ -106,7 +106,7 @@ include('header.php');
                     <div class="td-feature-3-wrap mr-60 mb-30">
                         <span class="td-feature-3-icon d-inline-block mb-20"><i class="fa fa-cogs"></i></span>
                         <h3 class="td-feature-3-title mb-15">Execution & Setup</h3>
-                        <p class="td-feature-3-text" align="justify">
+                        <p class="td-feature-3-text"  style="text-align:justify;">
                             We handle fabrication, setup, staffing, and logistics to ensure smooth execution of activation activities at the venue.
                         </p>
                     </div>
@@ -117,7 +117,7 @@ include('header.php');
                         <span class="td-feature-3-icon d-inline-block mb-20"><i
                                 class="fa fa-bar-chart"></i></span>
                         <h3 class="td-feature-3-title mb-15">Reporting</h3>
-                        <p class="td-feature-3-text" align="justify">
+                        <p class="td-feature-3-text"  style="text-align:justify;">
                             Our team supervises on-site activities and provides performance insights to evaluate engagement and campaign success.
                         </p>
                     </div>

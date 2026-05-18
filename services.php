@@ -12,7 +12,7 @@ include('header.php');
 
     <!-- td-breadcrumb-area-start -->
     <div class="td-breadcrumb-area td-breadcrumb-spacing bg-position"
-        style="background-image: linear-gradient(rgb(0 0 0 / 54%), rgba(0, 0, 0, 0.7)), url(assets/img/banner/banner4.jpg)">
+        style="background-image: linear-gradient(rgb(0 0 0 / 54%), rgba(0, 0, 0, 0.7)), url(assets/img/banner/banner4.webp)">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -35,7 +35,7 @@ include('header.php');
     <!-- td-breadcrumb-area-end -->
 
     <!-- td-blog-area-start -->
-    <div class="td-blog-area pt-100 pb-20 bg-position" data-background="assets/img/about/bg.jpg">
+    <div class="td-blog-area pt-100 pb-20 bg-position" data-background="assets/img/about/bg.webp">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-xl-12 col-lg-8">
@@ -62,7 +62,7 @@ include('header.php');
                                         <div class="col-xl-5 mb-30">
                                             <div class="td-schedule-4-thumb">
                                                 <a href="events-details.php"><img class="w-100"
-                                                        src="assets/img/projects/img8.webp" alt=""></a>
+                                                        src="assets/img/projects/img8.webp" alt="Event Management"></a>
                                             </div>
                                         </div>
                                         <div class="col-xl-7 mb-30">
@@ -70,7 +70,7 @@ include('header.php');
                                                 <h2 class="td-schedule-4-title"><a href="event-management.php">Event
                                                         Management</a></h2>
                                                 <div class="td-schedule-4-destination mb-10">
-                                                    <p align="justify">We plan and execute seamless events, ensuring engaging experiences that connect your brand with the right audience.</p>
+                                                    <p  style="text-align:justify;">We plan and execute seamless events, ensuring engaging experiences that connect your brand with the right audience.</p>
                                                 </div>
                                                 <a class="td-btn td-btn-3-squre td-left-right text" href="event-management.php">
                                                     <span class="td-text d-inline-block mr-5">Read More</span>
@@ -99,7 +99,7 @@ include('header.php');
                                             <div class="td-schedule-4-thumb">
                                                 <a href="events-details.php">
                                                     <img class="w-100"
-                                                        src="assets/img/projects/img11.webp" alt="">
+                                                        src="assets/img/projects/img11.webp" alt="Exhibition & Tradeshows">
                                                 </a>
                                             </div>
                                         </div>
@@ -107,7 +107,7 @@ include('header.php');
                                             <div class="td-schedule-4-content">
                                                 <h2 class="td-schedule-4-title"><a href="exhibition-tradeshows.php">Exhibition & Tradeshows</a></h2>
                                                 <div class="td-schedule-4-destination mb-10">
-                                                    <p align="justify">We design and manage impactful exhibition spaces that attract visitors and effectively showcase your brand presence.</p>
+                                                    <p  style="text-align:justify;">We design and manage impactful exhibition spaces that attract visitors and effectively showcase your brand presence.</p>
                                                 </div>
                                                 <a class="td-btn td-btn-3-squre td-left-right text"
                                                     href="exhibition-tradeshows.php">
@@ -137,7 +137,7 @@ include('header.php');
                                             <div class="td-schedule-4-thumb">
                                                 <a href="posm-activities.php">
                                                     <img class="w-100"
-                                                        src="assets/img/projects/img9.webp" alt="">
+                                                        src="assets/img/projects/img9.webp" alt="Posm Activites">
                                                 </a>
                                             </div>
                                         </div>
@@ -145,7 +145,7 @@ include('header.php');
                                             <div class="td-schedule-4-content">
                                                 <h2 class="td-schedule-4-title"><a href="posm-activities.php">POSM Activities</a></h2>
                                                 <div class="td-schedule-4-destination mb-10">
-                                                    <p align="justify">We create high-quality point-of-sale materials that enhance visibility and drive customer engagement at retail spaces.</p>
+                                                    <p  style="text-align:justify;">We create high-quality point-of-sale materials that enhance visibility and drive customer engagement at retail spaces.</p>
                                                 </div>
                                                 <a class="td-btn td-btn-3-squre td-left-right text"
                                                     href="posm-activities.php">
@@ -175,7 +175,7 @@ include('header.php');
                                             <div class="td-schedule-4-thumb">
                                                 <a href="brand-activations.php">
                                                     <img class="w-100"
-                                                        src="assets/img/projects/img10.webp" alt="">
+                                                        src="assets/img/projects/img10.webp" alt="BRAND ACTIVATIONS">
                                                 </a>
                                             </div>
                                         </div>
@@ -183,7 +183,7 @@ include('header.php');
                                             <div class="td-schedule-4-content">
                                                 <h2 class="td-schedule-4-title"><a href="brand-activations.php">Brand Activations</a></h2>
                                                 <div class="td-schedule-4-destination mb-10">
-                                                    <p align="justify">We deliver creative brand activation campaigns that build strong audience connections.</p>
+                                                    <p  style="text-align:justify;">We deliver creative brand activation campaigns that build strong audience connections.</p>
                                                 </div>
                                                 <a class="td-btn td-btn-3-squre td-left-right text"
                                                     href="brand-activations.php">
@@ -213,7 +213,7 @@ include('header.php');
                                             <div class="td-schedule-4-thumb">
                                                 <a href="3D-designs.php">
                                                     <img class="w-100"
-                                                        src="assets/img/projects/img7.webp" alt="">
+                                                        src="assets/img/projects/img7.webp" alt="3D DESIGNS">
                                                 </a>
                                             </div>
                                         </div>
@@ -221,7 +221,7 @@ include('header.php');
                                             <div class="td-schedule-4-content">
                                                 <h2 class="td-schedule-4-title"><a href="3D-designs.php">3D Designs</a></h2>
                                                 <div class="td-schedule-4-destination mb-10">
-                                                    <p align="justify">We develop innovative 3D designs that bring your ideas to life with visually engaging and realistic concepts.</p>
+                                                    <p  style="text-align:justify;">We develop innovative 3D designs that bring your ideas to life with visually engaging and realistic concepts.</p>
                                                 </div>
                                                 <a class="td-btn td-btn-3-squre td-left-right text"
                                                     href="3D-designs.php">
@@ -251,7 +251,7 @@ include('header.php');
                                             <div class="td-schedule-4-thumb">
                                                 <a href="fabrication-and-production.php">
                                                     <img class="w-100"
-                                                        src="assets/img/projects/img12.webp" alt="">
+                                                        src="assets/img/projects/img12.webp" alt="FABRICATION & PRODUCTIONS">
                                                 </a>
                                             </div>
                                         </div>
@@ -259,7 +259,7 @@ include('header.php');
                                             <div class="td-schedule-4-content">
                                                 <h2 class="td-schedule-4-title"><a href="fabrication-and-production.php">Fabrication & Production</a></h2>
                                                 <div class="td-schedule-4-destination mb-10">
-                                                    <p align="justify">We handle complete fabrication and production with high-quality execution of all branding and display elements.</p>
+                                                    <p  style="text-align:justify;">We handle complete fabrication and production with high-quality execution of all branding and display elements.</p>
                                                 </div>
                                                 <a class="td-btn td-btn-3-squre td-left-right text"
                                                     href="fabrication-and-production.php">
@@ -297,7 +297,7 @@ include('header.php');
                                             <div class="td-schedule-4-content">
                                                 <h2 class="td-schedule-4-title"><a href="technology-solutions.php">Technology Solutions</a></h2>
                                                 <div class="td-schedule-4-destination mb-10">
-                                                    <p align="justify">We provide smart technology solutions that enhance customer interaction and improve overall brand experiences.</p>
+                                                    <p  style="text-align:justify;">We provide smart technology solutions that enhance customer interaction and improve overall brand experiences.</p>
                                                 </div>
                                                 <a class="td-btn td-btn-3-squre td-left-right text"
                                                     href="technology-solutions.php">
@@ -335,7 +335,7 @@ include('header.php');
                                             <div class="td-schedule-4-content">
                                                 <h2 class="td-schedule-4-title"><a href="digital-marketing-solutions.php">Digital Marketing Solutions</a></h2>
                                                 <div class="td-schedule-4-destination mb-10">
-                                                    <p align="justify">We offer result-driven digital marketing strategies that increase online visibility and strengthen brand presence.</p>
+                                                    <p  style="text-align:justify;">We offer result-driven digital marketing strategies that increase online visibility and strengthen brand presence.</p>
                                                 </div>
                                                 <a class="td-btn td-btn-3-squre td-left-right text"
                                                     href="digital-marketing-solutions.php">

@@ -10,7 +10,7 @@ include('header.php');
 <main>
 
     <!-- td-breadcrumb-area-start -->
-       <div class="td-breadcrumb-area td-breadcrumb-spacing bg-position" style="background-image: linear-gradient(rgb(0 0 0 / 54%), rgba(0, 0, 0, 0.7)), url(assets/img/banner/banner4.jpg)">
+       <div class="td-breadcrumb-area td-breadcrumb-spacing bg-position" style="background-image: linear-gradient(rgb(0 0 0 / 54%), rgba(0, 0, 0, 0.7)), url(assets/img/banner/banner4.webp)">
 
         <div class="container">
             <div class="row">
@@ -42,7 +42,7 @@ include('header.php');
                 <div class="col-lg-6">
                     <div class="td-about-2-thumb p-relative mb-30">
                         <img class="thumb wow td-animetion-left" data-wow-duration="1.5s" data-wow-delay="0.2s"
-                            src="assets/img/projects/img9.webp" alt=""
+                            src="assets/img/projects/img9.webp" alt="Posm Activites"
                             style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.2s; animation-name: td-animetion-left;">
                     </div>
                 </div>
@@ -53,11 +53,11 @@ include('header.php');
                         <div class="td-about-2-content">
                             <h2 class="td-section-title mb-10">Enhancing Retail Presence Through Effective POSM Solutions</h2>
 
-                            <p class="para" align="justify">
+                            <p class="para"  style="text-align:justify;">
                                 Our POSM (Point of Sale Materials) services are designed to strengthen your brand visibility across retail environments. We provide high-quality display solutions including stands, gondolas, and customized POS materials that attract customer attention and improve in-store engagement.
                             </p>
 
-                            <p class="para" align="justify">
+                            <p class="para"  style="text-align:justify;">
                                 From design to delivery, we ensure seamless execution of POSM solutions across KSA. Our team focuses on durability, functionality, and visual appeal to create impactful retail displays that support your sales objectives.
                             </p>
                         </div>
@@ -85,7 +85,7 @@ include('header.php');
                     <div class="td-feature-3-wrap mr-60 mb-30">
                         <span class="td-feature-3-icon d-inline-block mb-20"><i class="fa fa-search"></i></span>
                         <h3 class="td-feature-3-title mb-15">Requirement Analysis & Planning</h3>
-                        <p class="td-feature-3-text" align="justify">
+                        <p class="td-feature-3-text"  style="text-align:justify;">
                             We understand your retail requirements, brand guidelines, and store formats to plan effective POSM solutions.
                         </p>
                     </div>
@@ -96,7 +96,7 @@ include('header.php');
                         <span class="td-feature-3-icon d-inline-block mb-20"><i
                                 class="fa fa-pencil"></i></span>
                         <h3 class="td-feature-3-title mb-15">Design & Development</h3>
-                        <p class="td-feature-3-text" align="justify">
+                        <p class="td-feature-3-text"  style="text-align:justify;">
                             Our team creates innovative display designs including stands, gondolas, and branding elements tailored to your needs.
                         </p>
                     </div>
@@ -106,7 +106,7 @@ include('header.php');
                     <div class="td-feature-3-wrap mr-60 mb-30">
                         <span class="td-feature-3-icon d-inline-block mb-20"><i class="fa fa-industry"></i></span>
                         <h3 class="td-feature-3-title mb-15">Production & Fabrication</h3>
-                        <p class="td-feature-3-text" align="justify">
+                        <p class="td-feature-3-text"  style="text-align:justify;">
                             We ensure high-quality production using durable materials to create long-lasting and visually appealing POSM units.
                         </p>
                     </div>
@@ -117,7 +117,7 @@ include('header.php');
                         <span class="td-feature-3-icon d-inline-block mb-20"><i
                                 class="fa fa-truck"></i></span>
                         <h3 class="td-feature-3-title mb-15">Delivery & Installation</h3>
-                        <p class="td-feature-3-text" align="justify">
+                        <p class="td-feature-3-text"  style="text-align:justify;">
                             We manage delivery and installation across KSA, ensuring timely execution and proper setup at all retail locations.
                         </p>
                     </div>

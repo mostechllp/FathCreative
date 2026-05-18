@@ -8,8 +8,8 @@ include('header.php');
 <main>
     <!-- td-breadcrumb-area-start -->
     <div class="td-breadcrumb-area td-breadcrumb-spacing bg-position"
-    style="background-image: linear-gradient(rgb(0 0 0 / 54%), rgba(0, 0, 0, 0.7)), url(assets/img/banner/banner4.jpg)">
-        <!-- data-background="assets/img/banner/banner4.jpg"> -->
+    style="background-image: linear-gradient(rgb(0 0 0 / 54%), rgba(0, 0, 0, 0.7)), url(assets/img/banner/banner4.webp)">
+        <!-- data-background="assets/img/banner/banner4.webp"> -->
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -50,7 +50,7 @@ include('header.php');
                             <div class="col-lg-5 col-md-5 col-sm-5 d-none d-lg-block">
                                 <div class="td-about-4-thumb text-center mb-25">
                                     <img class="mb-25 tdtranslateX2"
-                                        src="assets/img/about/about-details/shape-2.png" alt="">
+                                        src="assets/img/about/about-details/shape-2.webp" alt="">
                                     <img class="w-100 thumb wow td-animetion-right" data-wow-duration="1.5s"
                                         data-wow-delay="0.2s" src="assets/img/about2.webp"
                                         alt="">
@@ -59,7 +59,7 @@ include('header.php');
                             <div class="col-lg-12">
                                 <div class="td-about-4-thumb-2 p-relative text-center pb-40 mb-25 pl-70 mr-70">
                                     <img class="td-about-4-shape up-down"
-                                        src="assets/img/about/about-details/shape.png" alt="">
+                                        src="assets/img/about/about-details/shape.webp" alt="">
                                     <img class="w-100 thumb wow td-animetion-top" data-wow-duration="1.5s"
                                         data-wow-delay="0.2s" src="assets/img/about3.webp"
                                         alt="">
@@ -75,16 +75,16 @@ include('header.php');
                             Us</span>
                         <h2 class="td-section-title mb-15">Our Company
                         </h2>
-                        <p class="para para-2" align="justify">Fath Creative is a forward-thinking agency redefining how brands connect with audiences across the Middle East. Founded with a passion for creativity and innovation, we empower organizations to tell their stories, elevate their identity, and engage their customers through impactful design, marketing, and digital experiences. We have partnered with visionary businesses to transform ideas into powerful, measurable results.</p>
+                        <p class="para para-2"  style="text-align:justify;">Fath Creative is a forward-thinking agency redefining how brands connect with audiences across the Middle East. Founded with a passion for creativity and innovation, we empower organizations to tell their stories, elevate their identity, and engage their customers through impactful design, marketing, and digital experiences. We have partnered with visionary businesses to transform ideas into powerful, measurable results.</p>
 
-                        <p class="para" align="justify">With a strong focus on creativity, quality, and attention to detail,
+                        <p class="para"  style="text-align:justify;">With a strong focus on creativity, quality, and attention to detail,
                             our team delivers customized branding solutions that enhance brand visibility and create
                             lasting impressions. From designing eye-catching exhibition stands to providing
                             professional sticker branding for events, retail spaces, and corporate environments, we
                             ensure every project reflects the unique identity of our clients.
 
                         </p>
-                        <p align="justify">At Fath Creative, we combine innovative design, advanced fabrication techniques, and
+                        <p  style="text-align:justify;">At Fath Creative, we combine innovative design, advanced fabrication techniques, and
                             professional execution to bring ideas to life. Our goal is to support businesses with
                             powerful visual branding and exhibition solutions that attract audiences, strengthen
                             brand presence, and drive business growth.</p>
@@ -189,7 +189,7 @@ include('header.php');
                         <span class="td-feature-3-icon  d-flex justify-content-center mb-20"><i
                                 class="fa fa-eye"></i></span>
                         <h3 class="td-feature-3-title mb-15 d-flex justify-content-center">Our Vision</h3>
-                        <p class="td-feature-3-text" align="justify">To be the region's most trusted creative partner, known for bold ideas and flawless execution.</p>
+                        <p class="td-feature-3-text"  style="text-align:justify;">To be the region's most trusted creative partner, known for bold ideas and flawless execution.</p>
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-6 col-md-6">
@@ -197,7 +197,7 @@ include('header.php');
                         data-wow-delay="0.3s">
                         <span class="td-feature-3-icon  d-flex justify-content-center mb-20"><i class="fa fa-rocket"></i></span>
                         <h3 class="td-feature-3-title mb-15 d-flex justify-content-center">Our Mission</h3>
-                        <p class="td-feature-3-text" align="justify">To help brands thrive through strategy, design, and technology—creating memorable moments that inspire action.</p>
+                        <p class="td-feature-3-text"  style="text-align:justify;">To help brands thrive through strategy, design, and technology—creating memorable moments that inspire action.</p>
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-6 col-md-6">
@@ -205,7 +205,7 @@ include('header.php');
                         data-wow-delay="0.7s">
                         <span class="td-feature-3-icon  d-flex justify-content-center mb-20"><i class="fa fa-globe"></i></span>
                         <h3 class="td-feature-3-title mb-15 d-flex justify-content-center">Our Presence</h3>
-                        <p class="td-feature-3-text" align="justify">Headquartered in Jeddah, Saudi Arabia, with operations across Saudi Arabia, UAE and OMAN.</p>
+                        <p class="td-feature-3-text"  style="text-align:justify;">Headquartered in Jeddah, Saudi Arabia, with operations across Saudi Arabia, UAE and OMAN.</p>
                     </div>
                 </div>
             </div>
@@ -230,11 +230,22 @@ include('header.php');
                 </div>
             </div>
             <div class="row">
-                <?php for ($i = 1; $i < 11; $i++) { ?>
+                <?php 
+                $brand_alts = [
+                    1 => "FAWASEL",
+                    2 => "ALISSA UNIVERSAL MOTORS",
+                    3 => "CITROEN",
+                    4 => "ALAWALY",
+                    5 => "ALAMURIA",
+                    7 => "EZDIHAR"
+                ];
+                for ($i = 1; $i < 11; $i++) { 
+                    $alt = isset($brand_alts[$i]) ? $brand_alts[$i] : "Partner Brand";
+                ?>
                     <div class="col-xl-2 col-lg-2 col-md-6 col-6 wow fadeInUp" data-wow-duration="1.5s"
                         data-wow-delay="0.2s">
                         <div class="td-brands-item mb-25">
-                            <a><img src="assets/img/brands/<?php echo $i; ?>.png" alt=""></a>
+                            <a><img src="assets/img/brands/<?php echo $i; ?>.webp" alt="<?php echo $alt; ?>"></a>
                         </div>
                     </div>
                 <?php } ?>
