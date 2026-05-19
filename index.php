@@ -172,7 +172,7 @@ background-repeat: no-repeat;"
                 <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.3s">
                     <div class="td-feature-3-wrap mr-60 mb-30">
                         <span class="td-feature-3-icon d-flex justify-content-center mb-20"><i class="flaticon-speaker"></i></span>
-                        <h3 class="td-feature-3-title mb-15">Expert Event Planning</h3>
+                        <h2 class="td-feature-3-title mb-15">Expert Event Planning</h2>
                         <p class="td-feature-3-text">Professional planning and management to ensure successful
                             exhibitions.</p>
                     </div>
@@ -181,7 +181,7 @@ background-repeat: no-repeat;"
                     <div class="td-feature-3-wrap mr-60 mb-30">
                         <span class="td-feature-3-icon d-flex justify-content-center mb-20"><i
                                 class="flaticon-teamwork-2"></i></span>
-                        <h3 class="td-feature-3-title mb-15">Creative Stand Design</h3>
+                        <h2 class="td-feature-3-title mb-15">Creative Stand Design</h2>
                         <p class="td-feature-3-text">Innovative booth designs that capture attention and highlight
                             your brand.</p>
                     </div>
@@ -189,7 +189,7 @@ background-repeat: no-repeat;"
                 <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.7s">
                     <div class="td-feature-3-wrap mr-60 mb-30">
                         <span class="td-feature-3-icon d-flex justify-content-center mb-20"><i class="flaticon-request"></i></span>
-                        <h3 class="td-feature-3-title mb-15">Engaging Experiences</h3>
+                        <h2 class="td-feature-3-title mb-15">Engaging Experiences</h2>
                         <p class="td-feature-3-text">Interactive displays and presentations that attract and engage
                             visitors.</p>
                     </div>
@@ -198,7 +198,7 @@ background-repeat: no-repeat;"
                     <div class="td-feature-3-wrap mr-60 mb-30">
                         <span class="td-feature-3-icon d-flex justify-content-center mb-20"><i
                                 class="flaticon-surprise"></i></span>
-                        <h3 class="td-feature-3-title mb-15">Flawless Event Setup</h3>
+                        <h2 class="td-feature-3-title mb-15">Flawless Event Setup</h2>
                         <p class="td-feature-3-text">Complete support from setup to closing, ensuring smooth event
                             operations.</p>
                     </div>
