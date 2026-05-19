@@ -156,7 +156,8 @@ background-repeat: no-repeat;"
                         <div class="td-countdown-2-location-wrap mb-30">
                             <div class="td-countdown-2-location ml-50">
                                 <span class="td-hero-3-subtitle text mb-10 d-inline-block">LEAP and Cityscape Global are among the world’s largest and most influential exhibitions, bringing together innovation, industry leaders, and global audiences.
-                            </div>
+                            </span>
+</div>
                         </div>
                     </div>
                 </div>
@@ -214,7 +215,7 @@ background-repeat: no-repeat;"
             <div class="row align-items-center">
                 <div class="col-xl-6 col-lg-9 wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay="0.3s">
                     <div class="td-about-3-thumb mr-60 mb-30">
-                        <img class="w-100" src="assets/img/about/about-us.png" alt="">
+                        <img class="w-100" src="assets/img/about/about-us.webp" alt="">
                     </div>
                 </div>
                 <div class="col-xl-6 col-lg-9 wow fadeInRight" data-wow-duration="1.5s" data-wow-delay="0.3s">
@@ -225,7 +226,7 @@ background-repeat: no-repeat;"
                                 US</span>
                             <h2 class="td-section-title mb-15">Our Company</h2>
 
-                            <p class="para mb-40" align="justify" style="text-transform:none;">Fath Creative is a forward-thinking agency redefining how brands connect with audiences across the Middle East. Founded with a passion for creativity and innovation, we empower organizations to tell their stories, elevate their identity, and engage their customers through impactful design, marketing, and digital experiences. We have partnered with visionary businesses to transform ideas into powerful, measurable results.</p>
+                            <p class="para mb-40"  style="text-transform:none; text-align:justify;">Fath Creative is a forward-thinking agency redefining how brands connect with audiences across the Middle East. Founded with a passion for creativity and innovation, we empower organizations to tell their stories, elevate their identity, and engage their customers through impactful design, marketing, and digital experiences. We have partnered with visionary businesses to transform ideas into powerful, measurable results.</p>
                         </div>
                         <div class="td-about-3-btn d-flex align-items-center">
                             <a class="td-btn td-btn-3-squre mb-15 td-left-right text3 mr-25" href="contact.php">
@@ -315,7 +316,7 @@ background-repeat: no-repeat;"
     </div>
     <!-- td-counter-area-end -->
     <!-- td-blog-area-start -->
-    <div class="td-blog-area pt-140 pb-110 bg-position" data-background="assets/img/about/bg.jpg">
+    <div class="td-blog-area pt-140 pb-110 bg-position" data-background="assets/img/about/bg.webp">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-xl-6 col-lg-8">
@@ -332,7 +333,7 @@ background-repeat: no-repeat;"
                     <div class="td-blog-item mb-30 wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay="0.3s">
                         <div class="td-blog-thumb p-relative fix">
                             <a>
-                                <img class="w-100" src="assets/img/projects/img8.webp" alt="">
+                                <img class="w-100" src="assets/img/projects/img8.webp" alt="Event Management">
                             </a>
                             <!-- <span class="td-blog-tag">Business</span> -->
                         </div>
@@ -341,7 +342,7 @@ background-repeat: no-repeat;"
                             <!-- <h3 class="td-blog-title mb-20"><a class="underline-black">Event Management
                                 </a></h3> -->
                             <div class="td-blog-date">
-                                <p style="font-size:14px;" align="justify">End-to-end planning and execution of events that create memorable and engaging brand experiences.</p>
+                                <p style="font-size:14px; text-align:justify;"  >End-to-end planning and execution of events that create memorable and engaging brand experiences.</p>
                             </div>
                         </div>
                     </div>
@@ -350,7 +351,7 @@ background-repeat: no-repeat;"
                     <div class="td-blog-item mb-30 wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay="0.3s">
                         <div class="td-blog-thumb p-relative fix">
                             <a>
-                                <img class="w-100" src="assets/img/projects/img11.webp" alt="">
+                                <img class="w-100" src="assets/img/projects/img11.webp" alt="Exhibition & Tradeshows">
                             </a>
                             <!-- <span class="td-blog-tag">Business</span> -->
                         </div>
@@ -358,7 +359,7 @@ background-repeat: no-repeat;"
                             <span class="td-section-subtitle td-section-subtitle-2 td-section-subtitle-3  mb-30"><a href="exhibition-tradeshows.php">Exhibition & Tradeshows</a></span>
 
                             <div class="td-blog-date">
-                                <p style="font-size:14px;" align="justify">Design and execution of visually compelling exhibition spaces that maximize brand presence.</p>
+                                <p style="font-size:14px; text-align:justify;"  >Design and execution of visually compelling exhibition spaces that maximize brand presence.</p>
                             </div>
                         </div>
                     </div>
@@ -367,7 +368,7 @@ background-repeat: no-repeat;"
                     <div class="td-blog-item mb-30 wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay="0.3s">
                         <div class="td-blog-thumb p-relative fix">
                             <a>
-                                <img class="w-100" src="assets/img/projects/img9.webp" alt="">
+                                <img class="w-100" src="assets/img/projects/img9.webp" alt="Posm Activites">
                             </a>
                             <!-- <span class="td-blog-tag">Business</span> -->
                         </div>
@@ -375,7 +376,7 @@ background-repeat: no-repeat;"
                             <span class="td-section-subtitle td-section-subtitle-2 td-section-subtitle-3  mb-30"><a href="posm-activities.php">POSM Activities</a></span>
 
                             <div class="td-blog-date">
-                                <p style="font-size:14px;" align="justify">Effective point-of-sale materials that enhance in-store visibility and influence customer decisions.</p>
+                                <p style="font-size:14px; text-align:justify;"  >Effective point-of-sale materials that enhance in-store visibility and influence customer decisions.</p>
                             </div>
                         </div>
                     </div>
@@ -384,7 +385,7 @@ background-repeat: no-repeat;"
                     <div class="td-blog-item mb-30 wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay="0.3s">
                         <div class="td-blog-thumb p-relative fix">
                             <a>
-                                <img class="w-100" src="assets/img/projects/img10.webp" alt="">
+                                <img class="w-100" src="assets/img/projects/img10.webp" alt="BRAND ACTIVATIONS">
                             </a>
                             <!-- <span class="td-blog-tag">Business</span> -->
                         </div>
@@ -392,7 +393,7 @@ background-repeat: no-repeat;"
                             <span class="td-section-subtitle td-section-subtitle-2 td-section-subtitle-3  mb-30"><a href="brand-activations.php">Brand Activations</a></span>
 
                             <div class="td-blog-date">
-                                <p style="font-size:14px;" align="justify">Creative on-ground activations that connect brands with audiences through impactful experiences.</p>
+                                <p style="font-size:14px; text-align:justify;"  >Creative on-ground activations that connect brands with audiences through impactful experiences.</p>
                             </div>
                         </div>
                     </div>
@@ -401,7 +402,7 @@ background-repeat: no-repeat;"
                     <div class="td-blog-item mb-30 wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay="0.3s">
                         <div class="td-blog-thumb p-relative fix">
                             <a>
-                                <img class="w-100" src="assets/img/projects/img7.webp" alt="">
+                                <img class="w-100" src="assets/img/projects/img7.webp" alt="3D DESIGNS">
                             </a>
                             <!-- <span class="td-blog-tag">Business</span> -->
                         </div>
@@ -409,7 +410,7 @@ background-repeat: no-repeat;"
                             <span class="td-section-subtitle td-section-subtitle-2 td-section-subtitle-3  mb-30"><a href="3D-designs.php">3D Designs</a></span>
 
                             <div class="td-blog-date">
-                                <p style="font-size:14px;" align="justify">Realistic and creative 3D designs that bring concepts to life before execution with clarity and precision.</p>
+                                <p style="font-size:14px; text-align:justify;"  >Realistic and creative 3D designs that bring concepts to life before execution with clarity and precision.</p>
                             </div>
                         </div>
                     </div>
@@ -418,7 +419,7 @@ background-repeat: no-repeat;"
                     <div class="td-blog-item mb-30 wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay="0.3s">
                         <div class="td-blog-thumb p-relative fix">
                             <a>
-                                <img class="w-100" src="assets/img/projects/img12.webp" alt="">
+                                <img class="w-100" src="assets/img/projects/img12.webp" alt="FABRICATION & PRODUCTIONS">
                             </a>
                             <!-- <span class="td-blog-tag">Business</span> -->
                         </div>
@@ -426,7 +427,7 @@ background-repeat: no-repeat;"
                             <span class="td-section-subtitle td-section-subtitle-2 td-section-subtitle-3  mb-30"><a href="fabrication-and-production.php">Fabrication & Production</a></span>
 
                             <div class="td-blog-date">
-                                <p style="font-size:14px;" align="justify">High-quality fabrication and production solutions that bring creative concepts to life with precision.</p>
+                                <p style="font-size:14px; text-align:justify;"  >High-quality fabrication and production solutions that bring creative concepts to life with precision.</p>
                             </div>
                         </div>
                     </div>
@@ -435,14 +436,14 @@ background-repeat: no-repeat;"
                     <div class="td-blog-item mb-30 wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay="0.3s">
                         <div class="td-blog-thumb p-relative fix">
                             <a>
-                                <img class="w-100" src="assets/img/projects/img13.jpg" alt="">
+                                <img class="w-100" src="assets/img/projects/img13.webp" alt="">
                             </a>
                         </div>
                         <div class="td-blog-content p-3">
                             <span class="td-section-subtitle td-section-subtitle-2 td-section-subtitle-3  mb-30"><a href="technology-solutions.php">Technology Solutions</a></span>
 
                             <div class="td-blog-date">
-                                <p style="font-size:14px;" align="justify">Innovative tech-driven solutions that enhance engagement, efficiency, and user experience.</p>
+                                <p style="font-size:14px; text-align:justify;"  >Innovative tech-driven solutions that enhance engagement, efficiency, and user experience.</p>
                             </div>
                         </div>
                     </div>
@@ -451,20 +452,20 @@ background-repeat: no-repeat;"
                     <div class="td-blog-item mb-30 wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay="0.3s">
                         <div class="td-blog-thumb p-relative fix">
                             <a>
-                                <img class="w-100" src="assets/img/projects/img14.jpg" alt="">
+                                <img class="w-100" src="assets/img/projects/img14.webp" alt="">
                             </a>
                         </div>
                         <div class="td-blog-content p-3">
                             <span class="td-section-subtitle td-section-subtitle-2 td-section-subtitle-3  mb-30"><a href="digital-marketing-solutions.php">Digital Marketing Solutions</a></span>
                             <div class="td-blog-date">
-                                <p style="font-size:14px;" align="justify">Strategic digital campaigns designed to boost visibility, reach, and audience engagement.</p>
+                                <p style="font-size:14px; text-align:justify;"  >Strategic digital campaigns designed to boost visibility, reach, and audience engagement.</p>
                             </div>
                         </div>
                     </div>
                 </div> -->
 
             </div>
-            <center>
+            <div style="text-align:center;">
             <a class="td-btn td-left-right text-center" href="services.php">
                 <span class="mr10 td-text d-inline-block mr-5">View All Services</span>
                 <span class="td-arrow-angle">
@@ -474,14 +475,14 @@ background-repeat: no-repeat;"
                     </svg>
                 </span>
             </a>
-            </center>
+            </div>
         </div>
     </div>
     <!-- td-blog-area-end -->
 
     <!-- td-banner-area-start -->
     <div class="td-banner-area td-banner-spacing bg-position jarallax"
-        style="background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url(assets/img/img1.jpeg);">
+        style="background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url(assets/img/img1.webp);">
         <div class="container">
             <div class="row">
                 <div class="col-xl-7 col-lg-9">
@@ -514,7 +515,7 @@ background-repeat: no-repeat;"
 
     <!-- td-schedule-area-start -->
     <div class="td-schedule-area  pt-140 pb-110 bg-position"
-        data-background="assets/img/schedule/schedule-4/bg.jpg">
+        data-background="assets/img/schedule/schedule-4/bg.webp">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-xxl-7 col-xl-9 col-lg-10">
@@ -557,7 +558,7 @@ background-repeat: no-repeat;"
                             <div class="row align-items-center">
                                 <div class="col-xl-4 col-lg-5">
                                     <div class="td-schedule-3-thumb p-relative">
-                                        <a><img class="w-100" src="assets/img/projects/img11.webp" alt=""></a>
+                                        <a><img class="w-100" src="assets/img/projects/img11.webp" alt="Exhibition & Tradeshows"></a>
                                         <span class="td-schedule-2-date"><i class="flaticon-calendar"></i> Jan 10,
                                             2025</span>
                                     </div>
@@ -576,7 +577,7 @@ background-repeat: no-repeat;"
                                         <div class="td-schedule-3-btn d-flex align-items-center flex-wrap">
                                             <div class="td-schedule-3-user-wrap d-flex align-items-center">
                                                 <!-- <span class="td-schedule-3-user mr-10">
-                                                    <img src="assets/img/schedule/schedule-3/user.jpg" alt="">
+                                                    <img src="assets/img/schedule/schedule-3/user.webp" alt="">
                                                 </span> -->
                                                 <!-- <div>
                                                     <h6 class="name">Sam Ruben</h6>
@@ -605,14 +606,12 @@ background-repeat: no-repeat;"
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="tab-pane fade active show" id="v-pills-home1" role="tabpanel"
-                        aria-labelledby="v-pills-home1-tab">
+                    
                         <div class="td-schedule-3-wrap mb-30">
                             <div class="row align-items-center">
                                 <div class="col-xl-4 col-lg-5">
                                     <div class="td-schedule-3-thumb p-relative">
-                                        <a><img class="w-100" src="assets/img/projects/img1.jpeg" alt=""></a>
+                                        <a><img class="w-100" src="assets/img/projects/img1.webp" alt="Basamh"></a>
                                         <span class="td-schedule-2-date"><i class="flaticon-calendar"></i> Feb 14,
                                             2024</span>
                                     </div>
@@ -631,7 +630,7 @@ background-repeat: no-repeat;"
                                         <div class="td-schedule-3-btn d-flex align-items-center flex-wrap">
                                             <div class="td-schedule-3-user-wrap d-flex align-items-center">
                                                 <!-- <span class="td-schedule-3-user mr-10">
-                                                    <img src="assets/img/schedule/schedule-3/user.jpg" alt="">
+                                                    <img src="assets/img/schedule/schedule-3/user.webp" alt="">
                                                 </span> -->
                                                 <!-- <div>
                                                     <h6 class="name">Sam Ruben</h6>
@@ -664,7 +663,7 @@ background-repeat: no-repeat;"
                             <div class="row align-items-center">
                                 <div class="col-xl-4 col-lg-5">
                                     <div class="td-schedule-3-thumb p-relative">
-                                        <a><img class="w-100" src="assets/img/projects/img2.jpeg" alt=""></a>
+                                        <a><img class="w-100" src="assets/img/projects/img2.webp" alt="NUEVO - Leap 2025"></a>
                                         <span class="td-schedule-2-date"><i class="flaticon-calendar"></i> Jun 10,
                                             2025</span>
                                     </div>
@@ -683,7 +682,7 @@ background-repeat: no-repeat;"
                                         <div class="td-schedule-3-btn d-flex align-items-center flex-wrap">
                                             <div class="td-schedule-3-user-wrap d-flex align-items-center">
                                                 <!-- <span class="td-schedule-3-user mr-10">
-                                                    <img src="assets/img/schedule/schedule-3/user.jpg" alt="">
+                                                    <img src="assets/img/schedule/schedule-3/user.webp" alt="">
                                                 </span> -->
                                                 <!-- <div>
                                                     <h6 class="name">Sam Ruben</h6>
@@ -719,7 +718,7 @@ background-repeat: no-repeat;"
                             <div class="row align-items-center">
                                 <div class="col-xl-4 col-lg-5">
                                     <div class="td-schedule-3-thumb p-relative">
-                                        <a><img class="w-100" src="assets/img/projects/img3.jpeg" alt=""></a>
+                                        <a><img class="w-100" src="assets/img/projects/img3.webp" alt=""></a>
                                         <span class="td-schedule-2-date"><i class="flaticon-calendar"></i> Jul 21,
                                             2025</span>
                                     </div>
@@ -738,7 +737,7 @@ background-repeat: no-repeat;"
                                         <div class="td-schedule-3-btn d-flex align-items-center flex-wrap">
                                             <div class="td-schedule-3-user-wrap d-flex align-items-center">
                                                 <!-- <span class="td-schedule-3-user mr-10">
-                                                    <img src="assets/img/schedule/schedule-3/user.jpg" alt="">
+                                                    <img src="assets/img/schedule/schedule-3/user.webp" alt="">
                                                 </span> -->
                                                 <!-- <div>
                                                     <h6 class="name">Sam Ruben</h6>
@@ -771,7 +770,7 @@ background-repeat: no-repeat;"
                             <div class="row align-items-center">
                                 <div class="col-xl-4 col-lg-5">
                                     <div class="td-schedule-3-thumb p-relative">
-                                        <a><img class="w-100" src="assets/img/projects/img4.jpeg" alt=""></a>
+                                        <a><img class="w-100" src="assets/img/projects/img4.webp" alt=""></a>
                                         <span class="td-schedule-2-date"><i class="flaticon-calendar"></i> Feb 22,
                                             2025</span>
                                     </div>
@@ -790,7 +789,7 @@ background-repeat: no-repeat;"
                                         <div class="td-schedule-3-btn d-flex align-items-center flex-wrap">
                                             <div class="td-schedule-3-user-wrap d-flex align-items-center">
                                                 <!-- <span class="td-schedule-3-user mr-10">
-                                                    <img src="assets/img/schedule/schedule-3/user.jpg" alt="">
+                                                    <img src="assets/img/schedule/schedule-3/user.webp" alt="">
                                                 </span> -->
                                                 <!-- <div>
                                                     <h6 class="name">Sam Ruben</h6>
@@ -825,7 +824,7 @@ background-repeat: no-repeat;"
                             <div class="row align-items-center">
                                 <div class="col-xl-4 col-lg-5">
                                     <div class="td-schedule-3-thumb p-relative">
-                                        <a><img class="w-100" src="assets/img/projects/img5.jpeg" alt=""></a>
+                                        <a><img class="w-100" src="assets/img/projects/img5.webp" alt=""></a>
                                         <span class="td-schedule-2-date"><i class="flaticon-calendar"></i> Nov 24,
                                             2025</span>
                                     </div>
@@ -845,7 +844,7 @@ background-repeat: no-repeat;"
                                         <div class="td-schedule-3-btn d-flex align-items-center flex-wrap">
                                             <div class="td-schedule-3-user-wrap d-flex align-items-center">
                                                 <!-- <span class="td-schedule-3-user mr-10">
-                                                    <img src="assets/img/schedule/schedule-3/user.jpg" alt="">
+                                                    <img src="assets/img/schedule/schedule-3/user.webp" alt="">
                                                 </span>
                                                 <div>
                                                     <h6 class="name">Smith Parson</h6>
@@ -878,7 +877,7 @@ background-repeat: no-repeat;"
                             <div class="row align-items-center">
                                 <div class="col-xl-4 col-lg-5">
                                     <div class="td-schedule-3-thumb p-relative">
-                                        <a><img class="w-100" src="assets/img/projects/img6.jpeg" alt=""></a>
+                                        <a><img class="w-100" src="assets/img/projects/img6.webp" alt=""></a>
                                         <span class="td-schedule-2-date"><i class="flaticon-calendar"></i> Dec 18,
                                             2025</span>
                                     </div>
@@ -898,7 +897,7 @@ background-repeat: no-repeat;"
                                         <div class="td-schedule-3-btn d-flex align-items-center flex-wrap">
                                             <div class="td-schedule-3-user-wrap d-flex align-items-center">
                                                 <!-- <span class="td-schedule-3-user mr-10">
-                                                    <img src="assets/img/schedule/schedule-3/user.jpg" alt="">
+                                                    <img src="assets/img/schedule/schedule-3/user.webp" alt="">
                                                 </span>
                                                 <div>
                                                     <h6 class="name">Smith Parson</h6>
@@ -967,7 +966,7 @@ background-repeat: no-repeat;"
                                             partners.”</p>
                                         <div class="td-testimonial-3-avatar">
                                             <!--<div class="td-testimonial-3-avatar-thumb mr-15">-->
-                                            <!--    <img src="assets/img/testimonial/avatar.png" alt="">-->
+                                            <!--    <img src="assets/img/testimonial/avatar.webp" alt="">-->
                                             <!--</div>-->
                                             <div>
                                                 <h3 class="names">Sam Cooper</h3>
@@ -990,7 +989,7 @@ background-repeat: no-repeat;"
                                             valuable business relationships during the exhibition.”</p>
                                         <div class="td-testimonial-3-avatar">
                                             <!--<div class="td-testimonial-3-avatar-thumb mr-15">-->
-                                            <!--    <img src="assets/img/testimonial/avatar.png" alt="">-->
+                                            <!--    <img src="assets/img/testimonial/avatar.webp" alt="">-->
                                             <!--</div>-->
                                             <div>
                                                 <h3 class="names">Michael Lee</h3>
@@ -1013,7 +1012,7 @@ background-repeat: no-repeat;"
                                             products to the right audience and expand our network.”</p>
                                         <div class="td-testimonial-3-avatar">
                                             <!--<div class="td-testimonial-3-avatar-thumb mr-15">-->
-                                            <!--    <img src="assets/img/testimonial/avatar.png" alt="">-->
+                                            <!--    <img src="assets/img/testimonial/avatar.webp" alt="">-->
                                             <!--</div>-->
                                             <div>
                                                 <h3 class="names">Daniel Roberts</h3>
@@ -1036,7 +1035,7 @@ background-repeat: no-repeat;"
                 </div>
                 <div class="col-lg-6">
                     <div class="td-testimonial-3-video bg-position jarallax"
-                        style="background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url(assets/img/img2.jpeg);">
+                        style="background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url(assets/img/img2.webp);">
                         <a class="td-video-play popup-video td-pulse-border"
                             href="assets/img/banner-video.MP4" aria-label="Play video">
                             <span class="p-relative z-index-11">
@@ -1071,11 +1070,22 @@ background-repeat: no-repeat;"
                 </div>
             </div>
             <div class="row">
-                <?php for ($i = 1; $i < 11; $i++) { ?>
+                <?php 
+                $brand_alts = [
+                    1 => "FAWASEL",
+                    2 => "ALISSA UNIVERSAL MOTORS",
+                    3 => "CITROEN",
+                    4 => "ALAWALY",
+                    5 => "ALAMURIA",
+                    7 => "EZDIHAR"
+                ];
+                for ($i = 1; $i < 11; $i++) { 
+                    $alt = isset($brand_alts[$i]) ? $brand_alts[$i] : "Partner Brand";
+                ?>
                     <div class="col-xl-2 col-lg-2 col-md-6 col-6 wow fadeInUp" data-wow-duration="1.5s"
                         data-wow-delay="0.2s">
                         <div class="td-brands-item mb-25">
-                            <a><img src="assets/img/brands/<?php echo $i; ?>.png" alt=""></a>
+                            <a><img src="assets/img/brands/<?php echo $i; ?>.webp" alt="<?php echo $alt; ?>"></a>
                         </div>
                     </div>
                 <?php } ?>

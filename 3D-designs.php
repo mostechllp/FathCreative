@@ -10,7 +10,7 @@ include('header.php');
 <main>
 
     <!-- td-breadcrumb-area-start -->
-    <div class="td-breadcrumb-area td-breadcrumb-spacing bg-position" style="background-image: linear-gradient(rgb(0 0 0 / 54%), rgba(0, 0, 0, 0.7)), url(assets/img/banner/banner4.jpg)">
+    <div class="td-breadcrumb-area td-breadcrumb-spacing bg-position" style="background-image: linear-gradient(rgb(0 0 0 / 54%), rgba(0, 0, 0, 0.7)), url(assets/img/banner/banner4.webp)">
 
         <div class="container">
             <div class="row">
@@ -42,7 +42,7 @@ include('header.php');
                 <div class="col-lg-6">
                     <div class="td-about-2-thumb p-relative mb-30">
                         <img class="thumb wow td-animetion-left" data-wow-duration="1.5s" data-wow-delay="0.2s"
-                            src="assets/img/projects/img7.webp" alt=""
+                            src="assets/img/projects/img7.webp" alt="3D DESIGNS"
                             style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.2s; animation-name: td-animetion-left;">
                     </div>
                 </div>
@@ -53,11 +53,11 @@ include('header.php');
                         <div class="td-about-2-content">
                             <h2 class="td-section-title mb-10">Innovative 3D Designs That Bring Your Ideas to Life</h2>
 
-                            <p class="para" align="justify">
+                            <p class="para"  style="text-align:justify;">
                                 Our 3D design services help visualize your concepts with precision and creativity before execution. We create realistic and detailed designs for exhibitions, events, and retail environments that enhance presentation and planning.
                             </p>
 
-                            <p class="para" align="justify">
+                            <p class="para"  style="text-align:justify;">
                                 From concept development to final visualization, our team ensures every design reflects your brand identity and project requirements. We deliver high-quality 3D renders that support better decision-making and impactful execution.
                             </p>
                         </div>
@@ -85,7 +85,7 @@ include('header.php');
                     <div class="td-feature-3-wrap mr-60 mb-30">
                         <span class="td-feature-3-icon d-inline-block mb-20"><i class="fa fa-search"></i></span>
                         <h3 class="td-feature-3-title mb-15">Requirement Analysis </h3>
-                        <p class="td-feature-3-text" align="justify">
+                        <p class="td-feature-3-text"  style="text-align:justify;">
                             We understand your project requirements, objectives, and design preferences to create a clear design direction.
                         </p>
                     </div>
@@ -96,7 +96,7 @@ include('header.php');
                         <span class="td-feature-3-icon d-inline-block mb-20"><i
                                 class="fa fa-pencil"></i></span>
                         <h3 class="td-feature-3-title mb-15">Concept Development</h3>
-                        <p class="td-feature-3-text" align="justify">
+                        <p class="td-feature-3-text"  style="text-align:justify;">
                             Our team develops creative 3D concepts with layout planning, structure design, and branding elements.
                         </p>
                     </div>
@@ -106,7 +106,7 @@ include('header.php');
                     <div class="td-feature-3-wrap mr-60 mb-30">
                         <span class="td-feature-3-icon d-inline-block mb-20"><i class="fa fa-cube"></i></span>
                         <h3 class="td-feature-3-title mb-15">Modeling & Visualization</h3>
-                        <p class="td-feature-3-text" align="justify">
+                        <p class="td-feature-3-text"  style="text-align:justify;">
                             We create detailed 3D models and realistic renders to help you visualize the final outcome before execution.
                         </p>
                     </div>
@@ -117,7 +117,7 @@ include('header.php');
                         <span class="td-feature-3-icon d-inline-block mb-20"><i
                                 class="fa fa-check-circle"></i></span>
                         <h3 class="td-feature-3-title mb-15">Finalization & Delivery</h3>
-                        <p class="td-feature-3-text" align="justify">
+                        <p class="td-feature-3-text"  style="text-align:justify;">
                             We refine designs based on feedback and deliver high-quality visuals ready for production and implementation.
                         </p>
                     </div>

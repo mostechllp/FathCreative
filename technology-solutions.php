@@ -9,7 +9,7 @@ include('header.php');
     <main>
 
         <!-- td-breadcrumb-area-start -->
-            <div class="td-breadcrumb-area td-breadcrumb-spacing bg-position" style="background-image: linear-gradient(rgb(0 0 0 / 54%), rgba(0, 0, 0, 0.7)), url(assets/img/banner/banner4.jpg)">
+            <div class="td-breadcrumb-area td-breadcrumb-spacing bg-position" style="background-image: linear-gradient(rgb(0 0 0 / 54%), rgba(0, 0, 0, 0.7)), url(assets/img/banner/banner4.webp)">
 
             <div class="container">
                 <div class="row">
@@ -52,9 +52,9 @@ include('header.php');
                             <div class="td-about-2-content">
                                 <h2 class="td-section-title mb-10">Innovative Technology Solutions for Your Business
                                 </h2>
-                                <p class="para" align="justify">Empower your business with our cutting-edge technology solutions. We specialize in building robust digital platforms, from e-commerce websites and mobile applications to intelligent AI chatbots and scalable ERP systems. Let us help you transform your digital presence.
+                                <p class="para"  style="text-align:justify;">Empower your business with our cutting-edge technology solutions. We specialize in building robust digital platforms, from e-commerce websites and mobile applications to intelligent AI chatbots and scalable ERP systems. Let us help you transform your digital presence.
                                 </p>
-                                <p class="para" align="justify">
+                                <p class="para"  style="text-align:justify;">
                                     We work closely with our clients to understand their operational needs and deliver software that drives efficiency and growth. Whether it is engaging mobile customers or automating internal workflows, our team ensures innovative development and impactful results.</p>
                             </div>
 
@@ -78,28 +78,28 @@ include('header.php');
                         <div class="td-feature-3-wrap mr-60 mb-30">
                             <span class="td-feature-3-icon d-inline-block mb-20"><i class="fa fa-search"></i></span>
                             <h3 class="td-feature-3-title mb-15"> Analysis</h3>
-                            <p class="td-feature-3-text" align="justify">We start by analyzing your business goals and technical needs. This helps us formulate a clear strategy and determine the most effective tech stack for your custom solution.</p>
+                            <p class="td-feature-3-text"  style="text-align:justify;">We start by analyzing your business goals and technical needs. This helps us formulate a clear strategy and determine the most effective tech stack for your custom solution.</p>
                         </div>
                     </div>
                     <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.5s" style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.5s; animation-name: fadeInUp;">
                         <div class="td-feature-3-wrap mr-60 mb-30">
                             <span class="td-feature-3-icon d-inline-block mb-20"><i class="fa fa-pencil"></i></span>
                             <h3 class="td-feature-3-title mb-15">UI/UX Design</h3>
-                            <p class="td-feature-3-text" align="justify">Our design team creates intuitive, user-friendly, and engaging interfaces, ensuring your customers have a seamless experience across all devices and platforms.</p>
+                            <p class="td-feature-3-text"  style="text-align:justify;">Our design team creates intuitive, user-friendly, and engaging interfaces, ensuring your customers have a seamless experience across all devices and platforms.</p>
                         </div>
                     </div>
                     <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.7s" style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.7s; animation-name: fadeInUp;">
                         <div class="td-feature-3-wrap mr-60 mb-30">
                             <span class="td-feature-3-icon d-inline-block mb-20"><i class="fa fa-code"></i></span>
                             <h3 class="td-feature-3-title mb-15">Development </h3>
-                            <p class="td-feature-3-text" align="justify">We write clean, secure code to bring your designs to life. Our team ensures seamless integration with third-party tools, ERP systems, and AI models as required.</p>
+                            <p class="td-feature-3-text"  style="text-align:justify;">We write clean, secure code to bring your designs to life. Our team ensures seamless integration with third-party tools, ERP systems, and AI models as required.</p>
                         </div>
                     </div>
                     <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.9s" style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.9s; animation-name: fadeInUp;">
                         <div class="td-feature-3-wrap mr-60 mb-30">
                             <span class="td-feature-3-icon d-inline-block mb-20"><i class="fa fa-check-circle"></i></span>
                             <h3 class="td-feature-3-title mb-15">Deployment</h3>
-                            <p class="td-feature-3-text" align="justify">Rigorous testing is performed to deliver bug-free software. After a smooth deployment, we continue providing steadfast support and maintenance.</p>
+                            <p class="td-feature-3-text"  style="text-align:justify;">Rigorous testing is performed to deliver bug-free software. After a smooth deployment, we continue providing steadfast support and maintenance.</p>
                         </div>
                     </div>
                 </div>
@@ -212,7 +212,7 @@ IT support services</span>
                                    </h2>
                                    <div id="order__collapse_one" class="accordion-collapse collapse" aria-labelledby="order_one" data-bs-parent="#general_faqaccordion" style="">
                                       <div class="accordion-body td-faq-details-para">
-                                         <p align="justify">Yes, we build scalable, secure, and fully customized e-commerce platforms tailored to your business model and customer base.</p>
+                                         <p  style="text-align:justify;">Yes, we build scalable, secure, and fully customized e-commerce platforms tailored to your business model and customer base.</p>
                                       </div>
                                    </div>
                                    </div>
@@ -225,7 +225,7 @@ IT support services</span>
                                    </h2>
                                    <div id="order__collapse_two" class="accordion-collapse collapse" aria-labelledby="order_two" data-bs-parent="#general_faqaccordion">
                                       <div class="accordion-body td-faq-details-para">
-                                        <p align="justify">We develop applications for both iOS and Android, leveraging modern frameworks to ensure optimal performance on all devices.</p>
+                                        <p  style="text-align:justify;">We develop applications for both iOS and Android, leveraging modern frameworks to ensure optimal performance on all devices.</p>
                                       </div>
                                    </div>
                                    </div>
@@ -238,7 +238,7 @@ IT support services</span>
                                    </h2>
                                    <div id="order__collapse_three" class="accordion-collapse collapse" aria-labelledby="order_three" data-bs-parent="#general_faqaccordion">
                                       <div class="accordion-body td-faq-details-para">
-                                        <p align="justify">AI chatbots automate customer support, enhance response times, and provide reliable 24/7 assistance to your website and app users.</p>
+                                        <p  style="text-align:justify;">AI chatbots automate customer support, enhance response times, and provide reliable 24/7 assistance to your website and app users.</p>
                                       </div>
                                    </div>
                                    </div>
@@ -251,7 +251,7 @@ IT support services</span>
                                         </h2>
                                         <div id="order__collapse_four" class="accordion-collapse collapse" aria-labelledby="order_four" data-bs-parent="#general_faqaccordion">
                                             <div class="accordion-body td-faq-details-para">
-                                                <p align="justify">Yes, we design customizable ERP systems to streamline and centralize your operations regardless of the scale of your business.</p>
+                                                <p  style="text-align:justify;">Yes, we design customizable ERP systems to streamline and centralize your operations regardless of the scale of your business.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -264,7 +264,7 @@ IT support services</span>
                                          </h2>
                                          <div id="order__collapse_five" class="accordion-collapse collapse" aria-labelledby="order_five" data-bs-parent="#general_faqaccordion">
                                              <div class="accordion-body td-faq-details-para">
-                                                 <p align="justify">Absolutely, we offer scalable maintenance and support packages to ensure your software components remain secure and up-to-date.</p>
+                                                 <p  style="text-align:justify;">Absolutely, we offer scalable maintenance and support packages to ensure your software components remain secure and up-to-date.</p>
                                              </div>
                                          </div>
                                     </div>

@@ -8,7 +8,7 @@ include('header.php');
 <main>
 
     <!-- td-breadcrumb-area-start -->
-        <div class="td-breadcrumb-area td-breadcrumb-spacing bg-position" style="background-image: linear-gradient(rgb(0 0 0 / 54%), rgba(0, 0, 0, 0.7)), url(assets/img/banner/banner4.jpg)">
+        <div class="td-breadcrumb-area td-breadcrumb-spacing bg-position" style="background-image: linear-gradient(rgb(0 0 0 / 54%), rgba(0, 0, 0, 0.7)), url(assets/img/banner/banner4.webp)">
 
         <div class="container">
             <div class="row">
@@ -37,7 +37,7 @@ include('header.php');
                 <div class="col-lg-6">
                     <div class="td-about-2-thumb p-relative mb-30">
                         <img class="thumb wow td-animetion-left" data-wow-duration="1.5s" data-wow-delay="0.2s"
-                            src="assets/img/projects/img11.webp" alt=""
+                            src="assets/img/projects/img11.webp" alt="Exhibition & Tradeshows"
                             style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.2s; animation-name: td-animetion-left;">
                     </div>
                 </div>
@@ -45,10 +45,10 @@ include('header.php');
                     <div class="td-about-2-content-wrap ml-55 mb-30">
                         <div class="td-about-2-content">
                             <h2 class="td-section-title mb-10">Creating Engaging Exhibition Experiences That Showcase Your Brand</h2>
-                            <p class="para" align="justify">
+                            <p class="para"  style="text-align:justify;">
                                 Our exhibition and tradeshow services are designed to help your brand stand out in competitive environments. We create visually engaging exhibition spaces that attract visitors and effectively communicate your brand message.
                             </p>
-                            <p class="para" align="justify">
+                            <p class="para"  style="text-align:justify;">
                                 From concept to execution, we manage booth design, fabrication, and on-site coordination. Whether it is a trade show, expo, or industry exhibition, our team ensures a seamless experience and strong audience engagement.
                             </p>
                         </div>
@@ -76,7 +76,7 @@ include('header.php');
                     <div class="td-feature-3-wrap mr-60 mb-30">
                         <span class="td-feature-3-icon d-inline-block mb-20"><i class="fa fa-calendar"></i></span>
                         <h3 class="td-feature-3-title mb-15">Exhibition Consultation & Planning</h3>
-                        <p class="td-feature-3-text" align="justify">
+                        <p class="td-feature-3-text"  style="text-align:justify;">
                             We understand your exhibition goals, target audience, and brand positioning to create a clear strategy and participation plan.
                         </p>
                     </div>
@@ -86,7 +86,7 @@ include('header.php');
                     <div class="td-feature-3-wrap mr-60 mb-30">
                         <span class="td-feature-3-icon d-inline-block mb-20"><i class="fa fa-pencil"></i></span>
                         <h3 class="td-feature-3-title mb-15">Design & Concept Development</h3>
-                        <p class="td-feature-3-text" align="justify">
+                        <p class="td-feature-3-text"  style="text-align:justify;">
                             We design creative exhibition booths with engaging layouts, branding elements, and visual displays that reflect your brand identity.
                         </p>
                     </div>
@@ -96,7 +96,7 @@ include('header.php');
                     <div class="td-feature-3-wrap mr-60 mb-30">
                         <span class="td-feature-3-icon d-inline-block mb-20"><i class="fa fa-wrench"></i></span>
                         <h3 class="td-feature-3-title mb-15">Booth Fabrication & Setup</h3>
-                        <p class="td-feature-3-text" align="justify">
+                        <p class="td-feature-3-text"  style="text-align:justify;">
                             Our team handles booth fabrication, installation, lighting, and technical setup to ensure everything is ready before the event begins.
                         </p>
                     </div>
@@ -106,7 +106,7 @@ include('header.php');
                     <div class="td-feature-3-wrap mr-60 mb-30">
                         <span class="td-feature-3-icon d-inline-block mb-20"><i class="fa fa-check-circle"></i></span>
                         <h3 class="td-feature-3-title mb-15">On-site Execution & Support</h3>
-                        <p class="td-feature-3-text" align="justify">
+                        <p class="td-feature-3-text"  style="text-align:justify;">
                             We manage on-site operations, coordinate with vendors, and ensure smooth execution, along with post-event dismantling and support.
                         </p>
                     </div>

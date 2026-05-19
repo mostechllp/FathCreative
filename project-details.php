@@ -21,7 +21,7 @@ include('header.php');
 <main>
 
     <div class="td-breadcrumb-area td-breadcrumb-spacing bg-position"
-        style="background-image: linear-gradient(rgb(0 0 0 / 54%), rgba(0, 0, 0, 0.7)), url(assets/img/banner/banner4.jpg)">
+        style="background-image: linear-gradient(rgb(0 0 0 / 54%), rgba(0, 0, 0, 0.7)), url(assets/img/banner/banner4.webp)">
         <div class="container">
             <h2 class="td-breadcrumb-title mb-10"><?php echo $row['blog_title']; ?></h2>
             <div class="td-breadcrumb-list">

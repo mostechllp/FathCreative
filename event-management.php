@@ -10,7 +10,7 @@ include('header.php');
     <main>
 
         <!-- td-breadcrumb-area-start -->
-            <div class="td-breadcrumb-area td-breadcrumb-spacing bg-position" style="background-image: linear-gradient(rgb(0 0 0 / 54%), rgba(0, 0, 0, 0.7)), url(assets/img/banner/banner4.jpg)">
+            <div class="td-breadcrumb-area td-breadcrumb-spacing bg-position" style="background-image: linear-gradient(rgb(0 0 0 / 54%), rgba(0, 0, 0, 0.7)), url(assets/img/banner/banner4.webp)">
 
             <div class="container">
                 <div class="row">
@@ -42,7 +42,7 @@ include('header.php');
                     <div class="col-lg-6">
                         <div class="td-about-2-thumb p-relative mb-30">
                             <img class="thumb wow td-animetion-left" data-wow-duration="1.5s" data-wow-delay="0.2s"
-                                src="assets/img/projects/img8.webp" alt=""
+                                src="assets/img/projects/img8.webp" alt="Event Management"
                                 style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.2s; animation-name: td-animetion-left;">
                         </div>
                     </div>
@@ -53,12 +53,12 @@ include('header.php');
                             <div class="td-about-2-content">
                                 <h2 class="td-section-title mb-10">Creating Memorable Events That Elevate Your Brand
                                 </h2>
-                                <p class="para" align="justify">Our event management services are designed to create memorable
+                                <p class="para"  style="text-align:justify;">Our event management services are designed to create memorable
                                     experiences that effectively promote your brand and connect with your audience. From
                                     planning to execution, we handle every aspect of the event with attention to detail
                                     and professional coordination.
                                 </p>
-                                <p class="para" align="justify">
+                                <p class="para"  style="text-align:justify;">
                                     We work closely with our clients to understand their objectives and deliver events
                                     that create strong engagement and lasting impressions. Whether it is a corporate
                                     gathering, product launch, or promotional event, our team ensures smooth execution
@@ -85,28 +85,28 @@ include('header.php');
                         <div class="td-feature-3-wrap mr-60 mb-30">
                             <span class="td-feature-3-icon d-inline-block mb-20"><i class="fa fa-calendar"></i></span>
                             <h3 class="td-feature-3-title mb-15">Event Consultation & Planning</h3>
-                            <p class="td-feature-3-text" align="justify">We begin by understanding your event goals, target audience, and expectations. Our team works closely with you to develop a clear event strategy, timeline, and execution plan that aligns with your brand objectives.</p>
+                            <p class="td-feature-3-text"  style="text-align:justify;">We begin by understanding your event goals, target audience, and expectations. Our team works closely with you to develop a clear event strategy, timeline, and execution plan that aligns with your brand objectives.</p>
                         </div>
                     </div>
                     <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.5s" style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.5s; animation-name: fadeInUp;">
                         <div class="td-feature-3-wrap mr-60 mb-30">
                             <span class="td-feature-3-icon d-inline-block mb-20"><i class="fa fa-pencil"></i></span>
                             <h3 class="td-feature-3-title mb-15">Concept Development & Design </h3>
-                            <p class="td-feature-3-text" align="justify">After planning, we create a creative concept for the event. This includes event themes, branding elements, stage design, visual displays, and overall atmosphere to ensure the event reflects your brand identity.</p>
+                            <p class="td-feature-3-text"  style="text-align:justify;">After planning, we create a creative concept for the event. This includes event themes, branding elements, stage design, visual displays, and overall atmosphere to ensure the event reflects your brand identity.</p>
                         </div>
                     </div>
                     <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.7s" style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.7s; animation-name: fadeInUp;">
                         <div class="td-feature-3-wrap mr-60 mb-30">
                             <span class="td-feature-3-icon d-inline-block mb-20"><i class="fa fa-map-marker"></i></span>
                             <h3 class="td-feature-3-title mb-15">Venue Coordination & Event Setup</h3>
-                            <p class="td-feature-3-text" align="justify">Our team manages venue selection, vendor coordination, and logistical arrangements. We handle stage setup, lighting, sound systems, branding materials to ensure everything is ready before the event begins.</p>
+                            <p class="td-feature-3-text"  style="text-align:justify;">Our team manages venue selection, vendor coordination, and logistical arrangements. We handle stage setup, lighting, sound systems, branding materials to ensure everything is ready before the event begins.</p>
                         </div>
                     </div>
                     <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.9s" style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.9s; animation-name: fadeInUp;">
                         <div class="td-feature-3-wrap mr-60 mb-30">
                             <span class="td-feature-3-icon d-inline-block mb-20"><i class="fa fa-check-circle"></i></span>
                             <h3 class="td-feature-3-title mb-15">Event Execution & Post Event Support</h3>
-                            <p class="td-feature-3-text" align="justify">During the event, our team supervises all activities on-site and coordinates with vendors and staff to ensure smooth execution. After the event, we assist with dismantling, reporting, and evaluating the event’s overall success.</p>
+                            <p class="td-feature-3-text"  style="text-align:justify;">During the event, our team supervises all activities on-site and coordinates with vendors and staff to ensure smooth execution. After the event, we assist with dismantling, reporting, and evaluating the event’s overall success.</p>
                         </div>
                     </div>
                 </div>
@@ -217,7 +217,7 @@ include('header.php');
                                    </h2>
                                    <div id="order__collapse_one" class="accordion-collapse collapse" aria-labelledby="order_one" data-bs-parent="#general_faqaccordion" style="">
                                       <div class="accordion-body td-faq-details-para">
-                                         <p align="justify">We manage a wide range of events including corporate events, product launches, exhibitions, promotional campaigns, and brand activations.</p>
+                                         <p  style="text-align:justify;">We manage a wide range of events including corporate events, product launches, exhibitions, promotional campaigns, and brand activations.</p>
                                       </div>
                                    </div>
                                    </div>
@@ -230,7 +230,7 @@ include('header.php');
                                    </h2>
                                    <div id="order__collapse_two" class="accordion-collapse collapse" aria-labelledby="order_two" data-bs-parent="#general_faqaccordion">
                                       <div class="accordion-body td-faq-details-para">
-                                        <p align="justify">Yes, we manage events of all sizes, from small corporate meetings to large-scale promotional events and exhibitions.</p>
+                                        <p  style="text-align:justify;">Yes, we manage events of all sizes, from small corporate meetings to large-scale promotional events and exhibitions.</p>
                                       </div>
                                    </div>
                                    </div>
@@ -243,7 +243,7 @@ include('header.php');
                                    </h2>
                                    <div id="order__collapse_three" class="accordion-collapse collapse" aria-labelledby="order_three" data-bs-parent="#general_faqaccordion">
                                       <div class="accordion-body td-faq-details-para">
-                                        <p align="justify">Yes, we design and install branding materials such as stage backdrops, banners, promotional displays, and event decorations.</p>
+                                        <p  style="text-align:justify;">Yes, we design and install branding materials such as stage backdrops, banners, promotional displays, and event decorations.</p>
                                       </div>
                                    </div>
                                    </div>
@@ -256,7 +256,7 @@ include('header.php');
                                         </h2>
                                         <div id="order__collapse_four" class="accordion-collapse collapse" aria-labelledby="order_four" data-bs-parent="#general_faqaccordion">
                                             <div class="accordion-body td-faq-details-para">
-                                                <p align="justify">Yes, we provide complete event management services including planning, venue coordination, logistics, technical setup, and on-site supervision.</p>
+                                                <p  style="text-align:justify;">Yes, we provide complete event management services including planning, venue coordination, logistics, technical setup, and on-site supervision.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -269,7 +269,7 @@ include('header.php');
                                          </h2>
                                          <div id="order__collapse_five" class="accordion-collapse collapse" aria-labelledby="order_five" data-bs-parent="#general_faqaccordion">
                                              <div class="accordion-body td-faq-details-para">
-                                                 <p align="justify">Yes, we can arrange event coordinators, promotional staff, and brand ambassadors depending on your event requirements.</p>
+                                                 <p  style="text-align:justify;">Yes, we can arrange event coordinators, promotional staff, and brand ambassadors depending on your event requirements.</p>
                                              </div>
                                          </div>
                                     </div>

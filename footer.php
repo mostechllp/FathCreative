@@ -1,13 +1,13 @@
  <!-- footer-area-start -->
     <footer>
         
-        <div class="td-footer-area bg-position pt-130" style="background-image: url('assets/img/footer/bg.jpg');">
+        <div class="td-footer-area bg-position pt-130" style="background-image: url('assets/img/footer/bg.webp');">
             <div class="container">
                 <div class="row mb-30">
                     <div class="col-lg-4 col-md-5">
                         <div class="td-footer-widget mb-40">
                             <div class="td-footer-logo mb-20">
-                                <a href="index.php"><img src="assets/img/logo/fath-logo.png" alt="logo" style="width:200px;"></a>
+                                <a href="index.php"><img src="assets/img/logo/fath-logo.webp" alt="logo" style="width:200px;"></a>
                             </div>
                             <p class="text mb-10">Jeddah | Riyadh | Dammam</p>
                             <a class="number mb-10 d-inline-block" href="tel:+966500082828">+966 5000 82828</a>
@@ -36,7 +36,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="td-footer-widget td-footer-subscribe mb-40">
                             <h3 class="td-footer-title mb-20">About Us</h3>
-                            <p class="text mb-0" align="justify">Fath Creative is a forward-thinking agency redefining how brands connect with audiences across the Middle East. </p>
+                            <p class="text mb-0"  style="text-align:justify;">Fath Creative is a forward-thinking agency redefining how brands connect with audiences across the Middle East. </p>
                             <!-- <div class="td-footer-form p-relative">
                                 <input type="text" placeholder="E-mail Address">
                                 <button type="submit" class="td-footer-form-btn">

@@ -21,7 +21,7 @@ $result = mysqli_query($conn, $sql);
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Fath Creative Admin Panel</title>
-    <link rel="shortcut icon" type="image/png" href="../../assets/img/logo/logo-black.png" />
+    <link rel="shortcut icon" type="image/png" href="../../assets/img/logo/logo-black.webp" />
     <link rel="stylesheet" href="./assets/css/styles.min.css" />
 </head>
 
@@ -36,7 +36,7 @@ $result = mysqli_query($conn, $sql);
             <div>
                 <div class="brand-logo d-flex align-items-center justify-content-between">
                     <a href="index.php" class="text-nowrap logo-img">
-                        <img src="../../assets/img/logo/logo-black.png" alt="" style="width:150px;"/>
+                        <img src="../../assets/img/logo/logo-black.webp" alt="" style="width:150px;"/>
                     </a>
                     <div class="close-btn d-xl-none d-block sidebartoggler cursor-pointer" id="sidebarCollapse">
                         <i class="ti ti-x fs-6"></i>

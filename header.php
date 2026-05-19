@@ -22,17 +22,17 @@
     <meta property="og:type" content="website">
     <meta property="og:title" content="<?php echo isset($pageTitle) ? $pageTitle : "Fath Creative | Leading Exhibition Stand & Branding Agency"; ?>">
     <meta property="og:description" content="<?php echo isset($pageDescription) ? $pageDescription : "Fath Creative provides innovative exhibition stands, creative branding, and event management solutions."; ?>">
-    <meta property="og:image" content="assets/img/logo/favicon.png">
+    <meta property="og:image" content="assets/img/logo/favicon.webp">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:title" content="<?php echo isset($pageTitle) ? $pageTitle : "Fath Creative | Leading Exhibition Stand & Branding Agency"; ?>">
     <meta property="twitter:description" content="<?php echo isset($pageDescription) ? $pageDescription : "Fath Creative provides innovative exhibition stands, creative branding, and event management solutions."; ?>">
-    <meta property="twitter:image" content="assets/img/logo/fath-logo.png">
+    <meta property="twitter:image" content="assets/img/logo/fath-logo.webp">
 
-    <link rel="icon" type="image/png" href="assets/img/logo/favicon.png" media="(prefers-color-scheme: light)">
-    <link rel="icon" type="image/png" href="assets/img/logo/favicon.png" media="(prefers-color-scheme: dark)">
-    <link rel="shortcut icon" type="image/png" href="assets/img/logo/favicon.png">
+    <link rel="icon" type="image/png" href="assets/img/logo/favicon.webp" media="(prefers-color-scheme: light)">
+    <link rel="icon" type="image/png" href="assets/img/logo/favicon.webp" media="(prefers-color-scheme: dark)">
+    <link rel="shortcut icon" type="image/png" href="assets/img/logo/favicon.webp">
     <!-- Place favicon.ico in the root directory -->
 
     <!-- CSS here -->
@@ -45,6 +45,54 @@
     <link rel="stylesheet" href="assets/css/odometer.css">
     <link rel="stylesheet" href="assets/css/default.css">
     <link rel="stylesheet" href="assets/css/main.css">
+    
+    <!-- Google Site Verification -->
+    <meta name="google-site-verification" content="BVb2Ee9GLAHpQeCW0n8G1fDAMKKLEvZIckjVZ_Nf_CQ" />
+
+    <!-- Canonical Tag -->
+    <?php
+    $current_uri = $_SERVER['REQUEST_URI'];
+    $parsed_url = parse_url($current_uri);
+    $path = isset($parsed_url['path']) ? $parsed_url['path'] : '';
+    $query = isset($parsed_url['query']) ? '?' . $parsed_url['query'] : '';
+    
+    // Clean up local dev paths and extensions
+    $path = str_replace('/FathCreative/', '/', $path);
+    $path = str_replace('.php', '', $path);
+    
+    // Format the final canonical URL
+    if ($path === '/index' || $path === '/' || $path === '') {
+        $canonical_url = "https://www.fathcreative.com/";
+    } else {
+        $canonical_url = "https://www.fathcreative.com" . $path . $query;
+    }
+    ?>
+    <link rel="canonical" href="<?php echo htmlspecialchars($canonical_url); ?>">
+
+    <?php if (basename($_SERVER['PHP_SELF']) == 'contact.php'): ?>
+    <!-- Local Business Schema for Contact Page -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Fath Creative",
+      "image": "https://fathcreative.com/assets/img/logo/logo-black.webp",
+      "@id": "https://www.fathcreative.com/",
+      "url": "https://www.fathcreative.com/contact",
+      "telephone": "+966 5000 82828",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Al Khabara, Al-Baghdadiyah Al-Gharbiyah",
+        "addressLocality": "Jeddah",
+        "addressCountry": "SA"
+      },
+      "sameAs": [
+        "https://www.instagram.com/",
+        "https://www.facebook.com/"
+      ]
+    }
+    </script>
+    <?php endif; ?>
 </head>
 
 <body>
@@ -109,9 +157,9 @@
                             <div class="tdmenu__wrap d-flex align-items-center justify-content-between">
                                 <div class="logo">
                                     <a class="logo-1 logo-sticky-none" href="index.php"><img data-width="150"
-                                            src="assets/img/logo/fath-logo.png" alt="Logo"></a>
+                                            src="assets/img/logo/fath-logo.webp" alt="Logo"></a>
                                     <a class="logo-2 d-none" href="index.php"><img data-width="150"
-                                            src="assets/img/logo/logo-black.png" alt="Logo"></a>
+                                            src="assets/img/logo/logo-black.webp" alt="Logo"></a>
                                 </div>
                                 <nav class="tdmenu__nav tdmenu-3 ml-50 mr-40 d-none d-xl-flex">
                                     <div class="tdmenu__navbar-wrap tdmenu__main-menu">
@@ -186,7 +234,7 @@
             <nav class="tdmobile__menu-box">
                 <div class="close-btn"><i class="fa-solid fa-xmark"></i></div>
                 <div class="nav-logo">
-                    <a href="index.php"><img src="assets/img/logo/logo-black.png" alt="logo"></a>
+                    <a href="index.php"><img src="assets/img/logo/logo-black.webp" alt="logo"></a>
                 </div>
                
                 <div class="tdmobile__menu-outer">
@@ -227,20 +275,20 @@
                 <button aria-label="Close menu"><i class="fa-sharp fa-regular fa-xmark"></i></button>
             </div>
             <div class="offCanvas__logo mb-30">
-                <a href="index.php"><img src="assets/img/logo/fath-logo.png" alt="Logo"></a>
+                <a href="index.php"><img src="assets/img/logo/fath-logo.webp" alt="Logo"></a>
             </div>
             <div class="offCanvas__side-info mb-30">
                 <div class="contact-list mb-30">
-                    <h4>Office Address</h4>
+                    <h5>Office Address</h5>
                     <a href="https://maps.app.goo.gl/3yHGakiU3wztz2ig7" target="_blank">Jeddah | Riyadh | Dammam</a>
                 </div>
                 <div class="contact-list mb-30">
-                    <h4>Phone Number</h4>
+                    <h5>Phone Number</h5>
                     <a href="tel:+966500082828">+966 5000 82828</a>
                     <!-- <a href="tel:(090)87658654385">+(090) 8765 86543 85</a> -->
                 </div>
                 <div class="contact-list mb-30">
-                    <h4>Email Address</h4>
+                    <h5>Email Address</h5>
                     <a href="mailto:info@fathcreative.com">info@fathcreative.com</a>
                     <!-- <a href="mailto:info@fathcreative.com">example.mail@hum.com</a> -->
                 </div>

@@ -9,7 +9,7 @@ include('header.php');
     <main>
 
         <!-- td-breadcrumb-area-start -->
-            <div class="td-breadcrumb-area td-breadcrumb-spacing bg-position" style="background-image: linear-gradient(rgb(0 0 0 / 54%), rgba(0, 0, 0, 0.7)), url(assets/img/banner/banner4.jpg)">
+            <div class="td-breadcrumb-area td-breadcrumb-spacing bg-position" style="background-image: linear-gradient(rgb(0 0 0 / 54%), rgba(0, 0, 0, 0.7)), url(assets/img/banner/banner4.webp)">
 
             <div class="container">
                 <div class="row">
@@ -52,9 +52,9 @@ include('header.php');
                             <div class="td-about-2-content">
                                 <h2 class="td-section-title mb-10">Result-Driven Digital Marketing Strategies
                                 </h2>
-                                <p class="para" align="justify">Maximize your online visibility and drive exponential growth with our comprehensive digital marketing campaigns. We create data-driven strategies that encompass social media, influencer partnerships, and SEO to connect you with your target audience and increase conversions.
+                                <p class="para"  style="text-align:justify;">Maximize your online visibility and drive exponential growth with our comprehensive digital marketing campaigns. We create data-driven strategies that encompass social media, influencer partnerships, and SEO to connect you with your target audience and increase conversions.
                                 </p>
-                                <p class="para" align="justify">
+                                <p class="para"  style="text-align:justify;">
                                     We work closely with our clients to understand their market positioning and deliver marketing strategies that create strong engagement and lasting impressions. Whether it is driving organic traffic or launching an ad campaign, our team ensures measurable and impactful results.</p>
                             </div>
 
@@ -78,28 +78,28 @@ include('header.php');
                         <div class="td-feature-3-wrap mr-60 mb-30">
                             <span class="td-feature-3-icon d-inline-block mb-20"><i class="fa fa-search"></i></span>
                             <h3 class="td-feature-3-title mb-15">Market Research</h3>
-                            <p class="td-feature-3-text" align="justify">We analyze your industry, competitors, and target audience to uncover insights that inform our strategic marketing decisions and campaign goals.</p>
+                            <p class="td-feature-3-text"  style="text-align:justify;">We analyze your industry, competitors, and target audience to uncover insights that inform our strategic marketing decisions and campaign goals.</p>
                         </div>
                     </div>
                     <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.5s" style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.5s; animation-name: fadeInUp;">
                         <div class="td-feature-3-wrap mr-60 mb-30">
                             <span class="td-feature-3-icon d-inline-block mb-20"><i class="fa fa-bullseye"></i></span>
                             <h3 class="td-feature-3-title mb-15">Campaign Strategy</h3>
-                            <p class="td-feature-3-text" align="justify">We develop a comprehensive plan tailoring the right mix of digital channels, such as SEO and social media, to maximize reach and audience engagement.</p>
+                            <p class="td-feature-3-text"  style="text-align:justify;">We develop a comprehensive plan tailoring the right mix of digital channels, such as SEO and social media, to maximize reach and audience engagement.</p>
                         </div>
                     </div>
                     <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.7s" style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.7s; animation-name: fadeInUp;">
                         <div class="td-feature-3-wrap mr-60 mb-30">
                             <span class="td-feature-3-icon d-inline-block mb-20"><i class="fa fa-file-text"></i></span>
                             <h3 class="td-feature-3-title mb-15">Content Creation</h3>
-                            <p class="td-feature-3-text" align="justify">Our creative team produces compelling, high-quality content—including visuals, copy, and videos—to actively engage your target demographic.</p>
+                            <p class="td-feature-3-text"  style="text-align:justify;">Our creative team produces compelling, high-quality content—including visuals, copy, and videos—to actively engage your target demographic.</p>
                         </div>
                     </div>
                     <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.9s" style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.9s; animation-name: fadeInUp;">
                         <div class="td-feature-3-wrap mr-60 mb-30">
                             <span class="td-feature-3-icon d-inline-block mb-20"><i class="fa fa-bar-chart"></i></span>
                             <h3 class="td-feature-3-title mb-15">Analytics & Optimization</h3>
-                            <p class="td-feature-3-text" align="justify">We continuously track key performance indicators, analyzing the data to refine campaigns and ensure the highest possible return on investment.</p>
+                            <p class="td-feature-3-text"  style="text-align:justify;">We continuously track key performance indicators, analyzing the data to refine campaigns and ensure the highest possible return on investment.</p>
                         </div>
                     </div>
                 </div>
@@ -213,7 +213,7 @@ Performance tracking and analytics</span>
                                    </h2>
                                    <div id="order__collapse_one" class="accordion-collapse collapse" aria-labelledby="order_one" data-bs-parent="#general_faqaccordion" style="">
                                       <div class="accordion-body td-faq-details-para">
-                                         <p align="justify">We actively manage campaigns across all major platforms including Instagram, Facebook, LinkedIn, TikTok, and Twitter, tailored to your audience.</p>
+                                         <p  style="text-align:justify;">We actively manage campaigns across all major platforms including Instagram, Facebook, LinkedIn, TikTok, and Twitter, tailored to your audience.</p>
                                       </div>
                                    </div>
                                    </div>
@@ -226,7 +226,7 @@ Performance tracking and analytics</span>
                                    </h2>
                                    <div id="order__collapse_two" class="accordion-collapse collapse" aria-labelledby="order_two" data-bs-parent="#general_faqaccordion">
                                       <div class="accordion-body td-faq-details-para">
-                                        <p align="justify">We identify and collaborate with relevant influencers to authentically promote your brand and products to their engaged followers.</p>
+                                        <p  style="text-align:justify;">We identify and collaborate with relevant influencers to authentically promote your brand and products to their engaged followers.</p>
                                       </div>
                                    </div>
                                    </div>
@@ -239,7 +239,7 @@ Performance tracking and analytics</span>
                                    </h2>
                                    <div id="order__collapse_three" class="accordion-collapse collapse" aria-labelledby="order_three" data-bs-parent="#general_faqaccordion">
                                       <div class="accordion-body td-faq-details-para">
-                                        <p align="justify">SEO is a long-term strategy. While minor improvements can be seen in weeks, significant ranking results typically take 3-6 months.</p>
+                                        <p  style="text-align:justify;">SEO is a long-term strategy. While minor improvements can be seen in weeks, significant ranking results typically take 3-6 months.</p>
                                       </div>
                                    </div>
                                    </div>
@@ -252,7 +252,7 @@ Performance tracking and analytics</span>
                                         </h2>
                                         <div id="order__collapse_four" class="accordion-collapse collapse" aria-labelledby="order_four" data-bs-parent="#general_faqaccordion">
                                             <div class="accordion-body td-faq-details-para">
-                                                <p align="justify">Yes, our in-house creative team handles all aspects of content creation including high-quality graphics, videos, and compelling copywriting.</p>
+                                                <p  style="text-align:justify;">Yes, our in-house creative team handles all aspects of content creation including high-quality graphics, videos, and compelling copywriting.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -265,7 +265,7 @@ Performance tracking and analytics</span>
                                          </h2>
                                          <div id="order__collapse_five" class="accordion-collapse collapse" aria-labelledby="order_five" data-bs-parent="#general_faqaccordion">
                                              <div class="accordion-body td-faq-details-para">
-                                                 <p align="justify">We use advanced analytics tools to track vital KPIs such as traffic, engagement, conversion rates, and overall return on investment.</p>
+                                                 <p  style="text-align:justify;">We use advanced analytics tools to track vital KPIs such as traffic, engagement, conversion rates, and overall return on investment.</p>
                                              </div>
                                          </div>
                                     </div>
