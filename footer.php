@@ -125,6 +125,7 @@
 
 <!-- JS here -->
 <script src="assets/js/vendor.bundle.js" defer></script>
+<script src="assets/js/vendor-plugins.bundle.js" defer></script>
 <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js" defer></script>
 <script src="assets/js/main.js" defer></script>
 <script src="assets/js/floating-buttons.js" defer></script>
