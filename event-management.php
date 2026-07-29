@@ -1,9 +1,73 @@
 <?php 
-$pageTitle = "Event Management Services | Professional Planning | Fath Creative";
+$pageTitle = "Event Management Services - Fath Creative Saudi Arabia";
 $pageDescription = "Professional event management and planning services in Saudi Arabia. We handle everything from concept to execution for your corporate events.";
 $pageKeywords = "Event Management Saudi Arabia, Corporate Event Planner Riyadh, Professional Event Planning Jeddah";
 include('header.php'); 
 ?>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/", 
+  "@type": "BreadcrumbList", 
+  "itemListElement": [{
+    "@type": "ListItem", 
+    "position": 1, 
+    "name": "Home",
+    "item": "https://www.fathcreative.com/"  
+  },{
+    "@type": "ListItem", 
+    "position": 2, 
+    "name": "Services",
+    "item": "https://www.fathcreative.com/services"  
+  },{
+    "@type": "ListItem", 
+    "position": 3, 
+    "name": "Event Management",
+    "item": "https://www.fathcreative.com/event-management"  
+  }]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [{
+    "@type": "Question",
+    "name": "What types of events do you manage?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "We manage a wide range of events including corporate events, product launches, exhibitions, promotional campaigns, and brand activations."
+    }
+  },{
+    "@type": "Question",
+    "name": "Do you handle both small and large events?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, we manage events of all sizes, from small corporate meetings to large-scale promotional events and exhibitions."
+    }
+  },{
+    "@type": "Question",
+    "name": "Do you provide event branding and decoration?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, we design and install branding materials such as stage backdrops, banners, promotional displays, and event decorations."
+    }
+  },{
+    "@type": "Question",
+    "name": "Can you manage the entire event process?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, we provide complete event management services including planning, venue coordination, logistics, technical setup, and on-site supervision."
+    }
+  },{
+    "@type": "Question",
+    "name": "Do you provide staff for events?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, we can arrange event coordinators, promotional staff, and brand ambassadors depending on your event requirements."
+    }
+  }]
+}
+</script>
 
 
     <!-- main-area -->
@@ -16,8 +80,8 @@ include('header.php');
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="td-breadcrumb-title-wrap">
-                            <h2 class="td-breadcrumb-title mb-10 wow td-animetion-left" data-wow-duration="1.5s"
-                                data-wow-delay="0.3s">Event Management</h2>
+                            <h1 class="td-breadcrumb-title mb-10 wow td-animetion-left" data-wow-duration="1.5s"
+                                data-wow-delay="0.3s">Event Management</h1>
                             <div class="td-breadcrumb-list wow td-animetion-right" data-wow-duration="1.5s"
                                 data-wow-delay="0.3s">
                                 <ul>
@@ -83,28 +147,28 @@ include('header.php');
                 <div class="row">
                     <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.3s" style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.3s; animation-name: fadeInUp;">
                         <div class="td-feature-3-wrap mr-60 mb-30">
-                            <span class="td-feature-3-icon d-inline-block mb-20"><i class="fa fa-calendar"></i></span>
+                            <span class="td-feature-3-icon d-flex justify-content-center mb-20"><i class="fa fa-calendar"></i></span>
                             <h3 class="td-feature-3-title mb-15">Event Consultation & Planning</h3>
                             <p class="td-feature-3-text"  style="text-align:justify;">We begin by understanding your event goals, target audience, and expectations. Our team works closely with you to develop a clear event strategy, timeline, and execution plan that aligns with your brand objectives.</p>
                         </div>
                     </div>
                     <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.5s" style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.5s; animation-name: fadeInUp;">
                         <div class="td-feature-3-wrap mr-60 mb-30">
-                            <span class="td-feature-3-icon d-inline-block mb-20"><i class="fa fa-pencil"></i></span>
+                            <span class="td-feature-3-icon d-flex justify-content-center mb-20"><i class="fa fa-pencil"></i></span>
                             <h3 class="td-feature-3-title mb-15">Concept Development & Design </h3>
                             <p class="td-feature-3-text"  style="text-align:justify;">After planning, we create a creative concept for the event. This includes event themes, branding elements, stage design, visual displays, and overall atmosphere to ensure the event reflects your brand identity.</p>
                         </div>
                     </div>
                     <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.7s" style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.7s; animation-name: fadeInUp;">
                         <div class="td-feature-3-wrap mr-60 mb-30">
-                            <span class="td-feature-3-icon d-inline-block mb-20"><i class="fa fa-map-marker"></i></span>
+                            <span class="td-feature-3-icon d-flex justify-content-center mb-20"><i class="fa fa-map-marker"></i></span>
                             <h3 class="td-feature-3-title mb-15">Venue Coordination & Event Setup</h3>
                             <p class="td-feature-3-text"  style="text-align:justify;">Our team manages venue selection, vendor coordination, and logistical arrangements. We handle stage setup, lighting, sound systems, branding materials to ensure everything is ready before the event begins.</p>
                         </div>
                     </div>
                     <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.9s" style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.9s; animation-name: fadeInUp;">
                         <div class="td-feature-3-wrap mr-60 mb-30">
-                            <span class="td-feature-3-icon d-inline-block mb-20"><i class="fa fa-check-circle"></i></span>
+                            <span class="td-feature-3-icon d-flex justify-content-center mb-20"><i class="fa fa-check-circle"></i></span>
                             <h3 class="td-feature-3-title mb-15">Event Execution & Post Event Support</h3>
                             <p class="td-feature-3-text"  style="text-align:justify;">During the event, our team supervises all activities on-site and coordinates with vendors and staff to ensure smooth execution. After the event, we assist with dismantling, reporting, and evaluating the event’s overall success.</p>
                         </div>
@@ -282,8 +346,170 @@ include('header.php');
         </div>
         <!-- td-blog-area-end -->
 
+        <?php include('related-services.php'); ?>
 
     </main>
     <!-- main-area-end -->
 
 <?php include('footer.php') ?>
+
+<style>
+.floating-buttons {
+    position: fixed;
+    bottom: 90px;
+    right: 50px;
+    z-index: 9999;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(20px);
+    transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.floating-buttons.show {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.floating-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-decoration: none;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.floating-btn:hover {
+    transform: scale(1.08);
+    box-shadow: 0 6px 16px rgba(0,0,0,0.2);
+}
+
+.whatsapp-btn {
+    background-color: #25D366;
+}
+
+.call-btn {
+    background-color: #7a34fa;
+}
+
+.floating-btn i {
+    font-size: 24px;
+    color: white;
+}
+
+/* Tooltip on hover */
+.floating-btn .tooltip {
+    position: absolute;
+    right: 60px;
+    background: #1a1a2e;
+    color: white;
+    padding: 6px 14px;
+    border-radius: 30px;
+    font-size: 13px;
+    font-weight: 500;
+    white-space: nowrap;
+    font-family: "Outfit", sans-serif;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    letter-spacing: 0.3px;
+}
+
+.floating-btn .tooltip::after {
+    content: '';
+    position: absolute;
+    right: -6px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 0;
+    height: 0;
+    border-left: 6px solid #1a1a2e;
+    border-top: 6px solid transparent;
+    border-bottom: 6px solid transparent;
+}
+
+.floating-btn:hover .tooltip {
+    opacity: 1;
+    visibility: visible;
+    right: 70px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .floating-buttons { 
+        bottom: 60px;
+        right: 15px; 
+        gap: 10px; 
+    }
+    .floating-btn { 
+        width: 36px; 
+        height: 36px; 
+    }
+    .floating-btn i { 
+        font-size: 20px; 
+    }
+    .floating-btn .tooltip {
+        font-size: 11px;
+        padding: 4px 10px;
+        right: 52px;
+    }
+    .floating-btn:hover .tooltip {
+        right: 60px;
+    }
+}
+</style>
+
+<div class="floating-buttons" id="floatingButtons">
+    <a href="https://wa.me/966500082828" class="floating-btn whatsapp-btn" target="_blank" rel="noopener noreferrer">
+        <i class="fab fa-whatsapp"></i>
+        <span class="tooltip">Chat with us</span>
+    </a>
+    <a href="tel:+966500082828" class="floating-btn call-btn">
+        <i class="fas fa-phone"></i>
+        <span class="tooltip">Call us</span>
+    </a>
+</div>
+
+<script>
+// Same animation as back-to-top button - appears when scrolling down
+(function() {
+    const floatingButtons = document.getElementById('floatingButtons');
+    let scrollTimeout;
+    
+    function checkScroll() {
+        if (!floatingButtons) return;
+        
+        // Show buttons when scrolled down more than 300px (adjustable)
+        if (window.scrollY > 300) {
+            floatingButtons.classList.add('show');
+        } else {
+            floatingButtons.classList.remove('show');
+        }
+    }
+    
+    // Check on scroll with throttle for performance
+    window.addEventListener('scroll', function() {
+        if (scrollTimeout) {
+            window.cancelAnimationFrame(scrollTimeout);
+        }
+        scrollTimeout = window.requestAnimationFrame(function() {
+            checkScroll();
+        });
+    });
+    
+    // Check on page load
+    document.addEventListener('DOMContentLoaded', checkScroll);
+    
+    // Also check on page load in case of delayed content
+    window.addEventListener('load', checkScroll);
+})();
+</script>

@@ -4,30 +4,77 @@
 <!-- Mirrored from html.themegenix.com/evente/# by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 13 Mar 2026 07:25:14 GMT -->
 
 <head>
-    <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-5K5MVRW9');</script>
-    <!-- End Google Tag Manager -->
     <meta charset="utf-8">
+    <?php
+    $protocol = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off' || $_SERVER['SERVER_PORT'] == 443) ? "https://" : "http://";
+    $domainName = $_SERVER['HTTP_HOST'];
+    $basePath = dirname($_SERVER['PHP_SELF']);
+    // Normalize Windows backslashes and root path
+    $basePath = str_replace('\\', '/', $basePath);
+    if ($basePath === '/' || $basePath === '\\') { $basePath = ''; }
+    $baseUrl = $protocol . $domainName . $basePath . '/';
+    ?>
+    <base href="<?php echo $baseUrl; ?>">
+     <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-5K5MVRW9');</script>
+    <!-- End Google Tag Manager -->
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title><?php echo isset($pageTitle) ? $pageTitle : "Best Sticker Branding & Exhibition Stand Company in Saudi Arabia | FATH"; ?></title>
-    <meta name="description" content="<?php echo isset($pageDescription) ? $pageDescription : "Fath Creative is a forward-thinking agency redefining how brands connect with audiences across the Middle East. We specialize in creative exhibition stands, sticker branding, and event management."; ?>">
-    <meta name="keywords" content="<?php echo isset($pageKeywords) ? $pageKeywords : "Sticker Branding Saudi Arabia, Exhibition Stand Company Riyadh, Event Management Jeddah, 3D Design Services, POSM Activities, Brand Activations"; ?>">
+    <title>
+        <?php echo isset($pageTitle) ? $pageTitle : "Best Sticker Branding & Exhibition Stand Company in Saudi Arabia | FATH"; ?>
+    </title>
+    <meta name="description"
+        content="<?php echo isset($pageDescription) ? $pageDescription : "Fath Creative is a forward-thinking agency redefining how brands connect with audiences across the Middle East. We specialize in creative exhibition stands, sticker branding, and event management."; ?>">
+    <meta name="keywords"
+        content="<?php echo isset($pageKeywords) ? $pageKeywords : "Sticker Branding Saudi Arabia, Exhibition Stand Company Riyadh, Event Management Jeddah, 3D Design Services, POSM Activities, Brand Activations"; ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Critical CSS (above-the-fold styles) -->
+    <?php if (isset($criticalCSS)): ?>
+        <style>
+            <?php echo $criticalCSS; ?>
+        </style>
+    <?php else: ?>
+        <style>
+            body {
+                margin: 0;
+                font-family: system-ui, sans-serif;
+            }
+
+            .logo img,
+            .nav-logo img,
+            .offCanvas__logo img {
+                max-width: 150px;
+                height: auto;
+            }
+        </style>
+    <?php endif; ?>
+    <!-- Mobile Fixes CSS -->
+    <?php if (basename($_SERVER['PHP_SELF']) == 'index.php' || $_SERVER['REQUEST_URI'] == '/' || $_SERVER['REQUEST_URI'] == '/index.php'): ?>
+        <!-- Preload LCP Hero background image for 100% Core Web Vitals LCP optimization -->
+        <link rel="preload" href="assets/img/banner1-mobile.webp" as="image" type="image/webp" fetchpriority="high" media="(max-width: 767px)">
+        <link rel="preload" href="assets/img/banner1.webp" as="image" type="image/webp" fetchpriority="high" media="(min-width: 768px)">
+    <?php endif; ?>
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:title" content="<?php echo isset($pageTitle) ? $pageTitle : "Fath Creative | Leading Exhibition Stand & Branding Agency"; ?>">
-    <meta property="og:description" content="<?php echo isset($pageDescription) ? $pageDescription : "Fath Creative provides innovative exhibition stands, creative branding, and event management solutions."; ?>">
+    <meta property="og:title"
+        content="<?php echo isset($pageTitle) ? $pageTitle : "Fath Creative | Leading Exhibition Stand & Branding Agency"; ?>">
+    <meta property="og:description"
+        content="<?php echo isset($pageDescription) ? $pageDescription : "Fath Creative provides innovative exhibition stands, creative branding, and event management solutions."; ?>">
     <meta property="og:image" content="assets/img/logo/favicon.webp">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:title" content="<?php echo isset($pageTitle) ? $pageTitle : "Fath Creative | Leading Exhibition Stand & Branding Agency"; ?>">
-    <meta property="twitter:description" content="<?php echo isset($pageDescription) ? $pageDescription : "Fath Creative provides innovative exhibition stands, creative branding, and event management solutions."; ?>">
+    <meta property="twitter:title"
+        content="<?php echo isset($pageTitle) ? $pageTitle : "Fath Creative | Leading Exhibition Stand & Branding Agency"; ?>">
+    <meta property="twitter:description"
+        content="<?php echo isset($pageDescription) ? $pageDescription : "Fath Creative provides innovative exhibition stands, creative branding, and event management solutions."; ?>">
     <meta property="twitter:image" content="assets/img/logo/fath-logo.webp">
 
     <link rel="icon" type="image/png" href="assets/img/logo/favicon.webp" media="(prefers-color-scheme: light)">
@@ -35,77 +82,97 @@
     <link rel="shortcut icon" type="image/png" href="assets/img/logo/favicon.webp">
     <!-- Place favicon.ico in the root directory -->
 
-    <!-- CSS here -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/animate.min.css">
-    <link rel="stylesheet" href="assets/css/magnific-popup.css">
-    <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
-    <link rel="stylesheet" href="assets/css/flaticon_mycollection.css">
-    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
-    <link rel="stylesheet" href="assets/css/odometer.css">
-    <link rel="stylesheet" href="assets/css/default.css">
-    <link rel="stylesheet" href="assets/css/main.css">
+    <!-- Critical CSS -->
+    <link rel="stylesheet" href="assets/css/all.min.css?v=<?php echo time(); ?>">
+    <link rel="preload" href="assets/css/default.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet" href="assets/css/default.css">
+    </noscript>
+
+    <!-- Preconnect -->
+    <link rel="preconnect" href="https://code.jquery.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Unbounded:wght@200..900&display=swap" rel="stylesheet">
+
+    <!-- Async Non-Critical CSS -->
+    <link rel="preload" href="assets/css/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" href="assets/css/magnific-popup.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" href="assets/css/fontawesome-all.min.css" as="style"
+        onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" href="assets/css/flaticon_mycollection.css" as="style"
+        onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" href="assets/css/swiper-bundle.min.css" as="style"
+        onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" href="assets/css/odometer.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+
+    <!-- jQuery UI -->
+    <link rel="preload" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css" as="style"
+        onload="this.onload=null;this.rel='stylesheet'">
+
+    <!-- Fallback for No JS -->
+    <noscript>
+        <link rel="stylesheet" href="assets/css/animate.min.css">
+        <link rel="stylesheet" href="assets/css/magnific-popup.css">
+        <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
+        <link rel="stylesheet" href="assets/css/flaticon_mycollection.css">
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+        <link rel="stylesheet" href="assets/css/odometer.css">
+        <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    </noscript>
+
     <!-- Google Site Verification -->
-    <meta name="google-site-verification" content="BVb2Ee9GLAHpQeCW0n8G1fDAMKKLEvZIckjVZ_Nf_CQ" />
+    <meta name="google-site-verification" content="BVb2Ee9GLAHpQeCW0n8G1fDAMKKLEvZIckjVZ_Nf_CQ">
 
     <!-- Canonical Tag -->
     <?php
+    // Generate strictly self-referencing canonical URL
     $current_uri = $_SERVER['REQUEST_URI'];
-    $parsed_url = parse_url($current_uri);
-    $path = isset($parsed_url['path']) ? $parsed_url['path'] : '';
-    $query = isset($parsed_url['query']) ? '?' . $parsed_url['query'] : '';
-    
-    // Clean up local dev paths and extensions
-    $path = str_replace('/FathCreative/', '/', $path);
-    $path = str_replace('.php', '', $path);
-    
+    // Remove local XAMPP subdirectory if present for local testing, but keep the exact path and extension
+    $current_uri = str_replace('/Fath/', '/', $current_uri);
+    $current_uri = str_replace('/FathCreative/', '/', $current_uri);
+
     // Format the final canonical URL
-    if ($path === '/index' || $path === '/' || $path === '') {
+    if ($current_uri === '/index.php' || $current_uri === '/index' || $current_uri === '/' || $current_uri === '') {
         $canonical_url = "https://www.fathcreative.com/";
     } else {
-        $canonical_url = "https://www.fathcreative.com" . $path . $query;
+        $canonical_url = "https://www.fathcreative.com" . $current_uri;
     }
     ?>
     <link rel="canonical" href="<?php echo htmlspecialchars($canonical_url); ?>">
 
-    <?php if (basename($_SERVER['PHP_SELF']) == 'contact.php'): ?>
-    <!-- Local Business Schema for Contact Page -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "LocalBusiness",
-      "name": "Fath Creative",
-      "image": "https://fathcreative.com/assets/img/logo/logo-black.webp",
-      "@id": "https://www.fathcreative.com/",
-      "url": "https://www.fathcreative.com/contact",
-      "telephone": "+966 5000 82828",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "Al Khabara, Al-Baghdadiyah Al-Gharbiyah",
-        "addressLocality": "Jeddah",
-        "addressCountry": "SA"
-      },
-      "sameAs": [
-        "https://www.instagram.com/",
-        "https://www.facebook.com/"
-      ]
-    }
-    </script>
+    <?php if (basename($_SERVER['PHP_SELF']) == 'contact.php' || basename($_SERVER['PHP_SELF']) == 'index.php'): ?>
+        <!-- Local Business Schema for Home + Contact Page -->
+        <script type="application/ld+json">
+            {
+              "@context": "https://schema.org",
+              "@type": "LocalBusiness",
+              "name": "Fath Creative",
+              "image": "https://fathcreative.com/assets/img/logo/logo-black.png",
+              "@id": "",
+              "url": "https://www.fathcreative.com/",
+              "telephone": "+966 5000 82828",
+              "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Al Khabara, Al-Baghdadiyah Al-Gharbiyah",
+                "addressLocality": "Jeddah",
+                "postalCode": "",
+                "addressCountry": "SA"
+              }
+            }
+            </script>
     <?php endif; ?>
 </head>
 
 <body>
     <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5K5MVRW9"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5K5MVRW9" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
 
-    <!-- Preloader Start -->
-    <div class="preloader">
-        <div class="loader"></div>
-    </div>
-    <!-- Preloader End -->
+
 
     <!-- Scroll-top -->
     <button class="scroll__top scroll-to-target" data-target="html" aria-label="Scroll to top">
@@ -113,7 +180,7 @@
     </button>
     <!-- Scroll-top-end-->
 
-   
+
 
     <!-- cart mini area start -->
 
@@ -131,19 +198,36 @@
                             <div class="td-header-3-top-info">
                                 <span><a><i class="flaticon-gps"></i>Jeddah | Riyadh | Dammam</a></span>
                                 <span class="dvdr">/</span>
-                                <span><a href="tel:+966500082828"><i class="flaticon-phone"></i>+966 5000 82828</a></span>
+                                <span><a href="tel:+966500082828"><i class="flaticon-phone"></i>+966 5000
+                                        82828</a></span>
                             </div>
                         </div>
                         <div class="col-lg-6">
                             <div class="d-none d-lg-block">
                                 <div class="td-header-3-top-social d-flex align-items-center justify-content-end">
-                                    <span class="td-email"><a href="mailto:info@fathcreative.com"><i
-                                                class="flaticon-mail"></i>info@fathcreative.com </a></span>
+                                    <span class="td-email">
+                                        <a href="#" id="header-email-link" aria-label="Email Us">
+                                            <i class="flaticon-mail"></i>
+                                            <span id="header-email-text"><span class="visually-hidden">Email
+                                                    Us</span></span>
+                                        </a>
+                                    </span>
                                     <span class="dvdr">/</span>
-                                    <span><a href="https://www.linkedin.com/company/fath-creative/" aria-label="Visit our LinkedIn page"><i class="fa-brands fa-linkedin"></i></a></span>
-                                    <span><a href="https://www.instagram.com/fathadvertising?igsh=MTJjNDR4NjMydHo4eg==" aria-label="Visit our Instagram page"><i class="fa-brands fa-instagram"></i></a></span>
-                                    <span><a href="https://www.facebook.com/share/1NaqhxGxwg/?mibextid=wwXIfr" aria-label="Visit our Facebook page"><i class="fa-brands fa-facebook"></i></a></span>
-                                    <span><a href="https://wa.me/00966500082828" aria-label="Contact us on WhatsApp"><i class="fa-brands fa-whatsapp"></i></a></span>
+                                    <span><a href="https://www.linkedin.com/company/fath-creative/"
+                                            aria-label="Visit our LinkedIn page"><i
+                                                class="fa-brands fa-linkedin"></i><span
+                                                class="visually-hidden">LinkedIn</span></a></span>
+                                    <span><a href="https://www.instagram.com/fathadvertising?igsh=MTJjNDR4NjMydHo4eg=="
+                                            aria-label="Visit our Instagram page"><i
+                                                class="fa-brands fa-instagram"></i><span
+                                                class="visually-hidden">Instagram</span></a></span>
+                                    <span><a href="https://www.facebook.com/share/1NaqhxGxwg/?mibextid=wwXIfr"
+                                            aria-label="Visit our Facebook page"><i
+                                                class="fa-brands fa-facebook"></i><span
+                                                class="visually-hidden">Facebook</span></a></span>
+                                    <span><a href="https://wa.me/966500082828"  rel="nofollow noopener noreferrer" aria-label="Contact us on WhatsApp"><i
+                                                class="fa-brands fa-whatsapp"></i><span
+                                                class="visually-hidden">WhatsApp</span></a></span>
                                 </div>
                             </div>
                         </div>
@@ -156,10 +240,13 @@
                         <div class="col-xxl-9 col-xl-9 col-6">
                             <div class="tdmenu__wrap d-flex align-items-center justify-content-between">
                                 <div class="logo">
-                                    <a class="logo-1 logo-sticky-none" href="index.php"><img data-width="150"
-                                            src="assets/img/logo/fath-logo.webp" alt="Logo"></a>
-                                    <a class="logo-2 d-none" href="index.php"><img data-width="150"
-                                            src="assets/img/logo/logo-black.webp" alt="Logo"></a>
+                                    <a class="logo-1 logo-sticky-none" href="index.php"
+                                        aria-label="Fath Creative Home"><img data-width="150"
+                                            src="assets/img/logo/fath-logo.webp" alt="Logo" width="256"
+                                            height="114"></a>
+                                    <a class="logo-2 d-none" href="index.php" aria-label="Fath Creative Home"><img
+                                            data-width="150" src="assets/img/logo/logo-black.webp" alt="Logo"
+                                            width="615" height="260"></a>
                                 </div>
                                 <nav class="tdmenu__nav tdmenu-3 ml-50 mr-40 d-none d-xl-flex">
                                     <div class="tdmenu__navbar-wrap tdmenu__main-menu">
@@ -172,13 +259,16 @@
                                             <li class="menu-item-has-children"><a href="services.php">Services</a>
                                                 <ul class="sub-menu">
                                                     <li><a href="event-management.php">Event Management</a></li>
-                                                    <li><a href="exhibition-tradeshows.php">Exhibition & Tradeshows</a></li>
+                                                    <li><a href="exhibition-tradeshows.php">Exhibition & Tradeshows</a>
+                                                    </li>
                                                     <li><a href="posm-activities.php">POSM Activities</a></li>
                                                     <li><a href="brand-activations.php">Brand Activations</a></li>
                                                     <li><a href="3D-designs.php">3D Designs</a></li>
-                                                    <li><a href="fabrication-and-production.php">Fabrication & Production</a></li>
+                                                    <li><a href="fabrication-and-production.php">Fabrication &
+                                                            Production</a></li>
                                                     <li><a href="technology-solutions.php">Technology Solutions</a></li>
-                                                    <li><a href="digital-marketing-solutions.php">Digital Marketing Solutions</a></li>
+                                                    <li><a href="digital-marketing-solutions.php">Digital Marketing
+                                                            Solutions</a></li>
                                                 </ul>
                                             </li>
                                             <li><a href="projects.php">Projects</a>
@@ -216,7 +306,8 @@
                                             </svg>
                                         </span>
                                     </a>
-                                    <button class="tdmenu-offcanvas-open-btn mobile-nav-toggler d-block d-xl-none" aria-label="Open navigation menu">
+                                    <button class="tdmenu-offcanvas-open-btn mobile-nav-toggler d-block d-xl-none"
+                                        aria-label="Open navigation menu">
                                         <span></span>
                                         <span></span>
                                         <span></span>
@@ -234,9 +325,10 @@
             <nav class="tdmobile__menu-box">
                 <div class="close-btn"><i class="fa-solid fa-xmark"></i></div>
                 <div class="nav-logo">
-                    <a href="index.php"><img src="assets/img/logo/logo-black.webp" alt="logo"></a>
+                    <a href="index.php" aria-label="Fath Creative Home"><img src="assets/img/logo/logo-black.webp"
+                            alt="logo" width="615" height="260"></a>
                 </div>
-               
+
                 <div class="tdmobile__menu-outer">
                     <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
                 </div>
@@ -258,10 +350,17 @@
                 </div>
                 <div class="social-links">
                     <ul class="list-wrap">
-                        <li><a href="https://www.linkedin.com/company/fath-creative/" aria-label="Visit our LinkedIn page"><i class="fab fa-linkedin-in"></i></a></li>
-                        <li><a href="https://www.instagram.com/fathadvertising?igsh=MTJjNDR4NjMydHo4eg==" aria-label="Visit our Instagram page"><i class="fab fa-instagram"></i></a></li>
-                        <li><a href="https://www.facebook.com/share/1NaqhxGxwg/?mibextid=wwXIfr" aria-label="Visit our Facebook page"><i class="fa-brands fa-facebook"></i></a></li>
-                        <li><a href="https://wa.me/00966500082828" aria-label="Contact us on WhatsApp"><i class="fab fa-whatsapp"></i></a></li>
+                        <li><a href="https://www.linkedin.com/company/fath-creative/"
+                                aria-label="Visit our LinkedIn page"><i class="fab fa-linkedin-in"></i><span
+                                    class="visually-hidden">LinkedIn</span></a></li>
+                        <li><a href="https://www.instagram.com/fathadvertising?igsh=MTJjNDR4NjMydHo4eg=="
+                                aria-label="Visit our Instagram page"><i class="fab fa-instagram"></i><span
+                                    class="visually-hidden">Instagram</span></a></li>
+                        <li><a href="https://www.facebook.com/share/1NaqhxGxwg/?mibextid=wwXIfr"
+                                aria-label="Visit our Facebook page"><i class="fa-brands fa-facebook"></i><span
+                                    class="visually-hidden">Facebook</span></a></li>
+                        <li><a href="https://wa.me/966500082828" rel="nofollow noopener noreferrer" aria-label="Contact us on WhatsApp"><i
+                                    class="fab fa-whatsapp"></i><span class="visually-hidden">WhatsApp</span></a></li>
                     </ul>
                 </div>
             </nav>
@@ -275,7 +374,8 @@
                 <button aria-label="Close menu"><i class="fa-sharp fa-regular fa-xmark"></i></button>
             </div>
             <div class="offCanvas__logo mb-30">
-                <a href="index.php"><img src="assets/img/logo/fath-logo.webp" alt="Logo"></a>
+                <a href="index.php" aria-label="Fath Creative Home"><img src="assets/img/logo/fath-logo.webp" alt="Logo"
+                        width="76" height="34"></a>
             </div>
             <div class="offCanvas__side-info mb-30">
                 <div class="contact-list mb-30">
@@ -289,15 +389,20 @@
                 </div>
                 <div class="contact-list mb-30">
                     <h5>Email Address</h5>
-                    <a href="mailto:info@fathcreative.com">info@fathcreative.com</a>
-                    <!-- <a href="mailto:info@fathcreative.com">example.mail@hum.com</a> -->
+                    <a href="#" id="contact-email-link">Email Us</a>
                 </div>
             </div>
             <div class="offCanvas__social-icon mt-30">
-                <a href="https://www.linkedin.com/company/fath-creative/" aria-label="Visit our LinkedIn page"><i class="fab fa-linkedin-in"></i></a>
-                <a href="https://www.instagram.com/fathadvertising?igsh=MTJjNDR4NjMydHo4eg==" aria-label="Visit our Instagram page"><i class="fab fa-instagram"></i></a>
-                <a href="https://www.facebook.com/share/1NaqhxGxwg/?mibextid=wwXIfr" aria-label="Visit our Facebook page"><i class="fa-brands fa-facebook"></i></a>
-                <a href="https://wa.me/00966500082828" aria-label="Contact us on WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                <a href="https://www.linkedin.com/company/fath-creative/" aria-label="Visit our LinkedIn page"><i
+                        class="fab fa-linkedin-in"></i><span class="visually-hidden">LinkedIn</span></a>
+                <a href="https://www.instagram.com/fathadvertising?igsh=MTJjNDR4NjMydHo4eg=="
+                    aria-label="Visit our Instagram page"><i class="fab fa-instagram"></i><span
+                        class="visually-hidden">Instagram</span></a>
+                <a href="https://www.facebook.com/share/1NaqhxGxwg/?mibextid=wwXIfr"
+                    aria-label="Visit our Facebook page"><i class="fa-brands fa-facebook"></i><span
+                        class="visually-hidden">Facebook</span></a>
+                <a href="https://wa.me/966500082828" rel="nofollow noopener noreferrer" aria-label="Contact us on WhatsApp"><i
+                        class="fab fa-whatsapp"></i><span class="visually-hidden">WhatsApp</span></a>
             </div>
         </div>
         <div class="offCanvas__overly"></div>

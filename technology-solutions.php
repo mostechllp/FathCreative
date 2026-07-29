@@ -1,10 +1,73 @@
 <?php 
-$pageTitle = "Technology Solutions | Innovative Event Tech | Fath Creative";
+$pageTitle = "Technology Solutions in Saudi Arabia - Fath Creative";
 $pageDescription = "Innovative tech-driven solutions for events and exhibitions. Enhance engagement with interactive displays, VR/AR, and digital experiences.";
 $pageKeywords = "Event Technology Saudi Arabia, Interactive Exhibition Displays Riyadh, Digital Marketing Tech";
 include('header.php'); 
 ?>
-
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/", 
+  "@type": "BreadcrumbList", 
+  "itemListElement": [{
+    "@type": "ListItem", 
+    "position": 1, 
+    "name": "Home",
+    "item": "https://www.fathcreative.com/"  
+  },{
+    "@type": "ListItem", 
+    "position": 2, 
+    "name": "Services",
+    "item": "https://www.fathcreative.com/services"  
+  },{
+    "@type": "ListItem", 
+    "position": 3, 
+    "name": "Technology Solutions",
+    "item": "https://www.fathcreative.com/technology-solutions"  
+  }]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [{
+    "@type": "Question",
+    "name": "Do you build custom e-commerce stores?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, we build scalable, secure, and fully customized e-commerce platforms tailored to your business model and customer base."
+    }
+  },{
+    "@type": "Question",
+    "name": "Are your mobile apps available on iOS and Android?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "We develop applications for both iOS and Android, leveraging modern frameworks to ensure optimal performance on all devices."
+    }
+  },{
+    "@type": "Question",
+    "name": "How can AI chatbots help my business?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "AI chatbots automate customer support, enhance response times, and provide reliable 24/7 assistance to your website and app users."
+    }
+  },{
+    "@type": "Question",
+    "name": "Do you offer ERP solutions for small businesses?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, we design customizable ERP systems to streamline and centralize your operations regardless of the scale of your business."
+    }
+  },{
+    "@type": "Question",
+    "name": "Do you provide ongoing technical maintenance?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Absolutely, we offer scalable maintenance and support packages to ensure your software components remain secure and up-to-date."
+    }
+  }]
+}
+</script>
     <!-- main-area -->
     <main>
 
@@ -15,8 +78,8 @@ include('header.php');
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="td-breadcrumb-title-wrap">
-                            <h2 class="td-breadcrumb-title mb-10 wow td-animetion-left" data-wow-duration="1.5s"
-                                data-wow-delay="0.3s">Technology Solutions</h2>
+                            <h1 class="td-breadcrumb-title mb-10 wow td-animetion-left" data-wow-duration="1.5s"
+                                data-wow-delay="0.3s">Technology Solutions</h1>
                             <div class="td-breadcrumb-list wow td-animetion-right" data-wow-duration="1.5s"
                                 data-wow-delay="0.3s">
                                 <ul>
@@ -52,9 +115,9 @@ include('header.php');
                             <div class="td-about-2-content">
                                 <h2 class="td-section-title mb-10">Innovative Technology Solutions for Your Business
                                 </h2>
-                                <p class="para"  style="text-align:justify;">Empower your business with our cutting-edge technology solutions. We specialize in building robust digital platforms, from e-commerce websites and mobile applications to intelligent AI chatbots and scalable ERP systems. Let us help you transform your digital presence.
+                                <p class="para">Empower your business with our cutting-edge technology solutions. We specialize in building robust digital platforms, from e-commerce websites and mobile applications to intelligent AI chatbots and scalable ERP systems. Let us help you transform your digital presence.
                                 </p>
-                                <p class="para"  style="text-align:justify;">
+                                <p class="para">
                                     We work closely with our clients to understand their operational needs and deliver software that drives efficiency and growth. Whether it is engaging mobile customers or automating internal workflows, our team ensures innovative development and impactful results.</p>
                             </div>
 
@@ -76,30 +139,30 @@ include('header.php');
                 <div class="row">
                     <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.3s" style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.3s; animation-name: fadeInUp;">
                         <div class="td-feature-3-wrap mr-60 mb-30">
-                            <span class="td-feature-3-icon d-inline-block mb-20"><i class="fa fa-search"></i></span>
+                            <span class="td-feature-3-icon d-flex justify-content-center mb-20"><i class="fa fa-search"></i></span>
                             <h3 class="td-feature-3-title mb-15"> Analysis</h3>
-                            <p class="td-feature-3-text"  style="text-align:justify;">We start by analyzing your business goals and technical needs. This helps us formulate a clear strategy and determine the most effective tech stack for your custom solution.</p>
+                            <p class="td-feature-3-text">We start by analyzing your business goals and technical needs. This helps us formulate a clear strategy and determine the most effective tech stack for your custom solution.</p>
                         </div>
                     </div>
                     <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.5s" style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.5s; animation-name: fadeInUp;">
                         <div class="td-feature-3-wrap mr-60 mb-30">
-                            <span class="td-feature-3-icon d-inline-block mb-20"><i class="fa fa-pencil"></i></span>
+                            <span class="td-feature-3-icon d-flex justify-content-center mb-20"><i class="fa fa-pencil"></i></span>
                             <h3 class="td-feature-3-title mb-15">UI/UX Design</h3>
-                            <p class="td-feature-3-text"  style="text-align:justify;">Our design team creates intuitive, user-friendly, and engaging interfaces, ensuring your customers have a seamless experience across all devices and platforms.</p>
+                            <p class="td-feature-3-text">Our design team creates intuitive, user-friendly, and engaging interfaces, ensuring your customers have a seamless experience across all devices and platforms.</p>
                         </div>
                     </div>
                     <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.7s" style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.7s; animation-name: fadeInUp;">
                         <div class="td-feature-3-wrap mr-60 mb-30">
-                            <span class="td-feature-3-icon d-inline-block mb-20"><i class="fa fa-code"></i></span>
+                            <span class="td-feature-3-icon d-flex justify-content-center mb-20"><i class="fa fa-code"></i></span>
                             <h3 class="td-feature-3-title mb-15">Development </h3>
-                            <p class="td-feature-3-text"  style="text-align:justify;">We write clean, secure code to bring your designs to life. Our team ensures seamless integration with third-party tools, ERP systems, and AI models as required.</p>
+                            <p class="td-feature-3-text">We write clean, secure code to bring your designs to life. Our team ensures seamless integration with third-party tools, ERP systems, and AI models as required.</p>
                         </div>
                     </div>
                     <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.9s" style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.9s; animation-name: fadeInUp;">
                         <div class="td-feature-3-wrap mr-60 mb-30">
-                            <span class="td-feature-3-icon d-inline-block mb-20"><i class="fa fa-check-circle"></i></span>
+                            <span class="td-feature-3-icon d-flex justify-content-center mb-20"><i class="fa fa-check-circle"></i></span>
                             <h3 class="td-feature-3-title mb-15">Deployment</h3>
-                            <p class="td-feature-3-text"  style="text-align:justify;">Rigorous testing is performed to deliver bug-free software. After a smooth deployment, we continue providing steadfast support and maintenance.</p>
+                            <p class="td-feature-3-text">Rigorous testing is performed to deliver bug-free software. After a smooth deployment, we continue providing steadfast support and maintenance.</p>
                         </div>
                     </div>
                 </div>
@@ -212,7 +275,7 @@ IT support services</span>
                                    </h2>
                                    <div id="order__collapse_one" class="accordion-collapse collapse" aria-labelledby="order_one" data-bs-parent="#general_faqaccordion" style="">
                                       <div class="accordion-body td-faq-details-para">
-                                         <p  style="text-align:justify;">Yes, we build scalable, secure, and fully customized e-commerce platforms tailored to your business model and customer base.</p>
+                                         <p>Yes, we build scalable, secure, and fully customized e-commerce platforms tailored to your business model and customer base.</p>
                                       </div>
                                    </div>
                                    </div>
@@ -225,7 +288,7 @@ IT support services</span>
                                    </h2>
                                    <div id="order__collapse_two" class="accordion-collapse collapse" aria-labelledby="order_two" data-bs-parent="#general_faqaccordion">
                                       <div class="accordion-body td-faq-details-para">
-                                        <p  style="text-align:justify;">We develop applications for both iOS and Android, leveraging modern frameworks to ensure optimal performance on all devices.</p>
+                                        <p>We develop applications for both iOS and Android, leveraging modern frameworks to ensure optimal performance on all devices.</p>
                                       </div>
                                    </div>
                                    </div>
@@ -238,7 +301,7 @@ IT support services</span>
                                    </h2>
                                    <div id="order__collapse_three" class="accordion-collapse collapse" aria-labelledby="order_three" data-bs-parent="#general_faqaccordion">
                                       <div class="accordion-body td-faq-details-para">
-                                        <p  style="text-align:justify;">AI chatbots automate customer support, enhance response times, and provide reliable 24/7 assistance to your website and app users.</p>
+                                        <p>AI chatbots automate customer support, enhance response times, and provide reliable 24/7 assistance to your website and app users.</p>
                                       </div>
                                    </div>
                                    </div>
@@ -251,7 +314,7 @@ IT support services</span>
                                         </h2>
                                         <div id="order__collapse_four" class="accordion-collapse collapse" aria-labelledby="order_four" data-bs-parent="#general_faqaccordion">
                                             <div class="accordion-body td-faq-details-para">
-                                                <p  style="text-align:justify;">Yes, we design customizable ERP systems to streamline and centralize your operations regardless of the scale of your business.</p>
+                                                <p>Yes, we design customizable ERP systems to streamline and centralize your operations regardless of the scale of your business.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -264,7 +327,7 @@ IT support services</span>
                                          </h2>
                                          <div id="order__collapse_five" class="accordion-collapse collapse" aria-labelledby="order_five" data-bs-parent="#general_faqaccordion">
                                              <div class="accordion-body td-faq-details-para">
-                                                 <p  style="text-align:justify;">Absolutely, we offer scalable maintenance and support packages to ensure your software components remain secure and up-to-date.</p>
+                                                 <p>Absolutely, we offer scalable maintenance and support packages to ensure your software components remain secure and up-to-date.</p>
                                              </div>
                                          </div>
                                     </div>
@@ -277,7 +340,170 @@ IT support services</span>
         </div>
         <!-- td-blog-area-end -->
 
+    <?php include('related-services.php'); ?>
     </main>
     <!-- main-area-end -->
 
 <?php include('footer.php') ?>
+
+<style>
+.floating-buttons {
+    position: fixed;
+    bottom: 90px;
+    right: 50px;
+    z-index: 9999;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(20px);
+    transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.floating-buttons.show {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.floating-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-decoration: none;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.floating-btn:hover {
+    transform: scale(1.08);
+    box-shadow: 0 6px 16px rgba(0,0,0,0.2);
+}
+
+.whatsapp-btn {
+    background-color: #25D366;
+}
+
+.call-btn {
+    background-color: #7a34fa;
+}
+
+.floating-btn i {
+    font-size: 24px;
+    color: white;
+}
+
+/* Tooltip on hover */
+.floating-btn .tooltip {
+    position: absolute;
+    right: 60px;
+    background: #1a1a2e;
+    color: white;
+    padding: 6px 14px;
+    border-radius: 30px;
+    font-size: 13px;
+    font-weight: 500;
+    white-space: nowrap;
+    font-family: "Outfit", sans-serif;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    letter-spacing: 0.3px;
+}
+
+.floating-btn .tooltip::after {
+    content: '';
+    position: absolute;
+    right: -6px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 0;
+    height: 0;
+    border-left: 6px solid #1a1a2e;
+    border-top: 6px solid transparent;
+    border-bottom: 6px solid transparent;
+}
+
+.floating-btn:hover .tooltip {
+    opacity: 1;
+    visibility: visible;
+    right: 70px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .floating-buttons { 
+        bottom: 60px;
+        right: 15px; 
+        gap: 10px; 
+    }
+    .floating-btn { 
+        width: 36px; 
+        height: 36px; 
+    }
+    .floating-btn i { 
+        font-size: 20px; 
+    }
+    .floating-btn .tooltip {
+        font-size: 11px;
+        padding: 4px 10px;
+        right: 52px;
+    }
+    .floating-btn:hover .tooltip {
+        right: 60px;
+    }
+}
+</style>
+
+<div class="floating-buttons" id="floatingButtons">
+    <a href="https://wa.me/966500082828" class="floating-btn whatsapp-btn" target="_blank" rel="noopener noreferrer">
+        <i class="fab fa-whatsapp"></i>
+        <span class="tooltip">Chat with us</span>
+    </a>
+    <a href="tel:+966500082828" class="floating-btn call-btn">
+        <i class="fas fa-phone"></i>
+        <span class="tooltip">Call us</span>
+    </a>
+</div>
+
+<script>
+// Same animation as back-to-top button - appears when scrolling down
+(function() {
+    const floatingButtons = document.getElementById('floatingButtons');
+    let scrollTimeout;
+    
+    function checkScroll() {
+        if (!floatingButtons) return;
+        
+        // Show buttons when scrolled down more than 300px (adjustable)
+        if (window.scrollY > 300) {
+            floatingButtons.classList.add('show');
+        } else {
+            floatingButtons.classList.remove('show');
+        }
+    }
+    
+    // Check on scroll with throttle for performance
+    window.addEventListener('scroll', function() {
+        if (scrollTimeout) {
+            window.cancelAnimationFrame(scrollTimeout);
+        }
+        scrollTimeout = window.requestAnimationFrame(function() {
+            checkScroll();
+        });
+    });
+    
+    // Check on page load
+    document.addEventListener('DOMContentLoaded', checkScroll);
+    
+    // Also check on page load in case of delayed content
+    window.addEventListener('load', checkScroll);
+})();
+</script>
+

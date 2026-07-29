@@ -21,7 +21,7 @@
             <div class="card mb-0">
               <div class="card-body">
                 <a href="./index.php" class="text-nowrap logo-img text-center d-block py-3 w-100">
-                  <img src="../../assets/img/logo/logo-black.webp" alt="" style="width:200px;">
+                  <img src="../../assets/img/logo/logo-black.webp" alt="" style="width:200px;" width="200" height="90">
                 </a>
                 <form method="POST" action="auth.php">
                   <div class="mb-3">

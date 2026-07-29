@@ -15,7 +15,7 @@ include 'database.php';
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>THESAY Pharma Admin Panel</title>
+    <title>Fath Creative Admin Panel</title>
     <link rel="shortcut icon" type="image/png" href="../../assets/img/logo/logo-black.webp" />
     <link rel="stylesheet" href="./assets/css/styles.min.css" />
 </head>
@@ -75,6 +75,21 @@ include 'database.php';
                                             <label class="form-label">Description</label>
                                             <textarea name="blog_description" id="editor_description" rows="3"></textarea>
                                         </div>
+                                        
+                                        <div class="mb-3">
+                                            <label class="form-label">Blog Meta Title</label>
+                                            <textarea class="form-control" name="blog_meta_title" rows="3"></textarea>
+                                        </div>
+                                        
+                                        <div class="mb-3">
+                                            <label class="form-label">Blog Meta Description</label>
+                                            <textarea class="form-control" name="blog_meta_description" rows="3"></textarea>
+                                        </div>
+                                        
+                                        <div class="mb-3">
+                                            <label class="form-label">Slug for URL</label>
+                                            <textarea class="form-control" name="slug" rows="3"></textarea>
+                                        </div>
     
                                         <div class="mb-3">
                                             <label class="form-label">Other Details</label>
@@ -82,8 +97,13 @@ include 'database.php';
                                         </div>
     
                                         <div class="mb-3">
-                                            <label class="form-label">Date</label>
+                                            <label class="form-label">Start Date</label>
                                             <input type="date" class="form-control" name="blog_date" required>
+                                        </div>
+                                        
+                                        <div class="mb-3">
+                                            <label class="form-label">End Date</label>
+                                            <input type="date" class="form-control" name="end_date">
                                         </div>
                                         
                                         <div class="mb-3">

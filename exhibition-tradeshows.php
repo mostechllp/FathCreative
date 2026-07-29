@@ -1,9 +1,73 @@
 <?php 
-$pageTitle = "Exhibition & Tradeshow Services | Custom Stands | Fath Creative";
+$pageTitle = "Exhibitions & Tradeshows - Fath Creative Saudi Arabia";
 $pageDescription = "Design and execution of visually compelling exhibition stands and trade show booths across Saudi Arabia. Maximize your brand presence at any event.";
 $pageKeywords = "Exhibition Stands Saudi Arabia, Tradeshow Booth Design, Custom Exhibition Stands Riyadh";
 include('header.php'); 
 ?>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/", 
+  "@type": "BreadcrumbList", 
+  "itemListElement": [{
+    "@type": "ListItem", 
+    "position": 1, 
+    "name": "Home",
+    "item": "https://www.fathcreative.com/"  
+  },{
+    "@type": "ListItem", 
+    "position": 2, 
+    "name": "Services",
+    "item": "https://www.fathcreative.com/services"  
+  },{
+    "@type": "ListItem", 
+    "position": 3, 
+    "name": "Exhibition & Tradeshow",
+    "item": "https://www.fathcreative.com/exhibition-tradeshows"  
+  }]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [{
+    "@type": "Question",
+    "name": "What types of exhibitions do you manage?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "We manage trade shows, corporate exhibitions, expos, and industry-specific events."
+    }
+  },{
+    "@type": "Question",
+    "name": "Do you provide custom booth designs?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, we create customized exhibition booths aligned with your brand identity."
+    }
+  },{
+    "@type": "Question",
+    "name": "Do you handle complete setup and dismantling?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, we manage fabrication, installation, and dismantling services."
+    }
+  },{
+    "@type": "Question",
+    "name": "Can you manage the entire exhibition process?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, we provide end-to-end exhibition services from planning to execution."
+    }
+  },{
+    "@type": "Question",
+    "name": "Do you provide on-site support?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, our team ensures smooth coordination and support during the event."
+    }
+  }]
+}
+</script>
 
 <main>
 
@@ -14,7 +78,7 @@ include('header.php');
             <div class="row">
                 <div class="col-lg-12">
                     <div class="td-breadcrumb-title-wrap">
-                        <h2 class="td-breadcrumb-title mb-10 wow td-animetion-left">Exhibitions & Tradeshows</h2>
+                        <h1 class="td-breadcrumb-title mb-10 wow td-animetion-left">Exhibition & Tradeshow</h1>
                         <div class="td-breadcrumb-list wow td-animetion-right">
                             <ul>
                                 <li><a href="index.php">Home</a></li>
@@ -45,10 +109,10 @@ include('header.php');
                     <div class="td-about-2-content-wrap ml-55 mb-30">
                         <div class="td-about-2-content">
                             <h2 class="td-section-title mb-10">Creating Engaging Exhibition Experiences That Showcase Your Brand</h2>
-                            <p class="para"  style="text-align:justify;">
+                            <p class="para">
                                 Our exhibition and tradeshow services are designed to help your brand stand out in competitive environments. We create visually engaging exhibition spaces that attract visitors and effectively communicate your brand message.
                             </p>
-                            <p class="para"  style="text-align:justify;">
+                            <p class="para">
                                 From concept to execution, we manage booth design, fabrication, and on-site coordination. Whether it is a trade show, expo, or industry exhibition, our team ensures a seamless experience and strong audience engagement.
                             </p>
                         </div>
@@ -74,9 +138,9 @@ include('header.php');
 
                 <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.3s" style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.3s; animation-name: fadeInUp;">
                     <div class="td-feature-3-wrap mr-60 mb-30">
-                        <span class="td-feature-3-icon d-inline-block mb-20"><i class="fa fa-calendar"></i></span>
+                        <span class="td-feature-3-icon d-flex justify-content-center mb-20"><i class="fa fa-calendar"></i></span>
                         <h3 class="td-feature-3-title mb-15">Exhibition Consultation & Planning</h3>
-                        <p class="td-feature-3-text"  style="text-align:justify;">
+                        <p class="td-feature-3-text">
                             We understand your exhibition goals, target audience, and brand positioning to create a clear strategy and participation plan.
                         </p>
                     </div>
@@ -84,9 +148,9 @@ include('header.php');
 
                 <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.3s" style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.3s; animation-name: fadeInUp;">
                     <div class="td-feature-3-wrap mr-60 mb-30">
-                        <span class="td-feature-3-icon d-inline-block mb-20"><i class="fa fa-pencil"></i></span>
+                        <span class="td-feature-3-icon d-flex justify-content-center mb-20"><i class="fa fa-pencil"></i></span>
                         <h3 class="td-feature-3-title mb-15">Design & Concept Development</h3>
-                        <p class="td-feature-3-text"  style="text-align:justify;">
+                        <p class="td-feature-3-text">
                             We design creative exhibition booths with engaging layouts, branding elements, and visual displays that reflect your brand identity.
                         </p>
                     </div>
@@ -94,9 +158,9 @@ include('header.php');
 
                 <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.3s" style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.3s; animation-name: fadeInUp;">
                     <div class="td-feature-3-wrap mr-60 mb-30">
-                        <span class="td-feature-3-icon d-inline-block mb-20"><i class="fa fa-wrench"></i></span>
+                        <span class="td-feature-3-icon d-flex justify-content-center mb-20"><i class="fa fa-wrench"></i></span>
                         <h3 class="td-feature-3-title mb-15">Booth Fabrication & Setup</h3>
-                        <p class="td-feature-3-text"  style="text-align:justify;">
+                        <p class="td-feature-3-text">
                             Our team handles booth fabrication, installation, lighting, and technical setup to ensure everything is ready before the event begins.
                         </p>
                     </div>
@@ -104,9 +168,9 @@ include('header.php');
 
                 <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.3s" style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.3s; animation-name: fadeInUp;">
                     <div class="td-feature-3-wrap mr-60 mb-30">
-                        <span class="td-feature-3-icon d-inline-block mb-20"><i class="fa fa-check-circle"></i></span>
+                        <span class="td-feature-3-icon d-flex justify-content-center mb-20"><i class="fa fa-check-circle"></i></span>
                         <h3 class="td-feature-3-title mb-15">On-site Execution & Support</h3>
-                        <p class="td-feature-3-text"  style="text-align:justify;">
+                        <p class="td-feature-3-text">
                             We manage on-site operations, coordinate with vendors, and ensure smooth execution, along with post-event dismantling and support.
                         </p>
                     </div>
@@ -273,6 +337,168 @@ include('header.php');
         </div>
     </div>
 
+    <?php include('related-services.php'); ?>
 </main>
 
 <?php include('footer.php') ?>
+
+<style>
+.floating-buttons {
+    position: fixed;
+    bottom: 90px;
+    right: 50px;
+    z-index: 9999;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(20px);
+    transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.floating-buttons.show {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.floating-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-decoration: none;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.floating-btn:hover {
+    transform: scale(1.08);
+    box-shadow: 0 6px 16px rgba(0,0,0,0.2);
+}
+
+.whatsapp-btn {
+    background-color: #25D366;
+}
+
+.call-btn {
+    background-color: #7a34fa;
+}
+
+.floating-btn i {
+    font-size: 24px;
+    color: white;
+}
+
+/* Tooltip on hover */
+.floating-btn .tooltip {
+    position: absolute;
+    right: 60px;
+    background: #1a1a2e;
+    color: white;
+    padding: 6px 14px;
+    border-radius: 30px;
+    font-size: 13px;
+    font-weight: 500;
+    white-space: nowrap;
+    font-family: "Outfit", sans-serif;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    letter-spacing: 0.3px;
+}
+
+.floating-btn .tooltip::after {
+    content: '';
+    position: absolute;
+    right: -6px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 0;
+    height: 0;
+    border-left: 6px solid #1a1a2e;
+    border-top: 6px solid transparent;
+    border-bottom: 6px solid transparent;
+}
+
+.floating-btn:hover .tooltip {
+    opacity: 1;
+    visibility: visible;
+    right: 70px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .floating-buttons { 
+        bottom: 60px;
+        right: 15px; 
+        gap: 10px; 
+    }
+    .floating-btn { 
+        width: 36px; 
+        height: 36px; 
+    }
+    .floating-btn i { 
+        font-size: 20px; 
+    }
+    .floating-btn .tooltip {
+        font-size: 11px;
+        padding: 4px 10px;
+        right: 52px;
+    }
+    .floating-btn:hover .tooltip {
+        right: 60px;
+    }
+}
+</style>
+
+<div class="floating-buttons" id="floatingButtons">
+    <a href="https://wa.me/966500082828" class="floating-btn whatsapp-btn" target="_blank" rel="noopener noreferrer">
+        <i class="fab fa-whatsapp"></i>
+        <span class="tooltip">Chat with us</span>
+    </a>
+    <a href="tel:+966500082828" class="floating-btn call-btn">
+        <i class="fas fa-phone"></i>
+        <span class="tooltip">Call us</span>
+    </a>
+</div>
+
+<script>
+// Same animation as back-to-top button - appears when scrolling down
+(function() {
+    const floatingButtons = document.getElementById('floatingButtons');
+    let scrollTimeout;
+    
+    function checkScroll() {
+        if (!floatingButtons) return;
+        
+        // Show buttons when scrolled down more than 300px (adjustable)
+        if (window.scrollY > 300) {
+            floatingButtons.classList.add('show');
+        } else {
+            floatingButtons.classList.remove('show');
+        }
+    }
+    
+    // Check on scroll with throttle for performance
+    window.addEventListener('scroll', function() {
+        if (scrollTimeout) {
+            window.cancelAnimationFrame(scrollTimeout);
+        }
+        scrollTimeout = window.requestAnimationFrame(function() {
+            checkScroll();
+        });
+    });
+    
+    // Check on page load
+    document.addEventListener('DOMContentLoaded', checkScroll);
+    
+    // Also check on page load in case of delayed content
+    window.addEventListener('load', checkScroll);
+})();
+</script>

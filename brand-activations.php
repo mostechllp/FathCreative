@@ -1,10 +1,73 @@
 <?php 
-$pageTitle = "Brand Activations | Engaging Marketing Campaigns | Fath Creative";
+$pageTitle = "Brand Activation Services in Saudi Arabia - Fath Creative";
 $pageDescription = "Creative on-ground brand activations that connect your brand with the audience through impactful experiences and engagement across Saudi Arabia.";
 $pageKeywords = "Brand Activations Saudi Arabia, Marketing Engagement Riyadh, On-ground Activation Jeddah";
 include('header.php'); 
 ?>
-
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/", 
+  "@type": "BreadcrumbList", 
+  "itemListElement": [{
+    "@type": "ListItem", 
+    "position": 1, 
+    "name": "Home",
+    "item": "https://www.fathcreative.com/"  
+  },{
+    "@type": "ListItem", 
+    "position": 2, 
+    "name": "Services",
+    "item": "https://www.fathcreative.com/services"  
+  },{
+    "@type": "ListItem", 
+    "position": 3, 
+    "name": "Brand Activations",
+    "item": "https://www.fathcreative.com/brand-activations"  
+  }]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [{
+    "@type": "Question",
+    "name": "What are brand activation services?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Brand activation involves creating interactive campaigns that engage customers and promote your brand effectively."
+    }
+  },{
+    "@type": "Question",
+    "name": "Where can brand activations be conducted?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "They can be conducted in malls, retail stores, outdoor locations, exhibitions, and events."
+    }
+  },{
+    "@type": "Question",
+    "name": "Do you provide promoters and staff?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, we provide trained promoters and event staff for all activation activities."
+    }
+  },{
+    "@type": "Question",
+    "name": "Can you handle complete activation campaigns?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, we manage everything from planning and design to execution and reporting."
+    }
+  },{
+    "@type": "Question",
+    "name": "Do you offer customized brand activation concepts?",
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, we create customized brand activation ideas tailored to your target audience, campaign goals, and brand identity to maximize engagement and customer interaction."
+    }
+  }]
+}
+</script>
 
 <!-- main-area -->
 <main>
@@ -16,8 +79,8 @@ include('header.php');
             <div class="row">
                 <div class="col-lg-12">
                     <div class="td-breadcrumb-title-wrap">
-                        <h2 class="td-breadcrumb-title mb-10 wow td-animetion-left" data-wow-duration="1.5s"
-                            data-wow-delay="0.3s">Brand Activations</h2>
+                        <h1 class="td-breadcrumb-title mb-10 wow td-animetion-left" data-wow-duration="1.5s"
+                            data-wow-delay="0.3s">Brand Activations</h1>
                         <div class="td-breadcrumb-list wow td-animetion-right" data-wow-duration="1.5s"
                             data-wow-delay="0.3s">
                             <ul>
@@ -53,11 +116,11 @@ include('header.php');
                         <div class="td-about-2-content">
                             <h2 class="td-section-title mb-10">Creating Memorable Brand Activations That Drive Engagement</h2>
 
-                            <p class="para"  style="text-align:justify;">
+                            <p class="para">
                                 Our brand activation services are designed to create meaningful interactions between your brand and your audience. We develop engaging campaigns that capture attention, build awareness, and leave a lasting impression.
                             </p>
 
-                            <p class="para"  style="text-align:justify;">
+                            <p class="para">
                                 From concept to execution, we manage every aspect of brand activations including planning, setup, and on-ground coordination. Whether it is in-store, outdoor, or promotional events, we ensure impactful experiences that connect with your target audience.
                             </p>
                         </div>
@@ -83,9 +146,9 @@ include('header.php');
                 <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.3s"
                     style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.3s; animation-name: fadeInUp;">
                     <div class="td-feature-3-wrap mr-60 mb-30">
-                        <span class="td-feature-3-icon d-inline-block mb-20"><i class="fa fa-line-chart"></i></span>
+                        <span class="td-feature-3-icon d-flex justify-content-center mb-20"><i class="fa fa-line-chart"></i></span>
                         <h3 class="td-feature-3-title mb-15">Strategy & Planning</h3>
-                        <p class="td-feature-3-text"  style="text-align:justify;">
+                        <p class="td-feature-3-text">
                             We understand your brand goals, target audience, and campaign objectives to develop an effective activation strategy.
                         </p>
                     </div>
@@ -93,10 +156,10 @@ include('header.php');
                 <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.5s"
                     style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.5s; animation-name: fadeInUp;">
                     <div class="td-feature-3-wrap mr-60 mb-30">
-                        <span class="td-feature-3-icon d-inline-block mb-20"><i
+                        <span class="td-feature-3-icon d-flex justify-content-center mb-20"><i
                                 class="fa fa-paint-brush"></i></span>
                         <h3 class="td-feature-3-title mb-15">Concept Design</h3>
-                        <p class="td-feature-3-text"  style="text-align:justify;">
+                        <p class="td-feature-3-text">
                             Our team creates innovative activation concepts with engaging ideas, visuals, and interactive elements that attract attention.
                         </p>
                     </div>
@@ -104,9 +167,9 @@ include('header.php');
                 <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.7s"
                     style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.7s; animation-name: fadeInUp;">
                     <div class="td-feature-3-wrap mr-60 mb-30">
-                        <span class="td-feature-3-icon d-inline-block mb-20"><i class="fa fa-cogs"></i></span>
+                        <span class="td-feature-3-icon d-flex justify-content-center mb-20"><i class="fa fa-cogs"></i></span>
                         <h3 class="td-feature-3-title mb-15">Execution & Setup</h3>
-                        <p class="td-feature-3-text"  style="text-align:justify;">
+                        <p class="td-feature-3-text">
                             We handle fabrication, setup, staffing, and logistics to ensure smooth execution of activation activities at the venue.
                         </p>
                     </div>
@@ -114,10 +177,10 @@ include('header.php');
                 <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.9s"
                     style="visibility: visible; animation-duration: 1.5s; animation-delay: 0.9s; animation-name: fadeInUp;">
                     <div class="td-feature-3-wrap mr-60 mb-30">
-                        <span class="td-feature-3-icon d-inline-block mb-20"><i
+                        <span class="td-feature-3-icon d-flex justify-content-center mb-20"><i
                                 class="fa fa-bar-chart"></i></span>
                         <h3 class="td-feature-3-title mb-15">Reporting</h3>
-                        <p class="td-feature-3-text"  style="text-align:justify;">
+                        <p class="td-feature-3-text">
                             Our team supervises on-site activities and provides performance insights to evaluate engagement and campaign success.
                         </p>
                     </div>
@@ -322,9 +385,170 @@ include('header.php');
     </div>
     <!-- td-blog-area-end -->
 
-
+    <?php include('related-services.php'); ?>
 </main>
 <!-- main-area-end -->
 
 
 <?php include('footer.php') ?>
+
+<style>
+.floating-buttons {
+    position: fixed;
+    bottom: 90px;
+    right: 50px;
+    z-index: 9999;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(20px);
+    transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.floating-buttons.show {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.floating-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-decoration: none;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.floating-btn:hover {
+    transform: scale(1.08);
+    box-shadow: 0 6px 16px rgba(0,0,0,0.2);
+}
+
+.whatsapp-btn {
+    background-color: #25D366;
+}
+
+.call-btn {
+    background-color: #7a34fa;
+}
+
+.floating-btn i {
+    font-size: 24px;
+    color: white;
+}
+
+/* Tooltip on hover */
+.floating-btn .tooltip {
+    position: absolute;
+    right: 60px;
+    background: #1a1a2e;
+    color: white;
+    padding: 6px 14px;
+    border-radius: 30px;
+    font-size: 13px;
+    font-weight: 500;
+    white-space: nowrap;
+    font-family: "Outfit", sans-serif;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    letter-spacing: 0.3px;
+}
+
+.floating-btn .tooltip::after {
+    content: '';
+    position: absolute;
+    right: -6px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 0;
+    height: 0;
+    border-left: 6px solid #1a1a2e;
+    border-top: 6px solid transparent;
+    border-bottom: 6px solid transparent;
+}
+
+.floating-btn:hover .tooltip {
+    opacity: 1;
+    visibility: visible;
+    right: 70px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .floating-buttons { 
+        bottom: 60px;
+        right: 15px; 
+        gap: 10px; 
+    }
+    .floating-btn { 
+        width: 36px; 
+        height: 36px; 
+    }
+    .floating-btn i { 
+        font-size: 20px; 
+    }
+    .floating-btn .tooltip {
+        font-size: 11px;
+        padding: 4px 10px;
+        right: 52px;
+    }
+    .floating-btn:hover .tooltip {
+        right: 60px;
+    }
+}
+</style>
+
+<div class="floating-buttons" id="floatingButtons">
+    <a href="https://wa.me/966500082828" class="floating-btn whatsapp-btn" target="_blank" rel="noopener noreferrer">
+        <i class="fab fa-whatsapp"></i>
+        <span class="tooltip">Chat with us</span>
+    </a>
+    <a href="tel:+966500082828" class="floating-btn call-btn">
+        <i class="fas fa-phone"></i>
+        <span class="tooltip">Call us</span>
+    </a>
+</div>
+
+<script>
+// Same animation as back-to-top button - appears when scrolling down
+(function() {
+    const floatingButtons = document.getElementById('floatingButtons');
+    let scrollTimeout;
+    
+    function checkScroll() {
+        if (!floatingButtons) return;
+        
+        // Show buttons when scrolled down more than 300px (adjustable)
+        if (window.scrollY > 300) {
+            floatingButtons.classList.add('show');
+        } else {
+            floatingButtons.classList.remove('show');
+        }
+    }
+    
+    // Check on scroll with throttle for performance
+    window.addEventListener('scroll', function() {
+        if (scrollTimeout) {
+            window.cancelAnimationFrame(scrollTimeout);
+        }
+        scrollTimeout = window.requestAnimationFrame(function() {
+            checkScroll();
+        });
+    });
+    
+    // Check on page load
+    document.addEventListener('DOMContentLoaded', checkScroll);
+    
+    // Also check on page load in case of delayed content
+    window.addEventListener('load', checkScroll);
+})();
+</script>

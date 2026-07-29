@@ -103,7 +103,7 @@ $result = mysqli_query($conn, $sql);
                                     ?>
                                             <tr>
                                                 <td><?= ++$a ?></td>
-                                                <td><?php if($row['blog_date']!='0000-00-00'){ echo date('d-m-Y', strtotime($row['blog_date'])); } ?></td>
+                                                <td><?php if($row['blog_date']!='0000-00-00'){ echo date('d-m-Y', strtotime($row['blog_date'])); } ?> - <?php if($row['end_date']!='0000-00-00'){ echo date('d-m-Y', strtotime($row['end_date'])); } ?></td>
                                                 <td><?php echo $row['blog_location']; ?></td>
                                                 <td>
                                                     <img src="uploads/projects/<?php echo $row['blog_image']; ?>" alt="Blog Image" style="width:100px;height:100px;">
@@ -111,6 +111,7 @@ $result = mysqli_query($conn, $sql);
                                                 <td><?php echo $row['blog_title']; ?></td>
                                                 <td><?php echo $row['blog_description']; ?></td>
                                                 <td class="actions">
+                                                    <a href="edit-project.php?id=<?= $row['id']; ?>" class="btn btn-primary" style="margin-right: 5px;">Edit</a>
                                                     <a href="delete-blog.php?id=<?= $row['id']; ?>"
                                                         class="btn delete"
                                                         onclick="return confirm('Are you sure you want to delete this project?');">

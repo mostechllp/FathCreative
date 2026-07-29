@@ -1,9 +1,26 @@
 <?php 
-$pageTitle = "Our Services | Exhibition Stands, Events & Branding | Fath Creative";
-$pageDescription = "Explore our comprehensive services including Event Management, Exhibition Stands, POSM Activities, Brand Activations, 3D Design, and Fabrication in Saudi Arabia.";
+$pageTitle = "Fath Creative Services - Digital and Branding Solutions";
+$pageDescription = "Fath Creative Services - Digital delivers expert web design, branding, and marketing solutions to grow your business and strengthen online presence.";
 $pageKeywords = "Exhibition Services Saudi Arabia, Event Management Services, 3D Design Agency, Branding Solutions Riyadh";
 include('header.php'); 
 ?>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/", 
+  "@type": "BreadcrumbList", 
+  "itemListElement": [{
+    "@type": "ListItem", 
+    "position": 1, 
+    "name": "Home",
+    "item": "https://www.fathcreative.com/"  
+  },{
+    "@type": "ListItem", 
+    "position": 2, 
+    "name": "Services",
+    "item": "https://www.fathcreative.com/services"  
+  }]
+}
+</script>
 <!-- header-area-end -->
 <!-- header-area-end -->
 
@@ -17,8 +34,8 @@ include('header.php');
             <div class="row">
                 <div class="col-lg-12">
                     <div class="td-breadcrumb-title-wrap">
-                        <h2 class="td-breadcrumb-title mb-10 wow td-animetion-left" data-wow-duration="1.5s"
-                            data-wow-delay="0.3s">Our Services</h2>
+                        <h1 class="td-breadcrumb-title mb-10 wow td-animetion-left" data-wow-duration="1.5s"
+                            data-wow-delay="0.3s">Our Services</h1>
                         <div class="td-breadcrumb-list wow td-animetion-right" data-wow-duration="1.5s"
                             data-wow-delay="0.3s">
                             <ul>
@@ -61,7 +78,7 @@ include('header.php');
                                     <div class="row gx-30">
                                         <div class="col-xl-5 mb-30">
                                             <div class="td-schedule-4-thumb">
-                                                <a href="events-details.php"><img class="w-100"
+                                                <a href="event-management.php"><img class="w-100"
                                                         src="assets/img/projects/img8.webp" alt="Event Management"></a>
                                             </div>
                                         </div>
@@ -97,7 +114,7 @@ include('header.php');
                                     <div class="row gx-30">
                                         <div class="col-xl-5 mb-30">
                                             <div class="td-schedule-4-thumb">
-                                                <a href="events-details.php">
+                                                <a href="exhibition-tradeshows.php">
                                                     <img class="w-100"
                                                         src="assets/img/projects/img11.webp" alt="Exhibition & Tradeshows">
                                                 </a>
@@ -213,7 +230,7 @@ include('header.php');
                                             <div class="td-schedule-4-thumb">
                                                 <a href="3D-designs.php">
                                                     <img class="w-100"
-                                                        src="assets/img/projects/img7.webp" alt="3D DESIGNS">
+                                                        src="assets/img/projects/img7.webp" alt="3D DESIGNS" loading="lazy">
                                                 </a>
                                             </div>
                                         </div>
@@ -372,3 +389,4 @@ include('header.php');
 
 
 <?php include('footer.php') ?>
+
