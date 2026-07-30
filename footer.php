@@ -81,7 +81,7 @@
                         <div class="row align-items-center">
                             <div class="col-md-9">
                                 <div class="td-footer-bottom-copyright mb-30">
-                                    <p>© All Rights Reserved | Developed by Mostech Business Solutions</p>
+                                    <p>© All Rights Reserved | Developed by <a href="https://mostech.ae/" target="_blank" rel="noopener noreferrer" style="color: inherit;"><b>Mostech Business Solutions</b></a></p>
                                 </div>
                             </div>
                             <div class="col-md-3">
