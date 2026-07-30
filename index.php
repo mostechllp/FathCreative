@@ -1,6 +1,6 @@
 <?php
 // [SEO Optimization] Title optimized to convey brand authority and KSA location within search snippet limits
-$pageTitle = "Exhibition & Branding Company Riyadh, Jeddah, KSA | Fath Creative";
+$pageTitle = "Fath Creative - Exhibition and Branding Company Saudi Arabia";
 
 // [SEO Optimization] Meta description under 160 characters containing key search terms and USP for rich snippet search results
 $pageDescription = "Scale your brand with Fath Creative, Premier branding & marketing agency Saudi Arabia’s. 300+ projects and 120+ events managed across Riyadh, Jeddah & KSA.";
