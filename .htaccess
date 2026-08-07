@@ -98,8 +98,9 @@ RewriteRule ^projects/([^/]+)/?$ project-details.php?slug=$1 [L,QSA]
 
 # Blog Route Rewrites
 RewriteRule ^blogs/?$ blogs.php [L,QSA]
-RewriteRule ^blogs/cityscape[-_\ ]?global[-_\ ]?2026/?$ cityscape-global-2026.php [L,QSA]
-RewriteRule ^blogs/([^/]+)/?$ $1.php [L,QSA]
+RewriteRule ^blogs/cityscape-global-2026/?$ cityscape-global-2026.php [L,QSA]
+RewriteRule ^blogs/exhibition-stand-builder-saudi/?$ exhibition-stand-builder-saudi.php [L,QSA]
+RewriteRule ^blogs/([^/]+)/?$ blogs/$1.php [L,QSA]
 
 RewriteCond %{DOCUMENT_ROOT}/$1.php -f
 RewriteRule ^(.*)$ $1.php [L]

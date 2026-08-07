@@ -151,6 +151,30 @@ include('header.php');
         <div class="container">
             <div class="row">
                 
+                <!-- Exhibition Stand Builder Saudi Blog Card -->
+                <div class="col-lg-4 col-md-6 mb-40">
+                    <div class="custom-blog-card">
+                        <div class="blog-card-thumb">
+                            <a href="blogs/exhibition-stand-builder-saudi">
+                                <img src="assets/img/blog/best_exhibtion_stand_builder.webp" alt="How to Choose the Best Exhibition Stand Builder in Saudi Arabia">
+                            </a>
+                        </div>
+                        <div class="blog-card-content">
+                            <div class="blog-date-badge">
+                                <i class="fa-regular fa-calendar-days"></i>
+                                <span>07-08-2026</span>
+                            </div>
+                            <h3 class="blog-card-title">
+                                <a href="blogs/exhibition-stand-builder-saudi">How to Choose the Best Exhibition Stand Builder in Saudi Arabia for Your Next Trade Show</a>
+                            </h3>
+                            <a href="blogs/exhibition-stand-builder-saudi" class="blog-read-more-btn">
+                                <span>Read More</span>
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
                 <!-- Cityscape Global Blog Card -->
                 <div class="col-lg-4 col-md-6 mb-40">
                     <div class="custom-blog-card">
