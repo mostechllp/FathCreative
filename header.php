@@ -25,6 +25,17 @@
                     'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
         })(window, document, 'script', 'dataLayer', 'GTM-5K5MVRW9');</script>
     <!-- End Google Tag Manager -->
+    <?php if ((isset($slug) && $slug === 'saudi-food-show-2026') || (isset($_GET['slug']) && $_GET['slug'] === 'saudi-food-show-2026') || (isset($_SERVER['REQUEST_URI']) && strpos($_SERVER['REQUEST_URI'], 'saudi-food-show-2026') !== false)): ?>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18376215213"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'AW-18376215213');
+    </script>
+    <?php endif; ?>
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>
         <?php echo isset($pageTitle) ? $pageTitle : "Best Sticker Branding & Exhibition Stand Company in Saudi Arabia | FATH"; ?>
