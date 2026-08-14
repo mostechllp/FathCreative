@@ -11,6 +11,7 @@
 
 @font-face {
     font-family: "flaticon_mycollection";
+    font-display: swap;
     src: url("../fonts/flaticon_mycollection2cf8.woff2?4a2b4ee8d8d7688e46970a8132a81306") format("woff2"),
 url("../fonts/flaticon_mycollection2cf8.html?4a2b4ee8d8d7688e46970a8132a81306") format("woff"),
 url("../fonts/flaticon_mycollection2cf8-2.html?4a2b4ee8d8d7688e46970a8132a81306#iefix") format("embedded-opentype"),

@@ -6,6 +6,7 @@
 <head>
     <meta charset="utf-8">
     <?php
+    require_once(__DIR__ . '/optimize_images.php');
     $protocol = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off' || $_SERVER['SERVER_PORT'] == 443) ? "https://" : "http://";
     $domainName = $_SERVER['HTTP_HOST'];
     $basePath = dirname($_SERVER['PHP_SELF']);
@@ -57,11 +58,77 @@
                 font-family: system-ui, sans-serif;
             }
 
-            .logo img,
-            .nav-logo img,
-            .offCanvas__logo img {
-                max-width: 150px;
-                height: auto;
+            header {
+                position: absolute;
+                width: 100%;
+                top: 0;
+                left: 0;
+                z-index: 999;
+            }
+
+            .td-header-height {
+                min-height: 90px;
+            }
+
+            .tdmobile__menu {
+                position: fixed;
+                right: 0;
+                top: 0;
+                width: 350px;
+                max-width: 100%;
+                height: 100%;
+                z-index: 9991;
+                transform: translateX(101%);
+                display: block;
+            }
+
+            .d-none { display: none !important; }
+            .d-flex { display: flex !important; }
+            .align-items-center { align-items: center !important; }
+            .justify-content-between { justify-content: space-between !important; }
+            .justify-content-end { justify-content: flex-end !important; }
+            .tdmenu__wrap { display: flex; align-items: center; justify-content: space-between; }
+            .logo img, .nav-logo img, .offCanvas__logo img { max-width: 150px; height: auto; }
+
+            .container, .container-fluid, .container-1680 {
+                width: 100%;
+                padding-right: 15px;
+                padding-left: 15px;
+                margin-right: auto;
+                margin-left: auto;
+            }
+            .container-1680 { max-width: 1680px; }
+
+            .row {
+                display: flex;
+                flex-wrap: wrap;
+                margin-right: -15px;
+                margin-left: -15px;
+            }
+
+            .col-6 { position: relative; width: 50%; flex: 0 0 50%; max-width: 50%; padding-right: 15px; padding-left: 15px; }
+            .col-lg-6 { position: relative; width: 100%; padding-right: 15px; padding-left: 15px; }
+            .col-xxl-9, .col-xl-9 { position: relative; width: 100%; padding-right: 15px; padding-left: 15px; }
+            .col-xxl-3, .col-xl-3 { position: relative; width: 100%; padding-right: 15px; padding-left: 15px; }
+
+            @media (min-width: 992px) {
+                .col-lg-6 { flex: 0 0 50%; max-width: 50%; }
+                .d-lg-block { display: block !important; }
+                .d-lg-none { display: none !important; }
+            }
+            @media (max-width: 991.98px) {
+                .d-lg-block { display: none !important; }
+            }
+            @media (min-width: 1200px) {
+                .col-xl-9, .col-xxl-9 { flex: 0 0 75%; max-width: 75%; }
+                .col-xl-3, .col-xxl-3 { flex: 0 0 25%; max-width: 25%; }
+                .d-xl-flex { display: flex !important; }
+                .d-xl-block { display: block !important; }
+                .d-xl-none { display: none !important; }
+            }
+            @media (max-width: 1199.98px) {
+                .d-xl-flex { display: none !important; }
+                .d-xl-block { display: none !important; }
             }
         </style>
     <?php endif; ?>
@@ -93,20 +160,17 @@
     <link rel="shortcut icon" type="image/png" href="assets/img/logo/favicon.webp">
     <!-- Place favicon.ico in the root directory -->
 
-    <!-- Critical CSS -->
-    <link rel="stylesheet" href="assets/css/all.min.css?v=<?php echo time(); ?>">
+    <!-- Async Stylesheets (Eliminates Render-Blocking) -->
+    <link rel="preload" href="assets/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <link rel="preload" href="assets/css/default.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript>
-        <link rel="stylesheet" href="assets/css/default.css">
-    </noscript>
 
     <!-- Preconnect -->
     <link rel="preconnect" href="https://code.jquery.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Unbounded:wght@200..900&display=swap" rel="stylesheet">
+    <!-- Google Fonts (Non-blocking preload of used weights) -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
 
     <!-- Async Non-Critical CSS -->
     <link rel="preload" href="assets/css/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
@@ -125,6 +189,9 @@
 
     <!-- Fallback for No JS -->
     <noscript>
+        <link rel="stylesheet" href="assets/css/all.min.css">
+        <link rel="stylesheet" href="assets/css/default.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap">
         <link rel="stylesheet" href="assets/css/animate.min.css">
         <link rel="stylesheet" href="assets/css/magnific-popup.css">
         <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
@@ -257,7 +324,7 @@
                                             height="114"></a>
                                     <a class="logo-2 d-none" href="index.php" aria-label="Fath Creative Home"><img
                                             data-width="150" src="assets/img/logo/logo-black.webp" alt="Logo"
-                                            width="615" height="260"></a>
+                                            width="150" height="63" loading="lazy" decoding="async"></a>
                                 </div>
                                 <nav class="tdmenu__nav tdmenu-3 ml-50 mr-40 d-none d-xl-flex">
                                     <div class="tdmenu__navbar-wrap tdmenu__main-menu">
@@ -337,7 +404,7 @@
                 <div class="close-btn"><i class="fa-solid fa-xmark"></i></div>
                 <div class="nav-logo">
                     <a href="index.php" aria-label="Fath Creative Home"><img src="assets/img/logo/logo-black.webp"
-                            alt="logo" width="615" height="260"></a>
+                            alt="logo" width="150" height="63" loading="lazy" decoding="async"></a>
                 </div>
 
                 <div class="tdmobile__menu-outer">

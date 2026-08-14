@@ -13152,7 +13152,7 @@
     font-family: "Font Awesome 6 Brands";
     font-style: normal;
     font-weight: 400;
-    font-display: block;
+    font-display: swap;
     src: url(../fonts/fa-brands-400.woff2) format("woff2"), url(../fonts/fa-brands-400.html) format("truetype")
 }
 
@@ -15020,7 +15020,7 @@
     font-family: "Font Awesome 6 Duotone";
     font-style: normal;
     font-weight: 900;
-    font-display: block;
+    font-display: swap;
     src: url(../fonts/fa-duotone-900.html) format("woff2"), url(../fonts/fa-duotone-901.html) format("truetype")
 }
 
@@ -31446,7 +31446,7 @@
     font-family: "Font Awesome 6 Pro";
     font-style: normal;
     font-weight: 300;
-    font-display: block;
+    font-display: swap;
     src: url(../fonts/fa-light-300.woff2) format("woff2"), url(../fonts/fa-light-300.html) format("truetype")
 }
 
@@ -31484,7 +31484,7 @@
     font-family: "Font Awesome 6 Pro";
     font-style: normal;
     font-weight: 900;
-    font-display: block;
+    font-display: swap;
     src: url(../fonts/fa-solid-900.woff2) format("woff2"), url(../fonts/fa-solid-900.html) format("truetype")
 }
 

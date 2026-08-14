@@ -44,7 +44,7 @@ $related = array_slice($related, 0, 3);
                         <div class="td-blog-thumb p-relative fix">
                             <a href="<?php echo $item['url']; ?>">
                                 <img class="w-100" src="<?php echo $item['img']; ?>" alt="<?php echo $item['title']; ?>"
-                                    width="960" height="720" loading="lazy" style="border-radius: 8px 8px 0 0;">
+                                    width="800" height="600" loading="lazy" style="border-radius: 8px 8px 0 0;">
                             </a>
                         </div>
                         <div class="td-blog-content p-3">

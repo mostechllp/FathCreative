@@ -31,16 +31,43 @@ body {
 header {
     position: absolute;
     width: 100%;
+    top: 0;
+    left: 0;
     z-index: 999;
 }
 
-.container {
+.td-header-height {
+    min-height: 90px;
+}
+
+.tdmobile__menu {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 350px;
+    max-width: 100%;
+    height: 100%;
+    z-index: 9991;
+    transform: translateX(101%);
+    display: block;
+}
+
+.d-none { display: none !important; }
+.d-flex { display: flex !important; }
+.align-items-center { align-items: center !important; }
+.justify-content-between { justify-content: space-between !important; }
+.justify-content-end { justify-content: flex-end !important; }
+.tdmenu__wrap { display: flex; align-items: center; justify-content: space-between; }
+.logo img, .nav-logo img { max-width: 150px; height: auto; }
+
+.container, .container-fluid, .container-1680 {
     width: 100%;
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
 }
+.container-1680 { max-width: 1680px; }
 
 @media (min-width: 576px) { .container { max-width: 540px; } }
 @media (min-width: 768px) { .container { max-width: 720px; } }
@@ -54,24 +81,30 @@ header {
     margin-left: -15px;
 }
 
-.col-xl-10, .col-lg-10 {
-    position: relative;
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-}
+.col-6 { position: relative; width: 50%; flex: 0 0 50%; max-width: 50%; padding-right: 15px; padding-left: 15px; }
+.col-lg-6, .col-lg-10 { position: relative; width: 100%; padding-right: 15px; padding-left: 15px; }
+.col-xl-9, .col-xl-10, .col-xl-3, .col-xxl-9, .col-xxl-3 { position: relative; width: 100%; padding-right: 15px; padding-left: 15px; }
 
 @media (min-width: 992px) {
-    .col-lg-10 {
-        flex: 0 0 83.333333%;
-        max-width: 83.333333%;
-    }
+    .col-lg-6 { flex: 0 0 50%; max-width: 50%; }
+    .col-lg-10 { flex: 0 0 83.333333%; max-width: 83.333333%; }
+    .d-lg-block { display: block !important; }
+    .d-lg-none { display: none !important; }
+}
+@media (max-width: 991.98px) {
+    .d-lg-block { display: none !important; }
 }
 @media (min-width: 1200px) {
-    .col-xl-10 {
-        flex: 0 0 83.333333%;
-        max-width: 83.333333%;
-    }
+    .col-xl-9, .col-xxl-9 { flex: 0 0 75%; max-width: 75%; }
+    .col-xl-3, .col-xxl-3 { flex: 0 0 25%; max-width: 25%; }
+    .col-xl-10 { flex: 0 0 83.333333%; max-width: 83.333333%; }
+    .d-xl-flex { display: flex !important; }
+    .d-xl-block { display: block !important; }
+    .d-xl-none { display: none !important; }
+}
+@media (max-width: 1199.98px) {
+    .d-xl-flex { display: none !important; }
+    .d-xl-block { display: none !important; }
 }
 
 .align-items-end {
@@ -592,7 +625,7 @@ include('header.php');
                                 <!-- [Core Web Vitals - CLS & Performance] Added exact width & height values based on assets dimensions, descriptive alt attribute and lazy loading -->
                                 <img class="w-100" src="assets/img/projects/img8.webp"
                                     alt="Professional event management and planning services in Riyadh by Fath Creative"
-                                    width="960" height="720" loading="lazy">
+                                    width="800" height="600" loading="lazy">
                             </a>
                         </div>
                         <div class="td-blog-content p-3">
@@ -614,7 +647,7 @@ include('header.php');
                                 <!-- [Core Web Vitals - CLS & Performance] Optimized with explicit width and height sizes, descriptive alt text and native lazy loading -->
                                 <img class="w-100" src="assets/img/projects/img11.webp"
                                     alt="Premium custom exhibition booth design and fabrication by Fath Creative at trade show"
-                                    width="960" height="720" loading="lazy">
+                                    width="800" height="600" loading="lazy">
                             </a>
                         </div>
                         <div class="td-blog-content p-3">
@@ -636,7 +669,7 @@ include('header.php');
                                 <!-- [Core Web Vitals - CLS & Performance] Added explicit width/height dimensions, descriptive alt text and lazy loading -->
                                 <img class="w-100" src="assets/img/projects/img9.webp"
                                     alt="Creative point of sale materials POSM displays designed for maximum in-store brand visibility"
-                                    width="960" height="720" loading="lazy">
+                                    width="800" height="600" loading="lazy">
                             </a>
                         </div>
                         <div class="td-blog-content p-3">
@@ -658,7 +691,7 @@ include('header.php');
                                 <!-- [Core Web Vitals - CLS & Performance] Provided aspect ratio width/height attributes, custom alt tag and native lazy loading -->
                                 <img class="w-100" src="assets/img/projects/img10.webp"
                                     alt="Interactive brand activation campaign by Fath Creative connecting brands and customers"
-                                    width="960" height="720" loading="lazy">
+                                    width="800" height="600" loading="lazy">
                             </a>
                         </div>
                         <div class="td-blog-content p-3">
@@ -680,7 +713,7 @@ include('header.php');
                                 <!-- [Core Web Vitals - CLS & Performance] Provided aspect ratio width/height attributes, detailed alt description and native lazy loading -->
                                 <img class="w-100" src="assets/img/projects/img7.webp"
                                     alt="3D exhibition stand conceptual architecture rendering by Fath Creative"
-                                    width="960" height="720" loading="lazy">
+                                    width="800" height="600" loading="lazy">
                             </a>
                         </div>
                         <div class="td-blog-content p-3">
@@ -702,7 +735,7 @@ include('header.php');
                                 <!-- [Core Web Vitals - CLS & Performance] Provided exact width/height attributes, informative alt description and native lazy loading -->
                                 <img class="w-100" src="assets/img/projects/img12.webp"
                                     alt="High-quality carpentry fabrication and exhibition stand production workshop of Fath Creative"
-                                    width="960" height="720" loading="lazy">
+                                    width="800" height="600" loading="lazy">
                             </a>
                         </div>
                         <div class="td-blog-content p-3">
@@ -820,7 +853,7 @@ include('header.php');
                                             <!-- [Core Web Vitals - CLS & Performance] Added explicit width/height sizes, descriptive alt text and native lazy loading -->
                                             <img class="w-100" src="assets/img/projects/img11.webp"
                                                 alt="Luxurious custom exhibition space constructed for Cityscape Global 2025 in Riyadh"
-                                                width="960" height="720" loading="lazy">
+                                                width="800" height="600" loading="lazy">
                                         </a>
                                         <span class="td-schedule-2-date"><i class="flaticon-calendar"></i> Jan 10,
                                             2025</span>
@@ -874,7 +907,7 @@ include('header.php');
                                             <!-- [Core Web Vitals - CLS & Performance] Added explicit width/height sizes, descriptive alt text and native lazy loading -->
                                             <img class="w-100" src="assets/img/projects/img1.webp"
                                                 alt="Basamh custom exhibition display stand built at Riyadh Front Exhibition and Conference Center"
-                                                width="960" height="736" loading="lazy">
+                                                width="800" height="600" loading="lazy">
                                         </a>
                                         <span class="td-schedule-2-date"><i class="flaticon-calendar"></i> Feb 14,
                                             2024</span>

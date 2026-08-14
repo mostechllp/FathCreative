@@ -79,7 +79,7 @@ include('header.php');
                                         <div class="col-xl-5 mb-30">
                                             <div class="td-schedule-4-thumb">
                                                 <a href="event-management.php"><img class="w-100"
-                                                        src="assets/img/projects/img8.webp" alt="Event Management"></a>
+                                                        src="assets/img/projects/img8.webp" alt="Event Management" width="800" height="600" loading="lazy"></a>
                                             </div>
                                         </div>
                                         <div class="col-xl-7 mb-30">
@@ -116,7 +116,7 @@ include('header.php');
                                             <div class="td-schedule-4-thumb">
                                                 <a href="exhibition-tradeshows.php">
                                                     <img class="w-100"
-                                                        src="assets/img/projects/img11.webp" alt="Exhibition & Tradeshows">
+                                                        src="assets/img/projects/img11.webp" alt="Exhibition & Tradeshows" width="800" height="600" loading="lazy">
                                                 </a>
                                             </div>
                                         </div>
@@ -154,7 +154,7 @@ include('header.php');
                                             <div class="td-schedule-4-thumb">
                                                 <a href="posm-activities.php">
                                                     <img class="w-100"
-                                                        src="assets/img/projects/img9.webp" alt="Posm Activites">
+                                                        src="assets/img/projects/img9.webp" alt="Posm Activites" width="800" height="600" loading="lazy">
                                                 </a>
                                             </div>
                                         </div>
@@ -192,7 +192,7 @@ include('header.php');
                                             <div class="td-schedule-4-thumb">
                                                 <a href="brand-activations.php">
                                                     <img class="w-100"
-                                                        src="assets/img/projects/img10.webp" alt="BRAND ACTIVATIONS">
+                                                        src="assets/img/projects/img10.webp" alt="BRAND ACTIVATIONS" width="800" height="600" loading="lazy">
                                                 </a>
                                             </div>
                                         </div>
@@ -230,7 +230,7 @@ include('header.php');
                                             <div class="td-schedule-4-thumb">
                                                 <a href="3D-designs.php">
                                                     <img class="w-100"
-                                                        src="assets/img/projects/img7.webp" alt="3D DESIGNS" loading="lazy">
+                                                        src="assets/img/projects/img7.webp" alt="3D DESIGNS" width="800" height="600" loading="lazy">
                                                 </a>
                                             </div>
                                         </div>
@@ -268,7 +268,7 @@ include('header.php');
                                             <div class="td-schedule-4-thumb">
                                                 <a href="fabrication-and-production.php">
                                                     <img class="w-100"
-                                                        src="assets/img/projects/img12.webp" alt="FABRICATION & PRODUCTIONS">
+                                                        src="assets/img/projects/img12.webp" alt="FABRICATION & PRODUCTIONS" width="800" height="600" loading="lazy">
                                                 </a>
                                             </div>
                                         </div>
@@ -306,7 +306,7 @@ include('header.php');
                                             <div class="td-schedule-4-thumb">
                                                 <a href="technology-solutions.php">
                                                     <img class="w-100"
-                                                        src="assets/img/projects/img13.webp" alt="">
+                                                        src="assets/img/projects/img13.webp" alt="Technology Solutions" width="800" height="600" loading="lazy">
                                                 </a>
                                             </div>
                                         </div>
@@ -344,7 +344,7 @@ include('header.php');
                                             <div class="td-schedule-4-thumb">
                                                 <a href="digital-marketing-solutions.php">
                                                     <img class="w-100"
-                                                        src="assets/img/projects/img14.webp" alt="">
+                                                        src="assets/img/projects/img14.webp" alt="Digital Marketing Solutions" width="800" height="600" loading="lazy">
                                                 </a>
                                             </div>
                                         </div>
