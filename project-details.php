@@ -74,24 +74,28 @@ $introLine = $sentences[0] ?? $descPlain;
 ?>
 <script type="application/ld+json">
 {
-  "@context": "https://schema.org/", 
-  "@type": "BreadcrumbList", 
-  "itemListElement": [{
-    "@type": "ListItem", 
-    "position": 1, 
-    "name": "Home",
-    "item": "https://www.fathcreative.com/"  
-  },{
-    "@type": "ListItem", 
-    "position": 2, 
-    "name": "Projects",
-    "item": "https://www.fathcreative.com/projects"  
-  },{
-    "@type": "ListItem", 
-    "position": 3, 
-    "name": "<?php echo htmlspecialchars($row['blog_title']); ?>",
-    "item": "https://www.fathcreative.com<?php echo $expected_url; ?>"  
-  }]
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://www.fathcreative.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Projects",
+      "item": "https://www.fathcreative.com/projects"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": <?= json_encode($row['blog_title'], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) ?>,
+      "item": <?= json_encode("https://www.fathcreative.com" . $expected_url, JSON_UNESCAPED_SLASHES) ?>
+    }
+  ]
 }
 </script>
 
