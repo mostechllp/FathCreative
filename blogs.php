@@ -150,7 +150,30 @@ include('header.php');
     <div class="td-blog-area pt-90 pb-100 bg-position">
         <div class="container">
             <div class="row">
-                
+                <!-- Event Fabrication Saudi Arabia Blog Card -->
+                <div class="col-lg-4 col-md-6 mb-40">
+                    <div class="custom-blog-card">
+                        <div class="blog-card-thumb">
+                            <a href="blogs/event-fabrication-saudi-arabia">
+                                <img src="assets/img/blog/fabrication.png" alt="Get Custom Retail Displays & Event Fabrication On-Time and On-Budget in Saudi Arabia">
+                            </a>
+                        </div>
+                        <div class="blog-card-content">
+                            <div class="blog-date-badge">
+                                <i class="fa-regular fa-calendar-days"></i>
+                                <span>01-09-2026</span>
+                            </div>
+                            <h3 class="blog-card-title">
+                                <a href="blogs/event-fabrication-saudi-arabia">Get Custom Retail Displays & Event Fabrication On-Time and On-Budget in Saudi Arabia</a>
+                            </h3>
+                            <a href="blogs/event-fabrication-saudi-arabia" class="blog-read-more-btn">
+                                <span>Read More</span>
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
                 <!-- Exhibition Stand Builder Saudi Blog Card -->
                 <div class="col-lg-4 col-md-6 mb-40">
                     <div class="custom-blog-card">

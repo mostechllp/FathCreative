@@ -184,17 +184,21 @@
 
     <!-- Canonical Tag -->
     <?php
-    // Generate strictly self-referencing canonical URL
-    $current_uri = $_SERVER['REQUEST_URI'];
-    // Remove local XAMPP subdirectory if present for local testing, but keep the exact path and extension
-    $current_uri = str_replace('/Fath/', '/', $current_uri);
-    $current_uri = str_replace('/FathCreative/', '/', $current_uri);
-
-    // Format the final canonical URL
-    if ($current_uri === '/index.php' || $current_uri === '/index' || $current_uri === '/' || $current_uri === '') {
-        $canonical_url = "https://www.fathcreative.com/";
+    if (isset($canonicalUrl) && !empty($canonicalUrl)) {
+        $canonical_url = $canonicalUrl;
     } else {
-        $canonical_url = "https://www.fathcreative.com" . $current_uri;
+        // Generate strictly self-referencing canonical URL
+        $current_uri = $_SERVER['REQUEST_URI'];
+        // Remove local XAMPP subdirectory if present for local testing, but keep the exact path and extension
+        $current_uri = str_replace('/Fath/', '/', $current_uri);
+        $current_uri = str_replace('/FathCreative/', '/', $current_uri);
+
+        // Format the final canonical URL
+        if ($current_uri === '/index.php' || $current_uri === '/index' || $current_uri === '/' || $current_uri === '') {
+            $canonical_url = "https://www.fathcreative.com/";
+        } else {
+            $canonical_url = "https://www.fathcreative.com" . $current_uri;
+        }
     }
     ?>
     <link rel="canonical" href="<?php echo htmlspecialchars($canonical_url); ?>">

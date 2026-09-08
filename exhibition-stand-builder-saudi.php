@@ -228,8 +228,8 @@ include('header.php');
             <div class="row">
                 <div class="col-lg-12">
                     <div class="td-breadcrumb-title-wrap">
-                        <h1 class="td-breadcrumb-title mb-10 wow td-animetion-left" data-wow-duration="1.5s"
-                            data-wow-delay="0.3s">Blog Details</h1>
+                        <h2 class="td-breadcrumb-title mb-10 wow td-animetion-left" data-wow-duration="1.5s"
+                            data-wow-delay="0.3s">Blog Details</h2>
                         <div class="td-breadcrumb-list wow td-animetion-right" data-wow-duration="1.5s"
                             data-wow-delay="0.3s">
                             <ul>
