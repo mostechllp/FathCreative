@@ -105,12 +105,23 @@ authorities, and real estate professionals from around the world.",
             font-size: 24px;
         }
     }
-    .blog-detail-img{
-        width:100%;
-        max-height:700px;
-        object-fit:contain;
-        display:block;
-        margin:0 auto 35px;
+    .blog-detail-img {
+        width: 100%;
+        max-width: 780px;
+        height: 440px;
+        aspect-ratio: 16 / 9;
+        object-fit: cover;
+        object-position: center;
+        display: block;
+        margin: 0 auto 35px;
+        border-radius: 16px;
+    }
+    @media (max-width: 767px) {
+        .blog-detail-img {
+            height: auto;
+            aspect-ratio: 16 / 9;
+            margin-bottom: 25px;
+        }
     }
     .blog-lead-text {
         font-size: 18px;
@@ -250,8 +261,6 @@ authorities, and real estate professionals from around the world.",
                         <!-- Meta information -->
                         <div class="blog-detail-meta">
                             <span><i class="fa-regular fa-calendar-days"></i> 04-08-2026</span>
-                            <span><i class="fa-solid fa-location-dot"></i> Riyadh, Saudi Arabia</span>
-                            <span><i class="fa-solid fa-tag"></i> Real Estate Exhibition</span>
                         </div>
 
                         <!-- Title -->

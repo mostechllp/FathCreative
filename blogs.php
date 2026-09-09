@@ -150,6 +150,30 @@ include('header.php');
     <div class="td-blog-area pt-90 pb-100 bg-position">
         <div class="container">
             <div class="row">
+                <!-- Cityscape Global 2026 Lead Conversion Blog Card -->
+                <div class="col-lg-4 col-md-6 mb-40">
+                    <div class="custom-blog-card">
+                        <div class="blog-card-thumb">
+                            <a href="blogs/cityscape-global-2026-saudi-arabia">
+                                <img src="assets/img/blog/cityscape-global-2026-exhibition-stand.webp" alt="Cityscape Global 2026: How to Design an Exhibition Stand That Converts Visitors into Business Leads">
+                            </a>
+                        </div>
+                        <div class="blog-card-content">
+                            <div class="blog-date-badge">
+                                <i class="fa-regular fa-calendar-days"></i>
+                                <span>09-09-2026</span>
+                            </div>
+                            <h3 class="blog-card-title">
+                                <a href="blogs/cityscape-global-2026-saudi-arabia">Cityscape Global 2026: How to Design an Exhibition Stand That Converts Visitors into Business Leads</a>
+                            </h3>
+                            <a href="blogs/cityscape-global-2026-saudi-arabia" class="blog-read-more-btn">
+                                <span>Read More</span>
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
                 <!-- Event Fabrication Saudi Arabia Blog Card -->
                 <div class="col-lg-4 col-md-6 mb-40">
                     <div class="custom-blog-card">
