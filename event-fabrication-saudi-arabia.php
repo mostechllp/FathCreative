@@ -37,7 +37,7 @@ include('header.php');
     "@id": "https://www.fathcreative.com/blogs/event-fabrication-saudi-arabia"
   },
   "headline": "Get Custom Retail Displays & Event Fabrication On-Time and On-Budget in Saudi Arabia",
-  "description": "Expert event fabrication in Saudi Arabia for product launches, mall activations & retail rollouts. Custom retail display design built for Riyadh, Jeddah & Dammam.",
+  "description": "If you’ve ever managed a product launch, mall activation, or retail rollout in Riyadh, Jeddah, or Dammam, you know that turning a great concept into reality can come with its own set of challenges.",
   "image": "https://www.fathcreative.com/assets/img/blog/fabrication.png",  
   "author": {
     "@type": "Organization",
@@ -48,10 +48,10 @@ include('header.php');
     "name": "Fath Creative",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://www.fathcreative.com/assets/img/logo/logo.webp"
+      "url": "https://www.fathcreative.com/assets/img/logo/fath-logo.webp"
     }
   },
-  "datePublished": "2026-09-01"
+  "datePublished": "2026-09-14"
 }
 </script>
 

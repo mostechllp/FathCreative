@@ -150,6 +150,30 @@ include('header.php');
     <div class="td-blog-area pt-90 pb-100 bg-position">
         <div class="container">
             <div class="row">
+                <!-- LEAP 2026 Exhibition Stand Guide Blog Card -->
+                <div class="col-lg-4 col-md-6 mb-40">
+                    <div class="custom-blog-card">
+                        <div class="blog-card-thumb">
+                            <a href="blogs/leap-2026-booth-design-guide-riyadh">
+                                <img src="assets/img/blog/leap_2026_exhibition_stand_guide.webp" alt="LEAP 2026 Exhibition Stand Guide: How to Design a Booth That Attracts Investors in Riyadh">
+                            </a>
+                        </div>
+                        <div class="blog-card-content">
+                            <div class="blog-date-badge">
+                                <i class="fa-regular fa-calendar-days"></i>
+                                <span>09-09-2026</span>
+                            </div>
+                            <h3 class="blog-card-title">
+                                <a href="blogs/leap-2026-booth-design-guide-riyadh">LEAP 2026 Exhibition Stand Guide: How to Design a Booth That Attracts Investors in Riyadh</a>
+                            </h3>
+                            <a href="blogs/leap-2026-booth-design-guide-riyadh" class="blog-read-more-btn">
+                                <span>Read More</span>
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
                 <!-- Cityscape Global 2026 Lead Conversion Blog Card -->
                 <div class="col-lg-4 col-md-6 mb-40">
                     <div class="custom-blog-card">

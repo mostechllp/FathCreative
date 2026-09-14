@@ -38,7 +38,7 @@ include('header.php');
     "@id": "https://www.fathcreative.com/blogs/cityscape-global-2026-saudi-arabia"
   },
   "headline": "Cityscape Global 2026: How to Design an Exhibition Stand That Converts Visitors into Business Leads",
-  "description": "Design a high-impact exhibition stand for Cityscape Global 2026 with Fath Creative to attract visitors, showcase your brand, and generate qualified leads.",
+  "description": "Cityscape Global is one of the biggest real estate and urban development events in the region, and 2026 is shaping up to be bigger than ever.",
   "image": "https://www.fathcreative.com/assets/img/blog/cityscape-global-2026-exhibition-stand.webp",  
   "author": {
     "@type": "Organization",
@@ -52,7 +52,7 @@ include('header.php');
       "url": "https://www.fathcreative.com/assets/img/logo/fath-logo.webp"
     }
   },
-  "datePublished": "2026-09-09"
+  "datePublished": "2026-09-14"
 }
 </script>
 

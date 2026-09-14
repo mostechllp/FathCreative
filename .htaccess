@@ -120,6 +120,7 @@ RewriteRule ^blogs/?$ blogs.php [L,QSA]
 RewriteRule ^blogs/event-fabrication-saudi-arabia/?$ event-fabrication-saudi-arabia.php [L,QSA]
 RewriteRule ^blogs/cityscape-global-2026/?$ cityscape-global-2026.php [L,QSA]
 RewriteRule ^blogs/cityscape-global-2026-saudi-arabia/?$ cityscape-global-2026-saudi-arabia.php [L,QSA]
+RewriteRule ^blogs/leap-2026-booth-design-guide-riyadh/?$ leap-2026-booth-design-guide-riyadh.php [L,QSA]
 RewriteRule ^blogs/exhibition-stand-builder-saudi/?$ exhibition-stand-builder-saudi.php [L,QSA]
 RewriteRule ^blogs/([^/]+)/?$ blogs/$1.php [L,QSA]
 
