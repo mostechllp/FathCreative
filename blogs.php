@@ -150,6 +150,30 @@ include('header.php');
     <div class="td-blog-area pt-90 pb-100 bg-position">
         <div class="container">
             <div class="row">
+                <!-- 5 Practical Reasons to Design Your Trade Show Booth Blog Card -->
+                <div class="col-lg-4 col-md-6 mb-40">
+                    <div class="custom-blog-card">
+                        <div class="blog-card-thumb">
+                            <a href="blogs/trade-show-booth-design-ideas">
+                                <img src="assets/img/blog/trade_show_booth_design.webp" alt="5 Practical Reasons to Design Your Trade Show Booth">
+                            </a>
+                        </div>
+                        <div class="blog-card-content">
+                            <div class="blog-date-badge">
+                                <i class="fa-regular fa-calendar-days"></i>
+                                <span>17-09-2026</span>
+                            </div>
+                            <h3 class="blog-card-title">
+                                <a href="blogs/trade-show-booth-design-ideas">5 Practical Reasons to Design Your Trade Show Booth</a>
+                            </h3>
+                            <a href="blogs/trade-show-booth-design-ideas" class="blog-read-more-btn">
+                                <span>Read More</span>
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
                 <!-- LEAP 2026 Exhibition Stand Guide Blog Card -->
                 <div class="col-lg-4 col-md-6 mb-40">
                     <div class="custom-blog-card">
