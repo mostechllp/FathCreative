@@ -244,8 +244,10 @@ include('header.php');
                             data-wow-delay="0.3s">
                             <ul>
                                 <li><a href="index.php">Home</a></li>
+                                <li><i class="fa-sharp fa-solid fa-angle-right fa-fw"></i></li>
                                 <li><a href="blogs.php">Blogs</a></li>
-                                <li>Exhibition Stand Builder Saudi Arabia</li>
+                                <li><i class="fa-sharp fa-solid fa-angle-right fa-fw"></i></li>
+                                <li class="pages">Exhibition Stand Builder Saudi Arabia</li>
                             </ul>
                         </div>
                     </div>

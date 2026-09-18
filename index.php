@@ -849,7 +849,7 @@ include('header.php');
                             <div class="row align-items-center">
                                 <div class="col-xl-4 col-lg-5">
                                     <div class="td-schedule-3-thumb p-relative">
-                                        <a href="project-ezdihar-real-estate.php">
+                                        <a href="projects.php">
                                             <!-- [Core Web Vitals - CLS & Performance] Added explicit width/height sizes, descriptive alt text and native lazy loading -->
                                             <img class="w-100" src="assets/img/projects/img11.webp"
                                                 alt="Luxurious custom exhibition space constructed for Cityscape Global 2025 in Riyadh"
@@ -863,7 +863,7 @@ include('header.php');
                                     <div class="td-schedule-3-content">
                                         <!-- [SEO Hierarchy] Adjusted card heading to semantic h3 for compliant nesting -->
                                         <h3 class="td-schedule-3-title" style="font-size: 24px; font-weight: 700;">
-                                            <a href="project-ezdihar-real-estate.php">Cityscape Global 2025</a></h3>
+                                            <a href="projects.php">Cityscape Global 2025</a></h3>
                                         <div class="td-schedule-3-destination mb-10">
                                             <span class="mr-25">
                                                 <i class="flaticon-gps"></i>
@@ -1009,7 +1009,7 @@ include('header.php');
                             <div class="row align-items-center">
                                 <div class="col-xl-4 col-lg-5">
                                     <div class="td-schedule-3-thumb p-relative">
-                                        <a href="project-rilastil-bioclin.php">
+                                        <a href="projects.php">
                                             <!-- [Core Web Vitals - CLS & Performance] Added explicit width/height sizes, descriptive alt text and native lazy loading -->
                                             <img class="w-100" src="assets/img/projects/img3.webp"
                                                 alt="Nespresso premium retail brand activation booth built by Fath Creative in KSA"
@@ -1022,7 +1022,7 @@ include('header.php');
                                 <div class="col-xl-8 col-lg-7">
                                     <div class="td-schedule-3-content">
                                         <h3 class="td-schedule-3-title" style="font-size: 24px; font-weight: 700;">
-                                            <a href="project-rilastil-bioclin.php">Nespresso - Brand activations</a></h3>
+                                            <a href="projects.php">Nespresso - Brand activations</a></h3>
                                         <div class="td-schedule-3-destination mb-10">
                                             <span class="mr-25">
                                                 <i class="flaticon-gps"></i>

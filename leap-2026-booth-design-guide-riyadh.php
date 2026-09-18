@@ -173,8 +173,10 @@ include('header.php');
                             data-wow-delay="0.3s">
                             <ul>
                                 <li><a href="index.php">Home</a></li>
+                                <li><i class="fa-sharp fa-solid fa-angle-right fa-fw"></i></li>
                                 <li><a href="blogs.php">Blogs</a></li>
-                                <li>LEAP 2026 Guide</li>
+                                <li><i class="fa-sharp fa-solid fa-angle-right fa-fw"></i></li>
+                                <li class="pages">LEAP 2026 Guide</li>
                             </ul>
                         </div>
                     </div>

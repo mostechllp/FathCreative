@@ -136,7 +136,8 @@ include('header.php');
                             data-wow-delay="0.3s">
                             <ul>
                                 <li><a href="index.php">Home</a></li>
-                                <li>Blogs</li>
+                                <li><i class="fa-sharp fa-solid fa-angle-right fa-fw"></i></li>
+                                <li class="pages">Blogs</li>
                             </ul>
                         </div>
                     </div>

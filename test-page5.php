@@ -206,8 +206,10 @@ include('header.php');
                             data-wow-delay="0.3s">
                             <ul>
                                 <li><a href="index.php">Home</a></li>
+                                <li><i class="fa-sharp fa-solid fa-angle-right fa-fw"></i></li>
                                 <li><a href="blogs.php">Blogs</a></li>
-                                <li>Cityscape Global 2026</li>
+                                <li><i class="fa-sharp fa-solid fa-angle-right fa-fw"></i></li>
+                                <li class="pages">Cityscape Global 2026</li>
                             </ul>
                         </div>
                     </div>
