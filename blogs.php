@@ -151,7 +151,7 @@ include('header.php');
     <div class="td-blog-area pt-90 pb-100 bg-position">
         <div class="container">
             <div class="row">
-                <!-- [HIDDEN PENDING LEAD APPROVAL: 5 Practical Reasons to Design Your Trade Show Booth Blog Card
+                <!-- 5 Practical Reasons to Design Your Trade Show Booth Blog Card -->
                 <div class="col-lg-4 col-md-6 mb-40">
                     <div class="custom-blog-card">
                         <div class="blog-card-thumb">
@@ -174,7 +174,6 @@ include('header.php');
                         </div>
                     </div>
                 </div>
-                -->
 
                 <!-- LEAP 2026 Exhibition Stand Guide Blog Card -->
                 <div class="col-lg-4 col-md-6 mb-40">
