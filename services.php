@@ -89,8 +89,8 @@ include('header.php');
                                                 <div class="td-schedule-4-destination mb-10">
                                                     <p  style="text-align:justify;">We plan and execute seamless events, ensuring engaging experiences that connect your brand with the right audience.</p>
                                                 </div>
-                                                <a class="td-btn td-btn-3-squre td-left-right text" href="event-management.php">
-                                                    <span class="td-text d-inline-block mr-5">Read More</span>
+                                                <a class="td-btn td-btn-3-squre td-left-right text" href="event-management.php" aria-label="Read More about Event Management">
+                                                    <span class="td-text d-inline-block mr-5">Read More <span class="visually-hidden">about Event Management</span></span>
                                                     <span class="td-arrow-angle">
                                                         <svg class="td-arrow-svg-top-right" width="13" height="14"
                                                             viewBox="0 0 13 14" fill="none"
@@ -127,8 +127,8 @@ include('header.php');
                                                     <p  style="text-align:justify;">We design and manage impactful exhibition spaces that attract visitors and effectively showcase your brand presence.</p>
                                                 </div>
                                                 <a class="td-btn td-btn-3-squre td-left-right text"
-                                                    href="exhibition-tradeshows.php">
-                                                    <span class="td-text d-inline-block mr-5">Read More</span>
+                                                    href="exhibition-tradeshows.php" aria-label="Read More about Exhibition & Tradeshows">
+                                                    <span class="td-text d-inline-block mr-5">Read More <span class="visually-hidden">about Exhibition & Tradeshows</span></span>
                                                     <span class="td-arrow-angle">
                                                         <svg class="td-arrow-svg-top-right" width="13" height="14"
                                                             viewBox="0 0 13 14" fill="none"
@@ -165,8 +165,8 @@ include('header.php');
                                                     <p  style="text-align:justify;">We create high-quality point-of-sale materials that enhance visibility and drive customer engagement at retail spaces.</p>
                                                 </div>
                                                 <a class="td-btn td-btn-3-squre td-left-right text"
-                                                    href="posm-activities.php">
-                                                    <span class="td-text d-inline-block mr-5">Read More</span>
+                                                    href="posm-activities.php" aria-label="Read More about POSM Activities">
+                                                    <span class="td-text d-inline-block mr-5">Read More <span class="visually-hidden">about POSM Activities</span></span>
                                                     <span class="td-arrow-angle">
                                                         <svg class="td-arrow-svg-top-right" width="13" height="14"
                                                             viewBox="0 0 13 14" fill="none"
@@ -203,8 +203,8 @@ include('header.php');
                                                     <p  style="text-align:justify;">We deliver creative brand activation campaigns that build strong audience connections.</p>
                                                 </div>
                                                 <a class="td-btn td-btn-3-squre td-left-right text"
-                                                    href="brand-activations.php">
-                                                    <span class="td-text d-inline-block mr-5">Read More</span>
+                                                    href="brand-activations.php" aria-label="Read More about Brand Activations">
+                                                    <span class="td-text d-inline-block mr-5">Read More <span class="visually-hidden">about Brand Activations</span></span>
                                                     <span class="td-arrow-angle">
                                                         <svg class="td-arrow-svg-top-right" width="13" height="14"
                                                             viewBox="0 0 13 14" fill="none"
@@ -241,8 +241,8 @@ include('header.php');
                                                     <p  style="text-align:justify;">We develop innovative 3D designs that bring your ideas to life with visually engaging and realistic concepts.</p>
                                                 </div>
                                                 <a class="td-btn td-btn-3-squre td-left-right text"
-                                                    href="3D-designs.php">
-                                                    <span class="td-text d-inline-block mr-5">Read More</span>
+                                                    href="3D-designs.php" aria-label="Read More about 3D Designs">
+                                                    <span class="td-text d-inline-block mr-5">Read More <span class="visually-hidden">about 3D Designs</span></span>
                                                     <span class="td-arrow-angle">
                                                         <svg class="td-arrow-svg-top-right" width="13" height="14"
                                                             viewBox="0 0 13 14" fill="none"
@@ -279,8 +279,8 @@ include('header.php');
                                                     <p  style="text-align:justify;">We handle complete fabrication and production with high-quality execution of all branding and display elements.</p>
                                                 </div>
                                                 <a class="td-btn td-btn-3-squre td-left-right text"
-                                                    href="fabrication-and-production.php">
-                                                    <span class="td-text d-inline-block mr-5">Read More</span>
+                                                    href="fabrication-and-production.php" aria-label="Read More about Fabrication & Production">
+                                                    <span class="td-text d-inline-block mr-5">Read More <span class="visually-hidden">about Fabrication & Production</span></span>
                                                     <span class="td-arrow-angle">
                                                         <svg class="td-arrow-svg-top-right" width="13" height="14"
                                                             viewBox="0 0 13 14" fill="none"
@@ -317,8 +317,8 @@ include('header.php');
                                                     <p  style="text-align:justify;">We provide smart technology solutions that enhance customer interaction and improve overall brand experiences.</p>
                                                 </div>
                                                 <a class="td-btn td-btn-3-squre td-left-right text"
-                                                    href="technology-solutions.php">
-                                                    <span class="td-text d-inline-block mr-5">Read More</span>
+                                                    href="technology-solutions.php" aria-label="Read More about Technology Solutions">
+                                                    <span class="td-text d-inline-block mr-5">Read More <span class="visually-hidden">about Technology Solutions</span></span>
                                                     <span class="td-arrow-angle">
                                                         <svg class="td-arrow-svg-top-right" width="13" height="14"
                                                             viewBox="0 0 13 14" fill="none"
@@ -355,8 +355,8 @@ include('header.php');
                                                     <p  style="text-align:justify;">We offer result-driven digital marketing strategies that increase online visibility and strengthen brand presence.</p>
                                                 </div>
                                                 <a class="td-btn td-btn-3-squre td-left-right text"
-                                                    href="digital-marketing-solutions.php">
-                                                    <span class="td-text d-inline-block mr-5">Read More</span>
+                                                    href="digital-marketing-solutions.php" aria-label="Read More about Digital Marketing Solutions">
+                                                    <span class="td-text d-inline-block mr-5">Read More <span class="visually-hidden">about Digital Marketing Solutions</span></span>
                                                     <span class="td-arrow-angle">
                                                         <svg class="td-arrow-svg-top-right" width="13" height="14"
                                                             viewBox="0 0 13 14" fill="none"
