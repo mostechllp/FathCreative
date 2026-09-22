@@ -151,6 +151,30 @@ include('header.php');
     <div class="td-blog-area pt-90 pb-100 bg-position">
         <div class="container">
             <div class="row">
+                <!-- Corrugated Displays in Saudi Arabia Blog Card -->
+                <div class="col-lg-4 col-md-6 mb-40">
+                    <div class="custom-blog-card">
+                        <div class="blog-card-thumb">
+                            <a href="blogs/corrugated-displays-saudi-arabia">
+                                <img src="assets/img/blog/corrugated_displays_saudi_arabia_exhibition_booth.webp" alt="Corrugated Displays in Saudi Arabia: A Guide To Sustainable Exhibition Booth Design Solutions">
+                            </a>
+                        </div>
+                        <div class="blog-card-content">
+                            <div class="blog-date-badge">
+                                <i class="fa-regular fa-calendar-days"></i>
+                                <span>22-09-2026</span>
+                            </div>
+                            <h3 class="blog-card-title">
+                                <a href="blogs/corrugated-displays-saudi-arabia">Corrugated Displays in Saudi Arabia: A Guide To Sustainable Exhibition Booth Design Solutions</a>
+                            </h3>
+                            <a href="blogs/corrugated-displays-saudi-arabia" class="blog-read-more-btn">
+                                <span>Read More</span>
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
                 <!-- 5 Practical Reasons to Design Your Trade Show Booth Blog Card -->
                 <div class="col-lg-4 col-md-6 mb-40">
                     <div class="custom-blog-card">
