@@ -151,6 +151,30 @@ include('header.php');
     <div class="td-blog-area pt-90 pb-100 bg-position">
         <div class="container">
             <div class="row">
+                <!-- Premium POSM for Cityscape Global Blog Card -->
+                <div class="col-lg-4 col-md-6 mb-40">
+                    <div class="custom-blog-card">
+                        <div class="blog-card-thumb">
+                            <a href="blogs/premium-posm-cityscape-global">
+                                <img src="assets/img/blog/premium_posm_cityscape_global.webp" alt="Integrating Premium POSM to Supercharge Brand Visibility at Cityscape Global">
+                            </a>
+                        </div>
+                        <div class="blog-card-content">
+                            <div class="blog-date-badge">
+                                <i class="fa-regular fa-calendar-days"></i>
+                                <span>30-09-2026</span>
+                            </div>
+                            <h3 class="blog-card-title">
+                                <a href="blogs/premium-posm-cityscape-global">Integrating Premium POSM to Supercharge Brand Visibility at Cityscape Global</a>
+                            </h3>
+                            <a href="blogs/premium-posm-cityscape-global" class="blog-read-more-btn">
+                                <span>Read More</span>
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
                 <!-- Corrugated Displays in Saudi Arabia Blog Card -->
                 <div class="col-lg-4 col-md-6 mb-40">
                     <div class="custom-blog-card">
