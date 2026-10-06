@@ -151,6 +151,30 @@ include('header.php');
     <div class="td-blog-area pt-90 pb-100 bg-position">
         <div class="container">
             <div class="row">
+                <!-- 3D Exhibition Stand Design Blog Card -->
+                <div class="col-lg-4 col-md-6 mb-40">
+                    <div class="custom-blog-card">
+                        <div class="blog-card-thumb">
+                            <a href="blogs/3d-exhibition-stand-design-visitor-experience">
+                                <img src="assets/img/blog/3d_exhibition_stand_visitor_experience.webp" alt="The Role of 3D Exhibition Stand Design in Creating Better Visitor Experiences">
+                            </a>
+                        </div>
+                        <div class="blog-card-content">
+                            <div class="blog-date-badge">
+                                <i class="fa-regular fa-calendar-days"></i>
+                                <span>06-10-2026</span>
+                            </div>
+                            <h3 class="blog-card-title">
+                                <a href="blogs/3d-exhibition-stand-design-visitor-experience">The Role of 3D Exhibition Stand Design in Creating Better Visitor Experiences</a>
+                            </h3>
+                            <a href="blogs/3d-exhibition-stand-design-visitor-experience" class="blog-read-more-btn">
+                                <span>Read More</span>
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
                 <!-- Premium POSM for Cityscape Global Blog Card -->
                 <div class="col-lg-4 col-md-6 mb-40">
                     <div class="custom-blog-card">

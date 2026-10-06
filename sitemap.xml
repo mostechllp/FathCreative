@@ -153,7 +153,7 @@
 </url>
 <url>
   <loc>https://www.fathcreative.com/blogs</loc>
-  <lastmod>2026-09-30T00:00:00+00:00</lastmod>
+  <lastmod>2026-10-06T00:00:00+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
@@ -194,6 +194,11 @@
 <url>
   <loc>https://www.fathcreative.com/blogs/premium-posm-cityscape-global</loc>
   <lastmod>2026-09-30T00:00:00+00:00</lastmod>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.fathcreative.com/blogs/3d-exhibition-stand-design-visitor-experience</loc>
+  <lastmod>2026-10-06T00:00:00+00:00</lastmod>
   <priority>0.70</priority>
 </url>
 
