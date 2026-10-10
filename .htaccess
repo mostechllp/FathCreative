@@ -127,6 +127,7 @@ RewriteRule ^blogs/premium-posm-cityscape-global/?$ premium-posm-cityscape-globa
 RewriteRule ^blogs/3d-exhibition-stand-design-visitor-experience/?$ 3d-exhibition-stand-design-visitor-experience.php [L,QSA]
 RewriteRule ^blog/3d-exhibition-stand-design-visitor-experience/?$ 3d-exhibition-stand-design-visitor-experience.php [L,QSA]
 RewriteRule ^blogs/exhibition-stand-builder-saudi/?$ exhibition-stand-builder-saudi.php [L,QSA]
+RewriteRule ^blogs/how-to-create-effective-brand-activation-campaign-riyadh/?$ how-to-create-effective-brand-activation-campaign-riyadh.php [L,QSA]
 RewriteRule ^blogs/([^/]+)/?$ blogs/$1.php [L,QSA]
 
 # ─── Extensionless PHP Files ────────────────────────────────────
