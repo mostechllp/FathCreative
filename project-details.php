@@ -130,7 +130,7 @@ $introLine = $sentences[0] ?? $descPlain;
     /* Pull-quote intro line */
     .pd-pullquote {
         margin: 28px 0; padding-left: 18px; border-left: 3px solid #6c47ff;
-        font-size: 24px; line-height: 1.65; color: #2c2c38; font-style: italic;
+        font-size: 24px; font-weight: 700; line-height: 1.65; color: #2c2c38; font-style: italic;
     }
 
     /* Stat chips row (only date/location shown, remains data-driven) */
@@ -216,7 +216,7 @@ $introLine = $sentences[0] ?? $descPlain;
 
                     <!-- Pull-quote: first sentence of the description, pulled out for emphasis -->
                     <?php if (!empty($introLine)): ?>
-                        <h3 class="pd-pullquote"><?php echo htmlspecialchars($introLine); ?></h3>
+                        <blockquote class="pd-pullquote"><?php echo htmlspecialchars($introLine); ?></blockquote>
                     <?php endif; ?>
 
                     <!-- Details section: blog_details field -->
