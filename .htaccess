@@ -128,6 +128,7 @@ RewriteRule ^blogs/3d-exhibition-stand-design-visitor-experience/?$ 3d-exhibitio
 RewriteRule ^blog/3d-exhibition-stand-design-visitor-experience/?$ 3d-exhibition-stand-design-visitor-experience.php [L,QSA]
 RewriteRule ^blogs/exhibition-stand-builder-saudi/?$ exhibition-stand-builder-saudi.php [L,QSA]
 RewriteRule ^blogs/how-to-create-effective-brand-activation-campaign-riyadh/?$ how-to-create-effective-brand-activation-campaign-riyadh.php [L,QSA]
+RewriteRule ^blogs/immersive-brand-experiences-riyadh/?$ immersive-brand-experiences-riyadh.php [L,QSA]
 RewriteRule ^blogs/([^/]+)/?$ blogs/$1.php [L,QSA]
 
 # ─── Extensionless PHP Files ────────────────────────────────────
@@ -138,3 +139,4 @@ RewriteRule ^(.*)$ $1.php [L]
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^([^/]+)/$ $1.php [L]
+
