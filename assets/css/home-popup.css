@@ -1,0 +1,877 @@
+/* ==========================================================================
+   Home Page Lead Capture Popup Styles - Fath Creative
+   High-end Dark Theme with Matching Brand Design Colors
+   ========================================================================== */
+
+/* Modal Overlay Backdrop */
+.fath-popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(6, 4, 12, 0.82);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    z-index: 99999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.4s ease, visibility 0.4s ease;
+}
+
+.fath-popup-overlay.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* Modal Dialog Container */
+.fath-popup-card {
+    position: relative;
+    width: 100%;
+    max-width: 1020px;
+    background: linear-gradient(135deg, rgba(20, 15, 36, 0.98) 0%, rgba(13, 9, 24, 0.99) 100%);
+    border: 1px solid rgba(133, 85, 223, 0.3);
+    box-shadow: 0 25px 60px -10px rgba(0, 0, 0, 0.85),
+                0 0 35px 2px rgba(133, 85, 223, 0.2),
+                inset 0 1px 0 rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    overflow: hidden;
+    transform: scale(0.92) translateY(20px);
+    opacity: 0;
+    transition: transform 0.45s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.4s ease;
+    max-height: 90vh;
+    display: flex;
+}
+
+.fath-popup-overlay.active .fath-popup-card {
+    transform: scale(1) translateY(0);
+    opacity: 1;
+}
+
+/* Base Close Button Styles */
+.fath-popup-close {
+    width: 38px !important;
+    height: 38px !important;
+    border-radius: 50% !important;
+    background: #231644 !important;
+    border: 1.5px solid rgba(133, 85, 223, 0.45) !important;
+    color: #ffffff !important;
+    font-size: 20px !important;
+    line-height: 1 !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    cursor: pointer !important;
+    z-index: 50 !important;
+    transition: all 0.25s ease !important;
+    outline: none !important;
+    padding: 0 !important;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.65), 0 0 10px rgba(133, 85, 223, 0.2) !important;
+}
+
+.fath-popup-close:hover {
+    background: var(--td-theme-secondary, #8555df) !important;
+    border-color: var(--td-theme-secondary, #8555df) !important;
+    color: #ffffff !important;
+    transform: rotate(90deg) scale(1.05) !important;
+    box-shadow: 0 6px 20px rgba(133, 85, 223, 0.5) !important;
+}
+
+/* Desktop Close Button - Positioned on far right side of popup card */
+.fath-popup-close-desktop {
+    position: absolute !important;
+    top: 18px !important;
+    right: 20px !important;
+    display: flex !important;
+    z-index: 60 !important;
+}
+
+/* Mobile in-flow close button hidden on desktop */
+.fath-popup-close-mobile {
+    display: none !important;
+}
+
+/* 2-Column Split Grid - Scroll Container */
+.fath-popup-inner {
+    position: relative !important;
+    display: grid;
+    grid-template-columns: 1.14fr 1fr;
+    width: 100%;
+    overflow-y: auto;
+    overflow-x: hidden !important;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none !important; /* Firefox */
+    -ms-overflow-style: none !important; /* IE/Edge */
+}
+
+/* Hide scrollbars cleanly across all browsers to prevent unwanted visual bars */
+.fath-popup-inner::-webkit-scrollbar {
+    display: none !important;
+    width: 0 !important;
+    height: 0 !important;
+}
+
+/* Left Side: Brand Highlights & Action */
+.fath-popup-left {
+    position: relative;
+    padding: 45px 35px 45px 45px;
+    background: radial-gradient(circle at 10% 20%, rgba(133, 85, 223, 0.15) 0%, transparent 60%),
+                radial-gradient(circle at 90% 80%, rgba(121, 53, 249, 0.12) 0%, transparent 60%);
+    border-right: 1px solid rgba(255, 255, 255, 0.08);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.fath-popup-header-bar {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.fath-popup-badge {
+    display: inline-block;
+    background: transparent !important;
+    border: none !important;
+    padding: 0 !important;
+    color: #c4a1ff;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    width: fit-content;
+    margin-bottom: 0;
+}
+
+.fath-popup-badge-dot {
+    display: none !important;
+}
+
+.fath-popup-title {
+    font-family: "Outfit", sans-serif;
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 1.3;
+    color: #ffffff;
+    margin-bottom: 14px;
+}
+
+.fath-popup-title .gradient-text {
+    color: #c4a1ff;
+}
+
+.fath-popup-desc {
+    color: #cbd5e1;
+    font-size: 14px;
+    line-height: 1.65;
+    margin-bottom: 22px;
+}
+
+.fath-popup-features {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 28px 0;
+}
+
+.fath-popup-features li {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: #e2e8f0;
+    font-size: 13.5px;
+    margin-bottom: 12px;
+    line-height: 1.4;
+}
+
+.fath-popup-features li .feature-icon {
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: rgba(133, 85, 223, 0.25);
+    border: 1px solid rgba(133, 85, 223, 0.5);
+    color: #c4a1ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    flex-shrink: 0;
+}
+
+.fath-popup-btn-wrap {
+    margin-bottom: 22px;
+}
+
+/* Counter Stats Row in Popup - Typography with Left Number Icons */
+.fath-popup-stats {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 12px;
+    margin: 0;
+    padding-top: 18px;
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.fath-stat-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 3px;
+    flex: 0 0 auto;
+}
+
+.fath-stat-number-wrap {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+}
+
+.fath-stat-num-icon {
+    font-size: 15px;
+    color: #c4a1ff;
+    line-height: 1;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.25s ease, color 0.25s ease;
+}
+
+.fath-stat-item:hover .fath-stat-num-icon {
+    transform: scale(1.15);
+    color: #ffffff;
+}
+
+.fath-stat-number {
+    font-family: "Outfit", sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    color: #ffffff;
+    line-height: 1.1;
+    letter-spacing: -0.3px;
+    text-align: center;
+}
+
+.fath-stat-label {
+    font-size: 11px;
+    color: #94a3b8;
+    line-height: 1.25;
+    white-space: nowrap !important; /* Strictly keeps in one line without wrapping */
+    text-align: center;
+}
+
+.fath-popup-action-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 13px 26px;
+    background: transparent !important;
+    border: 1.5px solid var(--td-theme-secondary, #8555df) !important;
+    border-radius: 10px;
+    color: #ffffff !important;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    width: fit-content;
+}
+
+.fath-popup-action-btn:hover {
+    background: var(--td-theme-secondary, #8555df) !important;
+    border-color: var(--td-theme-secondary, #8555df) !important;
+    color: #ffffff !important;
+    box-shadow: 0 0 18px rgba(133, 85, 223, 0.4);
+    transform: translateX(3px);
+}
+
+.fath-popup-action-btn i {
+    transition: transform 0.25s ease;
+}
+
+.fath-popup-action-btn:hover i {
+    transform: translateX(4px);
+}
+
+/* Right Side: Lead Capture Form */
+.fath-popup-right {
+    padding: 45px 40px 40px 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.fath-popup-form-head {
+    margin-bottom: 20px;
+}
+
+.fath-popup-form-title {
+    font-family: "Outfit", sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 6px;
+}
+
+.fath-popup-form-subtitle {
+    font-size: 13px;
+    color: #94a3b8;
+    line-height: 1.4;
+    margin: 0;
+}
+
+/* Form Groups & Inputs */
+.fath-popup-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.fath-input-group {
+    position: relative !important;
+    display: flex !important;
+    flex-direction: column !important;
+    width: 100% !important;
+}
+
+/* Input Icon with fixed width and non-overlapping positioning */
+.fath-input-group .fath-input-icon {
+    position: absolute !important;
+    left: 18px !important;
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+    width: 20px !important;
+    text-align: center !important;
+    color: var(--td-theme-secondary, #8555df) !important;
+    font-size: 14px !important;
+    pointer-events: none !important;
+    z-index: 5 !important;
+    transition: color 0.25s ease !important;
+}
+
+/* Input & Select Styling - Robust specificity to override global theme input rules */
+.fath-popup-form input.fath-popup-input,
+.fath-popup-form select.fath-popup-select,
+.fath-popup-form input[type="text"].fath-popup-input,
+.fath-popup-form input[type="email"].fath-popup-input,
+.fath-popup-form input[type="tel"].fath-popup-input {
+    width: 100% !important;
+    height: 52px !important;
+    line-height: normal !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    padding-left: 54px !important; /* Generous gap preventing any icon & text overlap */
+    padding-right: 18px !important;
+    background-color: #ffffff !important;
+    border: 1.5px solid #d9e1e1 !important;
+    border-radius: 10px !important;
+    color: #1e293b !important;
+    font-size: 14px !important;
+    font-family: inherit !important;
+    outline: none !important;
+    box-sizing: border-box !important;
+    transition: all 0.25s ease !important;
+}
+
+/* Placeholder styling */
+.fath-popup-form input::placeholder,
+.fath-popup-form textarea::placeholder {
+    color: #64748b !important;
+    opacity: 1 !important;
+    font-size: 14px !important;
+    text-transform: none !important;
+}
+
+.fath-popup-form input::-webkit-input-placeholder,
+.fath-popup-form textarea::-webkit-input-placeholder {
+    color: #64748b !important;
+    opacity: 1 !important;
+    font-size: 14px !important;
+    text-transform: none !important;
+}
+
+/* Textarea Message Input - Clean, Non-broken, No Scrollbar Gaps */
+.fath-popup-form textarea.fath-popup-textarea,
+.fath-popup-form textarea.fath-popup-input,
+.fath-popup-form textarea {
+    width: 100% !important;
+    min-height: 80px !important;
+    height: 80px !important;
+    line-height: 1.5 !important;
+    padding-top: 14px !important;
+    padding-bottom: 14px !important;
+    padding-left: 54px !important;
+    padding-right: 18px !important;
+    background-color: #ffffff !important;
+    border: 1.5px solid #d9e1e1 !important;
+    border-radius: 10px !important;
+    color: #1e293b !important;
+    font-size: 14px !important;
+    font-family: inherit !important;
+    outline: none !important;
+    box-sizing: border-box !important;
+    resize: none !important;
+    overflow-y: auto !important;
+    scrollbar-width: thin !important;
+    transition: all 0.25s ease !important;
+}
+
+.fath-popup-form textarea.fath-popup-textarea:focus,
+.fath-popup-form textarea:focus {
+    border-color: var(--td-theme-secondary, #8555df) !important;
+    box-shadow: 0 0 0 3px rgba(133, 85, 223, 0.25) !important;
+}
+
+/* Align icon at top for textarea */
+.fath-input-group.fath-textarea-group .fath-input-icon {
+    top: 16px !important;
+    transform: none !important;
+}
+
+
+/* Custom Select Dropdown */
+.fath-popup-form select.fath-popup-select {
+    appearance: none !important;
+    -webkit-appearance: none !important;
+    -moz-appearance: none !important;
+    padding-right: 38px !important;
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg width='12' height='8' viewBox='0 0 12 8' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 1.5L6 6.5L11 1.5' stroke='%23475569' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") !important;
+    background-repeat: no-repeat !important;
+    background-position: right 16px center !important;
+    cursor: pointer !important;
+}
+
+.fath-popup-form select.fath-popup-select option {
+    background-color: #ffffff !important;
+    color: #1e293b !important;
+    padding: 10px !important;
+}
+
+/* Focus States */
+.fath-popup-form input.fath-popup-input:focus,
+.fath-popup-form select.fath-popup-select:focus {
+    border-color: var(--td-theme-secondary, #8555df) !important;
+    box-shadow: 0 0 0 3px rgba(133, 85, 223, 0.25) !important;
+}
+
+.fath-input-group:focus-within .fath-input-icon {
+    color: var(--td-theme-primary, #7935f9) !important;
+}
+
+/* Submit Button - Solid Design Button Color (No Gradients) */
+.fath-popup-submit-btn {
+    width: 100% !important;
+    height: 52px !important;
+    padding: 0 24px !important;
+    margin-top: 4px !important;
+    background: var(--td-theme-secondary, #8555df) !important;
+    background-image: none !important;
+    border: none !important;
+    border-radius: 10px !important;
+    color: #ffffff !important;
+    font-size: 15px !important;
+    font-weight: 600 !important;
+    cursor: pointer !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 10px !important;
+    transition: all 0.3s ease !important;
+    box-shadow: 0 6px 18px rgba(133, 85, 223, 0.35) !important;
+}
+
+.fath-popup-submit-btn:hover {
+    background: var(--td-theme-primary, #7935f9) !important;
+    background-image: none !important;
+    transform: translateY(-2px) !important;
+    box-shadow: 0 8px 24px rgba(121, 53, 249, 0.5) !important;
+}
+
+.fath-popup-submit-btn:active {
+    transform: translateY(0) !important;
+}
+
+.fath-popup-submit-btn:disabled {
+    opacity: 0.65 !important;
+    cursor: not-allowed !important;
+    transform: none !important;
+}
+
+/* Feedback message */
+.fath-popup-feedback {
+    display: none;
+    padding: 10px 14px;
+    border-radius: 8px;
+    font-size: 13px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.fath-popup-feedback.success {
+    display: block;
+    background: rgba(34, 197, 94, 0.15);
+    border: 1px solid rgba(34, 197, 94, 0.4);
+    color: #4ade80;
+}
+
+.fath-popup-feedback.error {
+    display: block;
+    background: rgba(239, 68, 68, 0.15);
+    border: 1px solid rgba(239, 68, 68, 0.4);
+    color: #f87171;
+}
+
+/* Privacy disclaimer */
+.fath-popup-privacy {
+    font-size: 11px;
+    color: #94a3b8;
+    text-align: center;
+    margin: 8px 0 0 0;
+}
+
+/* Responsive Breakpoints */
+@media (max-width: 991px) {
+    .fath-popup-card {
+        max-width: 600px;
+        overflow: hidden !important;
+    }
+    .fath-popup-inner {
+        grid-template-columns: 1fr;
+        overflow-x: hidden !important;
+    }
+    .fath-popup-left {
+        padding: 30px 28px 22px 28px;
+        border-right: none;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+        overflow-x: hidden !important;
+    }
+    .fath-popup-right {
+        padding: 24px 28px 30px 28px;
+        overflow-x: hidden !important;
+    }
+    .fath-popup-title {
+        font-size: 22px;
+    }
+    .fath-popup-stats {
+        gap: 10px;
+        overflow-x: hidden !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .fath-popup-overlay {
+        padding: 14px 10px !important;
+        align-items: center !important;
+        justify-content: center !important;
+        overflow-x: hidden !important;
+    }
+    .fath-popup-card {
+        max-width: 440px !important;
+        width: 100% !important;
+        max-height: 94vh !important;
+        border-radius: 22px !important;
+        overflow: hidden !important;
+        margin: auto !important;
+        background: linear-gradient(135deg, rgba(20, 15, 36, 0.98) 0%, rgba(13, 9, 24, 0.99) 100%) !important;
+        border: 1px solid rgba(133, 85, 223, 0.3) !important;
+        box-shadow: 0 25px 60px rgba(0, 0, 0, 0.9), 0 0 35px rgba(133, 85, 223, 0.25) !important;
+    }
+    .fath-popup-inner {
+        display: block !important;
+        width: 100% !important;
+        max-height: 94vh !important;
+        overflow-x: hidden !important;
+        overflow-y: auto !important;
+        -webkit-overflow-scrolling: touch !important;
+        scrollbar-width: none !important;
+        -ms-overflow-style: none !important;
+    }
+    .fath-popup-inner::-webkit-scrollbar {
+        display: none !important;
+        width: 0 !important;
+        height: 0 !important;
+    }
+
+    /* Top Brand Highlights - Single Unified Flow */
+    .fath-popup-left {
+        padding: 26px 22px 0 22px !important;
+        border: none !important;
+        background: transparent !important;
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: flex-start !important;
+        text-align: left !important;
+        overflow-x: hidden !important;
+    }
+    .fath-popup-left > div {
+        width: 100% !important;
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: flex-start !important;
+        text-align: left !important;
+    }
+    .fath-popup-header-bar {
+        display: flex !important;
+        align-items: center !important;
+        justify-content: space-between !important;
+        width: 100% !important;
+        margin: 0 0 14px 0 !important;
+    }
+    .fath-popup-badge {
+        font-size: 11.5px !important;
+        padding: 0 !important;
+        background: transparent !important;
+        border: none !important;
+        margin: 0 !important;
+        display: inline-block !important;
+        letter-spacing: 0.8px !important;
+        align-self: auto !important;
+    }
+    .fath-popup-title {
+        font-family: "Outfit", sans-serif !important;
+        font-size: 21px !important;
+        font-weight: 700 !important;
+        margin: 0 0 12px 0 !important;
+        line-height: 1.3 !important;
+        text-align: left !important;
+        color: #ffffff !important;
+    }
+    .fath-popup-desc {
+        display: block !important;
+        font-size: 13px !important;
+        color: #94a3b8 !important;
+        line-height: 1.5 !important;
+        margin: 0 0 16px 0 !important;
+        text-align: left !important;
+    }
+    .fath-popup-features {
+        display: flex !important;
+        flex-direction: column !important;
+        gap: 11px !important;
+        margin: 0 0 18px 0 !important;
+        padding: 0 !important;
+        list-style: none !important;
+        width: 100% !important;
+    }
+    .fath-popup-features li {
+        display: flex !important;
+        align-items: center !important;
+        gap: 10px !important;
+        color: #e2e8f0 !important;
+        font-size: 12.5px !important;
+        line-height: 1.35 !important;
+        margin: 0 !important;
+        text-align: left !important;
+    }
+    .fath-popup-features li .feature-icon {
+        width: 20px !important;
+        height: 20px !important;
+        font-size: 9px !important;
+        border-radius: 50% !important;
+        background: rgba(133, 85, 223, 0.25) !important;
+        border: 1px solid rgba(133, 85, 223, 0.5) !important;
+        color: #c4a1ff !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        flex-shrink: 0 !important;
+    }
+    .fath-popup-btn-wrap {
+        display: block !important;
+        margin: 0 0 22px 0 !important;
+        width: 100% !important;
+    }
+    .fath-popup-action-btn {
+        display: inline-flex !important;
+        width: 100% !important;
+        justify-content: center !important;
+        align-items: center !important;
+        gap: 8px !important;
+        padding: 12px 20px !important;
+        font-size: 14px !important;
+        font-weight: 600 !important;
+        border-radius: 10px !important;
+        text-decoration: none !important;
+        box-sizing: border-box !important;
+        background: transparent !important;
+        border: 1.5px solid var(--td-theme-secondary, #8555df) !important;
+        color: #ffffff !important;
+    }
+
+    /* 4 Stats Cross-Grid matching reference image exactly */
+    .fath-popup-stats {
+        display: grid !important;
+        grid-template-columns: 1fr 1fr !important;
+        border-top: 1px solid rgba(255, 255, 255, 0.08) !important;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.08) !important;
+        border-left: none !important;
+        border-right: none !important;
+        background: transparent !important;
+        border-radius: 0 !important;
+        padding: 0 !important;
+        margin: 0 0 22px 0 !important;
+        width: 100% !important;
+        box-sizing: border-box !important;
+        overflow-x: hidden !important;
+    }
+    .fath-stat-item {
+        width: 100% !important;
+        align-items: flex-start !important;
+        text-align: left !important;
+        gap: 3px !important;
+        box-sizing: border-box !important;
+    }
+    .fath-stat-item:nth-child(odd) {
+        border-right: 1px solid rgba(255, 255, 255, 0.08) !important;
+        padding: 14px 14px 14px 0 !important;
+    }
+    .fath-stat-item:nth-child(even) {
+        padding: 14px 0 14px 18px !important;
+    }
+    .fath-stat-item:nth-child(1),
+    .fath-stat-item:nth-child(2) {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.08) !important;
+    }
+    .fath-stat-number-wrap {
+        display: inline-flex !important;
+        align-items: center !important;
+        justify-content: flex-start !important;
+        gap: 7px !important;
+    }
+    .fath-stat-num-icon {
+        display: inline-flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        font-size: 15px !important;
+        color: #c4a1ff !important;
+        line-height: 1 !important;
+        flex-shrink: 0 !important;
+    }
+    .fath-stat-number {
+        font-family: "Outfit", sans-serif !important;
+        font-size: 20px !important;
+        font-weight: 800 !important;
+        color: #ffffff !important;
+        line-height: 1.1 !important;
+        letter-spacing: -0.3px !important;
+        text-align: left !important;
+    }
+    .fath-stat-label {
+        font-size: 11px !important;
+        color: #94a3b8 !important;
+        white-space: nowrap !important;
+        text-align: left !important;
+        line-height: 1.25 !important;
+    }
+
+    /* Lead Form - Seamless continuation in single card */
+    .fath-popup-right {
+        padding: 0 22px 24px 22px !important;
+        background: transparent !important;
+        border: none !important;
+        overflow-x: hidden !important;
+    }
+    .fath-popup-form-head {
+        display: block !important;
+        margin-bottom: 16px !important;
+        text-align: left !important;
+    }
+    .fath-popup-form-title {
+        font-family: "Outfit", sans-serif !important;
+        font-size: 21px !important;
+        font-weight: 700 !important;
+        color: #ffffff !important;
+        margin: 0 0 6px 0 !important;
+        text-align: left !important;
+    }
+    .fath-popup-form-subtitle {
+        font-size: 12.5px !important;
+        color: #94a3b8 !important;
+        line-height: 1.4 !important;
+        margin: 0 !important;
+        text-align: left !important;
+    }
+    .fath-popup-form {
+        display: flex !important;
+        flex-direction: column !important;
+        gap: 11px !important;
+        width: 100% !important;
+    }
+    .fath-popup-form input.fath-popup-input,
+    .fath-popup-form select.fath-popup-select,
+    .fath-popup-form input[type="text"].fath-popup-input,
+    .fath-popup-form input[type="email"].fath-popup-input,
+    .fath-popup-form input[type="tel"].fath-popup-input {
+        width: 100% !important;
+        height: 48px !important;
+        font-size: 13.5px !important;
+        padding-left: 48px !important;
+        padding-right: 14px !important;
+        border-radius: 10px !important;
+        background: #ffffff !important;
+        color: #1e293b !important;
+    }
+    .fath-input-group .fath-input-icon {
+        left: 16px !important;
+        font-size: 13.5px !important;
+        color: var(--td-theme-secondary, #8555df) !important;
+    }
+    .fath-popup-form textarea.fath-popup-textarea {
+        width: 100% !important;
+        height: 60px !important;
+        min-height: 60px !important;
+        font-size: 13.5px !important;
+        padding-top: 12px !important;
+        padding-left: 48px !important;
+        padding-right: 14px !important;
+        border-radius: 10px !important;
+        background: #ffffff !important;
+        color: #1e293b !important;
+    }
+    .fath-popup-submit-btn {
+        height: 48px !important;
+        font-size: 14.5px !important;
+        font-weight: 600 !important;
+        border-radius: 10px !important;
+        margin-top: 4px !important;
+        background: var(--td-theme-secondary, #8555df) !important;
+        color: #ffffff !important;
+    }
+    .fath-popup-privacy {
+        font-size: 10.5px !important;
+        color: #94a3b8 !important;
+        text-align: center !important;
+        margin-top: 8px !important;
+    }
+    /* Hide desktop close button on mobile */
+    .fath-popup-close-desktop {
+        display: none !important;
+    }
+
+    /* Mobile Close Button - Flows inside header bar, scrolls away naturally without sticking */
+    .fath-popup-close-mobile {
+        position: static !important;
+        top: auto !important;
+        right: auto !important;
+        width: 34px !important;
+        height: 34px !important;
+        font-size: 18px !important;
+        background: #231644 !important;
+        border: 1.5px solid rgba(133, 85, 223, 0.5) !important;
+        color: #ffffff !important;
+        box-shadow: 0 4px 14px rgba(0, 0, 0, 0.5) !important;
+        margin: 0 !important;
+        flex-shrink: 0 !important;
+        z-index: 5 !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        cursor: pointer !important;
+    }
+}

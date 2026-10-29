@@ -1374,6 +1374,8 @@ include('header.php');
 </main>
 <!-- main-area-end -->
 
+<?php include('includes/home-popup.php'); ?>
+
 <?php include('footer.php') ?>
 
 <!-- Floating WhatsApp & Call Buttons -->
