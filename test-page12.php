@@ -39,7 +39,7 @@ include('header.php');
   },
   "headline": "The Power of Immersive Brand Experiences in Modern Marketing",
   "description": "Discover how immersive brand experiences in Riyadh help businesses boost engagement, strengthen brand visibility, and create lasting customer connections.",
-  "image": "https://www.fathcreative.com/assets/img/blog/Immersive_Brand_Experiences.webp",
+  "image": "https://www.fathcreative.com/assets/img/blog/immersive_brand_experiences_in_riyadh.webp",
   "author": {
     "@type": "Organization",
     "name": "Fath Creative"
@@ -222,7 +222,7 @@ include('header.php');
                         <h1 class="blog-detail-title">The Power of Immersive Brand Experiences in Modern Marketing</h1>
 
                         <!-- Featured Image -->
-                        <img src="assets/img/blog/Immersive_Brand_Experiences.webp" alt="Visitors exploring an interactive immersive brand experience at an exhibition in Riyadh" class="blog-detail-img">
+                        <img src="assets/img/blog/immersive_brand_experiences_in_riyadh.webp" alt="Visitors exploring an interactive immersive brand experience at an exhibition in Riyadh" class="blog-detail-img">
 
                         <!-- Content Body -->
                         <div class="blog-body">
@@ -272,7 +272,7 @@ include('header.php');
 
                             <h2>How Fath Creative Helps Bring Brand Experiences to Life</h2>
                             <p style="text-align:justify;">
-                                At <a href="index.php">Fath Creative</a>, we help companies turn ideas into brand experiences through exhibition stand design, event management, <a href="brand-activations">brand activations</a>, 3D design, fabrication and production. Our way of working mixes creativity with action, which helps us create experiences that truly reflect each brand’s identity and marketing goals.
+                                At Fath Creative, we help companies turn ideas into brand experiences through exhibition stand design, event management, brand activations, 3D design, fabrication and production. Our way of working mixes creativity with action, which helps us create experiences that truly reflect each brand’s identity and marketing goals.
                             </p>
                             <p style="text-align:justify;">
                                 Whether we are building a custom exhibition stand or planning a brand activation in Riyadh, our focus remains the same: making connections with people and building a professional brand image.
