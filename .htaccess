@@ -129,6 +129,7 @@ RewriteRule ^blog/3d-exhibition-stand-design-visitor-experience/?$ 3d-exhibition
 RewriteRule ^blogs/exhibition-stand-builder-saudi/?$ exhibition-stand-builder-saudi.php [L,QSA]
 RewriteRule ^blogs/how-to-create-effective-brand-activation-campaign-riyadh/?$ how-to-create-effective-brand-activation-campaign-riyadh.php [L,QSA]
 RewriteRule ^blogs/immersive-brand-experiences-riyadh/?$ immersive-brand-experiences-riyadh.php [L,QSA]
+RewriteRule ^blogs/choose-right-exhibition-stand-contractor-saudi-arabia/?$ choose-right-exhibition-stand-contractor-saudi-arabia.php [L,QSA]
 RewriteRule ^blogs/([^/]+)/?$ blogs/$1.php [L,QSA]
 
 # ─── Extensionless PHP Files ────────────────────────────────────
