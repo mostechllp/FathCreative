@@ -72,6 +72,104 @@ $result = mysqli_query($conn, $sql);
                     </p>
                 </div>
             </div>
+
+            <!-- 3-Column Autoplay Video Showcase -->
+            <style>
+                .pro-video-card {
+                    border-radius: 20px;
+                    overflow: hidden;
+                    background: #0d0d14;
+                    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.10);
+                    aspect-ratio: 16 / 9;
+                    position: relative;
+                }
+                .pro-video-card video {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    display: block;
+                }
+            </style>
+            <?php
+            $projectVideos = [
+                [
+                    'title'  => 'Our Work Showcase',
+                    'webm'   => 'assets/pro-video/our-work.webm',
+                    'poster' => 'assets/pro-video/our-work-poster.webp',
+                ],
+                [
+                    'title'  => 'Project Showcase Highlight',
+                    'webm'   => 'assets/pro-video/showcase-project.webm',
+                    'poster' => 'assets/pro-video/showcase-project-poster.webp',
+                ],
+                [
+                    'title'  => 'Event & Exhibition Production',
+                    'webm'   => 'assets/pro-video/showcase-project%202.webm',
+                    'poster' => 'assets/pro-video/showcase-project-2-poster.webp',
+                ],
+            ];
+            ?>
+            <div class="row g-4 justify-content-center mb-50">
+                <?php foreach ($projectVideos as $video) { ?>
+                    <div class="col-lg-4 col-md-6 col-12 wow fadeInUp" data-wow-duration=".9s" data-wow-delay=".2s">
+                        <div class="pro-video-card">
+                            <video
+                                class="js-lazy-autoplay-video"
+                                autoplay
+                                muted
+                                loop
+                                playsinline
+                                controls
+                                preload="none"
+                                poster="<?php echo $video['poster']; ?>"
+                                aria-label="<?php echo htmlspecialchars($video['title']); ?>">
+                                <source data-src="<?php echo $video['webm']; ?>" type="video/webm">
+                            </video>
+                        </div>
+                    </div>
+                <?php } ?>
+            </div>
+            <script>
+                document.addEventListener('DOMContentLoaded', function () {
+                    var videos = document.querySelectorAll('.js-lazy-autoplay-video');
+                    if (!videos.length) return;
+
+                    function activateVideo(video) {
+                        if (!video.dataset.loaded) {
+                            var sources = video.querySelectorAll('source[data-src]');
+                            sources.forEach(function (srcEl) {
+                                srcEl.src = srcEl.getAttribute('data-src');
+                                srcEl.removeAttribute('data-src');
+                            });
+                            video.load();
+                            video.dataset.loaded = '1';
+                        }
+                        var playPromise = video.play();
+                        if (playPromise && typeof playPromise.catch === 'function') {
+                            playPromise.catch(function () {});
+                        }
+                    }
+
+                    if ('IntersectionObserver' in window) {
+                        var observer = new IntersectionObserver(function (entries) {
+                            entries.forEach(function (entry) {
+                                if (entry.isIntersecting) {
+                                    activateVideo(entry.target);
+                                } else if (entry.target.dataset.loaded && !entry.target.paused) {
+                                    entry.target.pause();
+                                }
+                            });
+                        }, { rootMargin: '200px 0px', threshold: 0.15 });
+
+                        videos.forEach(function (video) {
+                            observer.observe(video);
+                        });
+                    } else {
+                        videos.forEach(activateVideo);
+                    }
+                });
+            </script>
+
             <div class="row justify-content-center">
 
                 <?php while ($row = mysqli_fetch_assoc($result)) { ?>
