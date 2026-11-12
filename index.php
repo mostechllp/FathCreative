@@ -849,7 +849,7 @@ include('header.php');
                             <div class="row align-items-center">
                                 <div class="col-xl-4 col-lg-5">
                                     <div class="td-schedule-3-thumb p-relative">
-                                        <a href="projects.php">
+                                        <a href="projects">
                                             <!-- [Core Web Vitals - CLS & Performance] Added explicit width/height sizes, descriptive alt text and native lazy loading -->
                                             <img class="w-100" src="assets/img/projects/img11.webp"
                                                 alt="Luxurious custom exhibition space constructed for Cityscape Global 2025 in Riyadh"
@@ -863,7 +863,7 @@ include('header.php');
                                     <div class="td-schedule-3-content">
                                         <!-- [SEO Hierarchy] Adjusted card heading to semantic h3 for compliant nesting -->
                                         <h3 class="td-schedule-3-title" style="font-size: 24px; font-weight: 700;">
-                                            <a href="projects.php">Cityscape Global 2025</a></h3>
+                                            <a href="projects">Cityscape Global 2025</a></h3>
                                         <div class="td-schedule-3-destination mb-10">
                                             <span class="mr-25">
                                                 <i class="flaticon-gps"></i>
@@ -875,7 +875,7 @@ include('header.php');
                                             visitor engagement.</p>
                                         <div class="td-schedule-3-btn d-flex align-items-center flex-wrap">
                                             <a class="td-btn td-btn-3-squre td-left-right text3 mr-25"
-                                                href="projects.php" aria-label="Learn More about Cityscape Global 2025">
+                                                href="projects" aria-label="Learn More about Cityscape Global 2025">
                                                 <span class="mr10 td-text d-inline-block mr-5">Learn More <span
                                                         class="visually-hidden">about Cityscape Global
                                                         2025</span></span>
@@ -903,7 +903,7 @@ include('header.php');
                             <div class="row align-items-center">
                                 <div class="col-xl-4 col-lg-5">
                                     <div class="td-schedule-3-thumb p-relative">
-                                        <a href="projects.php">
+                                        <a href="projects">
                                             <!-- [Core Web Vitals - CLS & Performance] Added explicit width/height sizes, descriptive alt text and native lazy loading -->
                                             <img class="w-100" src="assets/img/projects/img1.webp"
                                                 alt="Basamh custom exhibition display stand built at Riyadh Front Exhibition and Conference Center"
@@ -916,7 +916,7 @@ include('header.php');
                                 <div class="col-xl-8 col-lg-7">
                                     <div class="td-schedule-3-content">
                                         <h3 class="td-schedule-3-title" style="font-size: 24px; font-weight: 700;">
-                                            <a href="projects.php">Basamh</a></h3>
+                                            <a href="projects">Basamh</a></h3>
                                         <div class="td-schedule-3-destination mb-10">
                                             <span class="mr-25">
                                                 <i class="flaticon-gps"></i>
@@ -927,7 +927,7 @@ include('header.php');
                                             enhancing brand presence and audience interaction.</p>
                                         <div class="td-schedule-3-btn d-flex align-items-center flex-wrap">
                                             <a class="td-btn td-btn-3-squre td-left-right text3 mr-25"
-                                                href="projects.php" aria-label="Learn More about Basamh">
+                                                href="projects" aria-label="Learn More about Basamh">
                                                 <span class="mr10 td-text d-inline-block mr-5">Learn More <span
                                                         class="visually-hidden">about Basamh</span></span>
                                                 <span class="td-arrow-angle">
@@ -954,7 +954,7 @@ include('header.php');
                             <div class="row align-items-center">
                                 <div class="col-xl-4 col-lg-5">
                                     <div class="td-schedule-3-thumb p-relative">
-                                        <a href="projects.php">
+                                        <a href="projects">
                                             <!-- [Core Web Vitals - CLS & Performance] Added explicit width/height sizes, descriptive alt text and native lazy loading -->
                                             <img class="w-100" src="assets/img/projects/img2.webp"
                                                 alt="NUEVO brand exhibition booth constructed by Fath Creative for LEAP 2025"
@@ -967,7 +967,7 @@ include('header.php');
                                 <div class="col-xl-8 col-lg-7">
                                     <div class="td-schedule-3-content">
                                         <h3 class="td-schedule-3-title" style="font-size: 24px; font-weight: 700;">
-                                            <a href="projects.php">NUEVO - Leap 2025</a></h3>
+                                            <a href="projects">NUEVO - Leap 2025</a></h3>
                                         <div class="td-schedule-3-destination mb-10">
                                             <span class="mr-25">
                                                 <i class="flaticon-gps"></i>
@@ -978,7 +978,7 @@ include('header.php');
                                             at LEAP 2024, enhancing brand visibility and visitor engagement.</p>
                                         <div class="td-schedule-3-btn d-flex align-items-center flex-wrap">
                                             <a class="td-btn td-btn-3-squre td-left-right text3 mr-25"
-                                                href="projects.php" aria-label="Learn More about NUEVO - Leap 2025">
+                                                href="projects" aria-label="Learn More about NUEVO - Leap 2025">
                                                 <span class="mr10 td-text d-inline-block mr-5">Learn More <span
                                                         class="visually-hidden">about NUEVO - Leap 2025</span></span>
                                                 <span class="td-arrow-angle">
@@ -1009,7 +1009,7 @@ include('header.php');
                             <div class="row align-items-center">
                                 <div class="col-xl-4 col-lg-5">
                                     <div class="td-schedule-3-thumb p-relative">
-                                        <a href="projects.php">
+                                        <a href="projects">
                                             <!-- [Core Web Vitals - CLS & Performance] Added explicit width/height sizes, descriptive alt text and native lazy loading -->
                                             <img class="w-100" src="assets/img/projects/img3.webp"
                                                 alt="Nespresso premium retail brand activation booth built by Fath Creative in KSA"
@@ -1022,7 +1022,7 @@ include('header.php');
                                 <div class="col-xl-8 col-lg-7">
                                     <div class="td-schedule-3-content">
                                         <h3 class="td-schedule-3-title" style="font-size: 24px; font-weight: 700;">
-                                            <a href="projects.php">Nespresso - Brand activations</a></h3>
+                                            <a href="projects">Nespresso - Brand activations</a></h3>
                                         <div class="td-schedule-3-destination mb-10">
                                             <span class="mr-25">
                                                 <i class="flaticon-gps"></i>
@@ -1034,7 +1034,7 @@ include('header.php');
                                             interaction.</p>
                                         <div class="td-schedule-3-btn d-flex align-items-center flex-wrap">
                                             <a class="td-btn td-btn-3-squre td-left-right text3 mr-25"
-                                                href="projects.php"
+                                                href="projects"
                                                 aria-label="Learn More about Nespresso - Brand activations">
                                                 <span class="mr10 td-text d-inline-block mr-5">Learn More <span
                                                         class="visually-hidden">about Nespresso - Brand
@@ -1063,7 +1063,7 @@ include('header.php');
                             <div class="row align-items-center">
                                 <div class="col-xl-4 col-lg-5">
                                     <div class="td-schedule-3-thumb p-relative">
-                                        <a href="projects.php">
+                                        <a href="projects">
                                             <!-- [Core Web Vitals - CLS & Performance] Added explicit width/height sizes, descriptive alt text and native lazy loading -->
                                             <img class="w-100" src="assets/img/projects/img4.webp"
                                                 alt="Artlife custom promotional display stands and POSM fixtures designed by Fath Creative"
@@ -1076,7 +1076,7 @@ include('header.php');
                                 <div class="col-xl-8 col-lg-7">
                                     <div class="td-schedule-3-content">
                                         <h3 class="td-schedule-3-title" style="font-size: 24px; font-weight: 700;">
-                                            <a href="projects.php">Artlife display stands</a></h3>
+                                            <a href="projects">Artlife display stands</a></h3>
                                         <div class="td-schedule-3-destination mb-10">
                                             <span class="mr-25">
                                                 <i class="flaticon-gps"></i>
@@ -1087,7 +1087,7 @@ include('header.php');
                                             Artlife, enhancing product visibility and in-store appeal.</p>
                                         <div class="td-schedule-3-btn d-flex align-items-center flex-wrap">
                                             <a class="td-btn td-btn-3-squre td-left-right text3 mr-25"
-                                                href="projects.php"
+                                                href="projects"
                                                 aria-label="Learn More about Artlife display stands">
                                                 <span class="mr10 td-text d-inline-block mr-5">Learn More <span
                                                         class="visually-hidden">about Artlife display
@@ -1144,7 +1144,7 @@ include('header.php');
                                             transport into powerful moving advertisements.</p>
                                         <div class="td-schedule-3-btn d-flex align-items-center flex-wrap">
                                             <a class="td-btn td-btn-3-squre td-left-right text3 mr-25"
-                                                href="projects.php" aria-label="Learn More about Vehicle Branding">
+                                                href="projects" aria-label="Learn More about Vehicle Branding">
                                                 <span class="mr10 td-text d-inline-block mr-5">Learn More <span
                                                         class="visually-hidden">about Vehicle Branding</span></span>
                                                 <span class="td-arrow-angle">
@@ -1195,7 +1195,7 @@ include('header.php');
                                             visibility through dynamic and professional design.</p>
                                         <div class="td-schedule-3-btn d-flex align-items-center flex-wrap">
                                             <a class="td-btn td-btn-3-squre td-left-right text3 mr-25"
-                                                href="projects.php"
+                                                href="projects"
                                                 aria-label="Learn More about ISUZU AUM - Japanese embassy">
                                                 <span class="mr10 td-text d-inline-block mr-5">Learn More <span
                                                         class="visually-hidden">about ISUZU AUM - Japanese
