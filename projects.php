@@ -2,6 +2,7 @@
 $pageTitle = "Fath Creative Projects - Branding and Exhibition Works";
 $pageDescription = "View our portfolio of successful projects including exhibitions for Basamh, NUEVO at LEAP 2025, Nespresso activations, and more across KSA.";
 $pageKeywords = "Exhibition Portfolio Saudi Arabia, Event Gallery Riyadh, Branding Project Case Studies";
+$canonicalUrl = "https://www.fathcreative.com/projects";
 include('header.php'); 
 ?>
 <script type="application/ld+json">

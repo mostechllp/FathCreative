@@ -1,3 +1,23 @@
+<?php
+// Enforce 301 canonical redirects for direct .php requests (solves Google Analytics & SEO URL duplication)
+if ($_SERVER['REQUEST_METHOD'] !== 'POST' && !empty($_SERVER['REQUEST_URI'])) {
+    $reqPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
+    $reqQuery = parse_url($_SERVER['REQUEST_URI'], PHP_URL_QUERY);
+    $qs = $reqQuery ? '?' . $reqQuery : '';
+
+    if ($reqPath && strpos($reqPath, '/adminpanel/') === false) {
+        if (preg_match('#/index\.php$#i', $reqPath)) {
+            $target = preg_replace('#/index\.php$#i', '/', $reqPath) . $qs;
+            header("Location: " . $target, true, 301);
+            exit();
+        } elseif (preg_match('#\.php$#i', $reqPath)) {
+            $target = preg_replace('#\.php$#i', '', $reqPath) . $qs;
+            header("Location: " . $target, true, 301);
+            exit();
+        }
+    }
+}
+?>
 <!doctype html>
 <html class="no-js" lang="en">
 
@@ -214,7 +234,9 @@
         if ($current_uri === '/index.php' || $current_uri === '/index' || $current_uri === '/' || $current_uri === '') {
             $canonical_url = "https://www.fathcreative.com/";
         } else {
-            $canonical_url = "https://www.fathcreative.com" . $current_uri;
+            // Strip .php extension from canonical URL to prevent duplicate indexation
+            $clean_uri = preg_replace('/\.php$/i', '', $current_uri);
+            $canonical_url = "https://www.fathcreative.com" . $clean_uri;
         }
     }
     ?>
@@ -317,40 +339,40 @@
                         <div class="col-xxl-9 col-xl-9 col-6">
                             <div class="tdmenu__wrap d-flex align-items-center justify-content-between">
                                 <div class="logo">
-                                    <a class="logo-1 logo-sticky-none" href="index.php"
+                                    <a class="logo-1 logo-sticky-none" href="./"
                                         aria-label="Fath Creative Home"><img data-width="150"
                                             src="assets/img/logo/fath-logo.webp" alt="Logo" width="256"
                                             height="114"></a>
-                                    <a class="logo-2 d-none" href="index.php" aria-label="Fath Creative Home"><img
+                                    <a class="logo-2 d-none" href="./" aria-label="Fath Creative Home"><img
                                             data-width="150" src="assets/img/logo/logo-black.webp" alt="Logo"
                                             width="150" height="63" loading="lazy" decoding="async"></a>
                                 </div>
                                 <nav class="tdmenu__nav tdmenu-3 ml-50 mr-40 d-none d-xl-flex">
                                     <div class="tdmenu__navbar-wrap tdmenu__main-menu">
                                         <ul class="navigation">
-                                            <li class=""><a href="index.php">Home</a>
+                                            <li class=""><a href="./">Home</a>
                                             </li>
-                                            <li><a href="about.php">About Us</a>
+                                            <li><a href="about">About Us</a>
 
                                             </li>
-                                            <li class="menu-item-has-children"><a href="services.php">Services</a>
+                                            <li class="menu-item-has-children"><a href="services">Services</a>
                                                 <ul class="sub-menu">
-                                                    <li><a href="event-management.php">Event Management</a></li>
-                                                    <li><a href="exhibition-tradeshows.php">Exhibition & Tradeshows</a>
+                                                    <li><a href="event-management">Event Management</a></li>
+                                                    <li><a href="exhibition-tradeshows">Exhibition & Tradeshows</a>
                                                     </li>
-                                                    <li><a href="posm-activities.php">POSM Activities</a></li>
-                                                    <li><a href="brand-activations.php">Brand Activations</a></li>
-                                                    <li><a href="3D-designs.php">3D Designs</a></li>
-                                                    <li><a href="fabrication-and-production.php">Fabrication &
+                                                    <li><a href="posm-activities">POSM Activities</a></li>
+                                                    <li><a href="brand-activations">Brand Activations</a></li>
+                                                    <li><a href="3D-designs">3D Designs</a></li>
+                                                    <li><a href="fabrication-and-production">Fabrication &
                                                             Production</a></li>
-                                                    <li><a href="technology-solutions.php">Technology Solutions</a></li>
-                                                    <li><a href="digital-marketing-solutions.php">Digital Marketing
+                                                    <li><a href="technology-solutions">Technology Solutions</a></li>
+                                                    <li><a href="digital-marketing-solutions">Digital Marketing
                                                             Solutions</a></li>
                                                 </ul>
                                             </li>
-                                            <li><a href="projects.php">Projects</a>
+                                            <li><a href="projects">Projects</a>
                                             </li>
-                                            <li><a href="contact.php">Contact</a></li>
+                                            <li><a href="contact">Contact</a></li>
                                         </ul>
                                     </div>
                                 </nav>
@@ -369,7 +391,7 @@
                                     </button>
                                 </div> -->
                                 <div class="td-header-menu-bar lh-1 p-relative ml-20">
-                                    <a class="td-btn td-left-right d-none d-xl-block" href="contact.php">
+                                    <a class="td-btn td-left-right d-none d-xl-block" href="contact">
                                         <span class="mr10 td-text d-inline-block mr-5">Get In Touch</span>
                                         <span class="td-arrow-angle">
                                             <svg class="td-arrow-svg-top-right" width="13" height="14"
@@ -402,7 +424,7 @@
             <nav class="tdmobile__menu-box">
                 <div class="close-btn"><i class="fa-solid fa-xmark"></i></div>
                 <div class="nav-logo">
-                    <a href="index.php" aria-label="Fath Creative Home"><img src="assets/img/logo/logo-black.webp"
+                    <a href="./" aria-label="Fath Creative Home"><img src="assets/img/logo/logo-black.webp"
                             alt="logo" width="150" height="63" loading="lazy" decoding="async"></a>
                 </div>
 
@@ -410,7 +432,7 @@
                     <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
                 </div>
                 <div class="mt-30 ml-25 mr-25">
-                    <a class="td-btn td-left-right w-100 text-center" href="contact.php">
+                    <a class="td-btn td-left-right w-100 text-center" href="contact">
                         <span class="mr10 td-text d-inline-block mr-5">Company Profile</span>
                         <span class="td-arrow-angle">
                             <svg class="td-arrow-svg-top-right" width="13" height="14" viewBox="0 0 13 14" fill="none"
@@ -451,7 +473,7 @@
                 <button aria-label="Close menu"><i class="fa-sharp fa-regular fa-xmark"></i></button>
             </div>
             <div class="offCanvas__logo mb-30">
-                <a href="index.php" aria-label="Fath Creative Home"><img src="assets/img/logo/fath-logo.webp" alt="Logo"
+                <a href="./" aria-label="Fath Creative Home"><img src="assets/img/logo/fath-logo.webp" alt="Logo"
                         width="76" height="34"></a>
             </div>
             <div class="offCanvas__side-info mb-30">

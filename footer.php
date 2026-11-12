@@ -7,7 +7,7 @@
                 <div class="col-lg-3 col-md-6">
                     <div class="td-footer-widget mb-40">
                         <div class="td-footer-logo mb-20">
-                            <a href="index.php" aria-label="Fath Creative Home"><img
+                            <a href="./" aria-label="Fath Creative Home"><img
                                     src="assets/img/logo/fath-logo.webp" alt="logo" style="width:200px;" width="200" height="90"></a>
                         </div>
                         <p class="text mb-10">Jeddah | Riyadh | Dammam</p>
@@ -22,12 +22,12 @@
                             <div class="col-lg-12">
                                 <div class="td-footer-links">
                                     <ul>
-                                        <li><a href="index.php">Home</a></li>
-                                        <li><a href="about.php">About Us</a></li>
-                                        <li><a href="contact.php">Contact</a></li>
-                                        <li><a href="services.php">Services</a></li>
-                                        <li><a href="projects.php">Projects</a></li>
-                                        <li><a href="blogs.php">Blogs</a></li>
+                                        <li><a href="./">Home</a></li>
+                                        <li><a href="about">About Us</a></li>
+                                        <li><a href="contact">Contact</a></li>
+                                        <li><a href="services">Services</a></li>
+                                        <li><a href="projects">Projects</a></li>
+                                        <li><a href="blogs">Blogs</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -41,14 +41,14 @@
                             <div class="col-lg-12">
                                 <div class="td-footer-links">
                                     <ul>
-                                        <li><a href="event-management.php">Event Management</a></li>
-                                        <li><a href="exhibition-tradeshows.php">Exhibition & Tradeshows</a></li>
-                                        <li><a href="posm-activities.php">POSM Activities</a></li>
-                                        <li><a href="brand-activations.php">Brand Activation</a></li>
-                                        <li><a href="3D-designs.php">3D Designs</a></li>
-                                        <li><a href="fabrication-and-production.php">Fabrication</a></li>
-                                        <li><a href="technology-solutions.php">Technology Solutions</a></li>
-                                        <li><a href="digital-marketing-solutions.php">Digital Marketing</a></li>
+                                        <li><a href="event-management">Event Management</a></li>
+                                        <li><a href="exhibition-tradeshows">Exhibition & Tradeshows</a></li>
+                                        <li><a href="posm-activities">POSM Activities</a></li>
+                                        <li><a href="brand-activations">Brand Activation</a></li>
+                                        <li><a href="3D-designs">3D Designs</a></li>
+                                        <li><a href="fabrication-and-production">Fabrication</a></li>
+                                        <li><a href="technology-solutions">Technology Solutions</a></li>
+                                        <li><a href="digital-marketing-solutions">Digital Marketing</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -133,8 +133,8 @@
     document.addEventListener("DOMContentLoaded", function () {
         let currentPage = window.location.pathname.split("/").pop();
 
-        // If URL ends with "/" → treat as index.php
-        if (currentPage === "") {
+        // If URL ends with "/" → treat as index
+        if (currentPage === "" || currentPage === "index.php") {
             currentPage = "index";
         }
 
@@ -142,6 +142,11 @@
 
         menuLinks.forEach(link => {
             let linkPage = link.getAttribute("href");
+            if (!linkPage) return;
+            linkPage = linkPage.replace(/\.php$/, "");
+            if (linkPage === "./" || linkPage === "/" || linkPage === "") {
+                linkPage = "index";
+            }
 
             if (linkPage === currentPage) {
                 link.parentElement.classList.add("active");
