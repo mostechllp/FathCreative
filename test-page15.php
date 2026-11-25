@@ -215,7 +215,7 @@ include('header.php');
                         <h1 class="blog-detail-title">From 3D Visualization to Reality: The Complete Exhibition Stand Design Process</h1>
 
                         <!-- Featured Image -->
-                        <img src="assets/img/blog/From_3D_Render_to_Reality.webp" alt="From 3D Visualization to Reality: The Complete Exhibition Stand Design Process" class="blog-detail-img" width="780" height="440" loading="eager" fetchpriority="high">
+                        <img src="assets/img/blog/From_3D_Render_to_Reality.webp" onerror="if(!this.dataset.err){this.dataset.err=1;this.src='assets/img/blog/From%203D%20Render%20to%20Reality.webp';}else if(this.dataset.err=='1'){this.dataset.err=2;this.src='assets/img/blog/From%203D%20Render%20to%20Reality.png';}" alt="From 3D Visualization to Reality: The Complete Exhibition Stand Design Process" class="blog-detail-img" width="780" height="440" loading="eager" fetchpriority="high">
 
                         <!-- Content Body -->
                         <div class="blog-body">
