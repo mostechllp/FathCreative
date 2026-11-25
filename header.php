@@ -28,12 +28,14 @@ if ($_SERVER['REQUEST_METHOD'] !== 'POST' && !empty($_SERVER['REQUEST_URI'])) {
     <?php
     $protocol = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off' || $_SERVER['SERVER_PORT'] == 443) ? "https://" : "http://";
     $domainName = $_SERVER['HTTP_HOST'];
-    $basePath = dirname($_SERVER['PHP_SELF']);
+    // Use SCRIPT_NAME to prevent PATH_INFO from polluting the base path
+    $scriptPath = $_SERVER['SCRIPT_NAME'] ?? $_SERVER['PHP_SELF'] ?? '';
+    $basePath = dirname($scriptPath);
     // Normalize Windows backslashes and root path
     $basePath = str_replace('\\', '/', $basePath);
-    // Ensure base resolves to website root even when served from /blogs/ subfolder
-    $basePath = preg_replace('#/blogs$#i', '', $basePath);
-    if ($basePath === '/' || $basePath === '\\') { $basePath = ''; }
+    // Ensure base resolves to website root even when served from /blogs/ or subfolders
+    $basePath = preg_replace('#/(blogs|projects|adminpanel)(/.*)?$#i', '', $basePath);
+    if ($basePath === '/' || $basePath === '\\' || $basePath === '.') { $basePath = ''; }
     $baseUrl = $protocol . $domainName . $basePath . '/';
     ?>
     <base href="<?php echo $baseUrl; ?>">
